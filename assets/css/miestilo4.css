@@ -1,0 +1,194 @@
+.logo{
+    background-color: rgb(177, 171, 171);
+    width: 100%;
+    height: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parrafos{
+    /* background-color: blue; */
+    color: rgb(31, 145, 56);
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    z-index: 2; /* Lo coloca por encima de otros elementos */
+    background-color: rgb(177, 171, 171);
+    color: black; 
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.nav-container-sections {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 450px;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.imagenes-carrousel {
+    width: 100%;
+    height: auto; /* Ajusta la altura proporcionalmente */
+    max-height: 800px; /* Limita la altura máxima */
+    object-fit: cover; /* Recorta la imagen si es necesario para que se vea bien */
+}
+
+.contenedor {
+    display: flex; /* Activa Flexbox */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 100%; /* Ajusta la altura automáticamente */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: -120px;
+    margin-bottom: 0;
+}
+
+.linea-vertical {
+    width: 3px; /* Grosor de la línea */
+    height: 30%; /* Ajusta la altura de la línea */
+    background-color: rgb(31, 145, 56); /* Color de la línea */
+    margin: 0 20px; /* Espaciado entre los textos */
+}
+
+.texto-izquierdo {
+    flex: 1; /* Cada texto ocupa la mitad del contenedor */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    padding: 100px;
+    text-align: initial;
+    height: auto;
+} 
+
+.texto-derecho {
+    flex: 1; /* Cada texto ocupa la mitad del contenedor */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    padding: 100px;
+    text-align: initial;
+}
+
+.texto-superpuesto {
+    flex: 1; /* Cada texto ocupa la mitad del contenedor */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    padding: 100px;
+    text-align: initial;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.contenedor-fondo {
+    position: relative; /* Necesario para posicionar la capa superpuesta */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 610px; /* Ajusta la altura según lo necesario */
+    background-image: url('/proyecto_barberan/assets/img/foto_nosotros.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+}
+
+.cards{
+    margin-bottom: 120px;
+}
+
+.card {
+    width: 300px; /* Aumenta el ancho de las cards */
+    height: auto; /* Ajusta la altura automáticamente */
+    margin: 0 auto; /* Centra las cards */
+}
+
+.card img {
+    height: 200px; /* Aumenta la altura de las imágenes */
+    object-fit: contain; /* Asegura que la imagen completa sea visible */
+}
+
+.overlay {
+    position: absolute; /* Cubre todo el contenedor */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen con un color negro semitransparente */
+    z-index: 1; /* Coloca la capa por encima de la imagen */
+}
+
+.texto-superpuesto {
+    position: relative; /* Asegura que el texto esté encima de la capa */
+    z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
+    color: white; /* Color del texto */
+    text-align: center;
+    margin-left: 100px; /* Centra el texto */
+    padding: 100px;
+    text-align: initial;
+}
+
+.card:hover{
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+    transition: transform 0.5s ease; /* Transición suave */
+}
+
+.boton-nav{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.boton-nav:hover{
+    color: rgb(31, 145, 56);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+html, body {
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina rellenos predeterminados */
+}
+
+header{
+    background-color: rgb(177, 171, 171);
+    height: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.formulario {
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.mapa {
+    margin-right: 100px;
+}
+
+.contenedor-contacto {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    background-color: rgb(31, 145, 56); /* Color del footer */
+    z-index: 10; /* Asegura que esté por encima de otros elementos */
+}
+
+.logos{
+    padding-top: 15px;
+}
+
+.logos a {
+    margin: 0 10px; /* Agrega un margen horizontal entre los logos */
+    display: inline-block; /* Asegura que los logos estén en línea */
+}
