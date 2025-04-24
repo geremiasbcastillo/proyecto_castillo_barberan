@@ -12,13 +12,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <?php echo '<img src="assets/img/carrousel_1.jpg" alt="Texto Alternativo para la imágen"  class="imagenes-carrousel">';?>
+    <?php echo '<img src="assets/img/carrousel_1.jpg" alt=""  class="imagenes-carrousel">';?>
     </div>
     <div class="carousel-item">
     <?php echo '<img src="assets/img/futbo_sala2-1920x500.jpg" alt=""  class="imagenes-carrousel">';?>
     </div>
     <div class="carousel-item">
-    <?php echo '<img src="assets/img/sintetico.avif" alt="Texto Alternativo para la imágen" class="imagenes-carrousel">';?>
+    <?php echo '<img src="assets/img/sintetico.avif" alt="" class="imagenes-carrousel">';?>
     </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
 </div> 
 </section>
 
-<div class="row row-cols-1 row-cols-md-3 g-4 mt-4 cards">
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-4 cards">
   <div class="col">
     <div class="card w-70 h-100">
       <img src="assets/img/botines.jpg" class="card-img-top" alt="">

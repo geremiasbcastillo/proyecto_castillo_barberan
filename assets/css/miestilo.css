@@ -1,7 +1,7 @@
 .logo{
     background-color: rgb(177, 171, 171);
     width: 100%;
-    height: 20px;
+    height: 50px;
 }
 
 * {
@@ -9,7 +9,6 @@
 }
 
 .parrafos{
-    /* background-color: blue; */
     color: rgb(31, 145, 56);
     font-weight: bold;
 }
@@ -23,6 +22,12 @@ nav {
     background-color: rgb(177, 171, 171);
     color: black; 
     width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+
+
+.collapse{
+    background-color: rgb(177, 171, 171);
 }
 
 .nav-container-sections {
@@ -92,7 +97,7 @@ body {
     position: relative; /* Necesario para posicionar la capa superpuesta */
     width: 100%; /* Ocupa todo el ancho */
     height: 610px; /* Ajusta la altura según lo necesario */
-    background-image: url('/proyecto_barberan/assets/img/foto_nosotros.jpg'); /* Ruta de la imagen */
+    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); /* Ruta de la imagen */
     background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
     background-position: center; /* Centra la imagen */
 }
@@ -144,7 +149,7 @@ body {
 }
 
 .boton-nav:hover{
-    color: rgb(31, 145, 56);
+    color: rgb(32, 156, 59);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -162,13 +167,10 @@ header{
 }
 
 .formulario {
-    margin-left: 80px;
     margin-top: 40px;
 }
 
-.mapa {
-    margin-right: 100px;
-}
+
 
 .contenedor-contacto {
     margin-top: 80px;
@@ -176,7 +178,6 @@ header{
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%; /* Asegura que ocupe todo el ancho */

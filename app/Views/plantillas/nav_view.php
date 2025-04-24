@@ -1,8 +1,31 @@
-<nav>
-  <a href="inicio"><?php echo '<img src="assets/img/logo.png" style="width: 80px">'?></a>
-  <div class="nav-container-sections">
-    <a class="boton-nav" href="nosotros">Nosotros</a>  
-    <a class="boton-nav" href="pagos">Medios de pago</a> 
-    <a class="boton-nav" href="contacto">Comunicate</a>  
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="inicio"><?php echo '<img src="assets/img/logo.png" class ="logo";>'?></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item mx-3 pl-3">
+          <a class="nav-link boton-nav active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item mx-3 pl-3">
+          <a class="nav-link boton-nav" href="nosotros">Nosotros</a>
+        </li>
+        <li class="nav-item mx-3 pl-3 dropdown">
+          <a class="nav-link boton-nav dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Botines</a></li>
+            <li><a class="dropdown-item" href="#">Camisetas</a></li>
+            <li><a class="dropdown-item" href="#">Entrenamiento</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-3 pl-3">
+          <a class="nav-link boton-nav" href="contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>

@@ -1,7 +1,7 @@
-<h1 class="text-center">Contacto</h1>
+<h1 class="text-center mt-5">Contacto</h1>
 <h4 class="text-center">Acá te dejamos un formulario para dejarnos tu consulta.</h4>
-<div class="container d-flex align-items-start gap-3 contenedor-contacto">
-    <div class="formulario col-6">
+<div class="container  contenedor-contacto">
+    <div class="formulario justify-content-center">
         <form action="">
             <div class="mb-2 formulario-label">
                 <label for="nombre" class="form-label">Ingrese su nombre:</label>
@@ -21,8 +21,8 @@
             </div>
         </form>
     </div>
-    <div class="mapa col-6">
+    <div class="mapa justify-content-center">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8377402261845!2d-58.83345135296287!3d-27.466873881036644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca6d0e7a999%3A0x3efbeb84abc975f9!2s9%20de%20Julio%201449%2C%20W3400AZB%20Corrientes!5e0!3m2!1ses!2sar!4v1745027947500!5m2!1ses!2sar" 
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>

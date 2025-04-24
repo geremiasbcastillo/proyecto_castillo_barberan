@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link href="assets/css/miestilo2.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-</head>
-
 <body>
     <div class="contenedor-fondo">
         <div class="overlay"></div> <!-- Capa superpuesta -->
@@ -22,7 +11,7 @@
     </div>
     <section>
         <div class="contenedor">
-            <div class="texto-izquierdo">
+            <div class="texto-izquierdo ">
                 <h2 class="titulo">Nuestra historia</h2>
                 <p>Hace 20 años, en pleno paso a la adultez y sin mucho que hacer, nos dimos cuenta
                     de que todavía no había ninguna página centrada 100% en el fútbol. De esta
@@ -31,7 +20,7 @@
                 </p>
             </div>
             <div class="linea-vertical"></div> <!-- Línea vertical -->
-            <div class="texto-derecho">
+            <div class="texto-derecho ">
                 <h2 class="titulo">¿Qué te ofrecemos?</h2>
                 <p>En nuestra página vas a encontrar todo para disfrutar de un partido, ya sea como jugador, entrenador
                     o incluso hincha. Para obtener nuestros productos, podés acercarte a cualquiera de nuestras más de
