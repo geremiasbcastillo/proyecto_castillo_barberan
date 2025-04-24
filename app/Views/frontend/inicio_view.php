@@ -33,42 +33,36 @@
 </div> 
 </section>
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mt-4 cards">
+<div class="row row-col-1 g-4 mt-4 cards">
   <div class="col">
-    <div class="card w-70 h-100">
-      <img src="assets/img/botines.jpg" class="card-img-top" alt="">
+    <div class="card w-70 h-100" >
+    <?php echo '<img src="assets/img/botines.jpg" alt="" class="card-img-top">';?>
       <div class="card-body">
         <h5 class="card-title">Botines</h5>
         <p class="card-text">Vas a poder ver todo el catálogo de botines.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="botines" class="btn boton-card" >Go somewhere</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/camiseta2.jpg" class="card-img-top" alt="">
+    <?php echo '<img src="assets/img/camiseta2.jpg" alt="" class="card-img-top">';?>
       <div class="card-body">
         <h5 class="card-title">Camisetas</h5>
         <p class="card-text">Acá vas a encontrar las mejores camisetas del mercado. Hay varios tipos de camisetas, desde retros hasta las más actuales
         </p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="camisetas" class="btn boton-card" >Go somewhere</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/conos.jpg" class="card-img-top" alt="...">
+    <?php echo '<img src="assets/img/conos.jpg" alt="" class="card-img-top">';?>
       <div class="card-body">
         <h5 class="card-title">Indumentaria de entrenamiento</h5>
         <p class="card-text">Tambien contamos con accesorios para poder potenciar tu entrenamiento, como conos, escaleras y más cosas, entrá para mirar.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="entrenamiento" class="btn boton-card" >Go somewhere</a>
     </div>
   </div>
 </div>

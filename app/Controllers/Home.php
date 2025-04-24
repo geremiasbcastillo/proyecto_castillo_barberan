@@ -20,13 +20,29 @@ class Home extends BaseController
     {
         $data['titulo'] ="Contacto";
         return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/contacto_view').view('plantillas/footer_view');
-        return view('plantillas/nav_view', $data).view('frontend/nosotros_view').view('plantillas/footer_view');
     } 
 
     public function medios_de_pagos(): string
     {
         $data['titulo'] ="Medios de Pago";
-        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/contacto_view').view('plantillas/footer_view');
-        return view('plantillas/nav_view', $data).view('frontend/nosotros_view').view('plantillas/footer_view');
-    } 
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/comercializacion_view').view('plantillas/footer_view');
+    }
+
+    public function camisetas(): string
+    {
+        $data['titulo'] ="Camisetas";
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/camisetas_view').view('plantillas/footer_view');
+    }
+
+    public function botines(): string
+    {
+        $data['titulo'] ="Botines";
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/botines_view').view('plantillas/footer_view');
+    }
+
+    public function entrenamiento(): string
+    {
+        $data['titulo'] ="Entrenamiento";
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/entrenamiento_view').view('plantillas/footer_view');
+    }
 }
