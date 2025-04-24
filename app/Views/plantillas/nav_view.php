@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav active" aria-current="page" href="ini">Inicio</a>
+          <a class="nav-link boton-nav active" aria-current="page" href="inicio">Inicio</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
           <a class="nav-link boton-nav" href="nosotros">Nosotros</a>
