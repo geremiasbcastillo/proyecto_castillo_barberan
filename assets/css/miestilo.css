@@ -181,9 +181,10 @@ header{
 }
 
 .contenedor-contacto {
-    margin-top: 80px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
+
 
 footer {
     bottom: 0;
@@ -221,7 +222,7 @@ footer {
     color: white;
     font-style: oblique;
     font-size: 4em;
-    top: 150px;
+    top: 100px;
     margin-left: 70px;
     border-width: 2px;
     border-color: black;
@@ -231,4 +232,13 @@ footer {
     font-weight: bold;
     color: rgb(31, 145, 56) !important;
     margin-top: 40px;
+}
+
+.boton-form{
+    background-color: rgb(177, 171, 171) !important;
+}
+
+.boton-form:hover{
+    background-color: rgb(31, 145, 56) !important;
+    transform: scale(1.08);
 }

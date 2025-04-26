@@ -28,6 +28,9 @@
         <li class="nav-item mx-3 pl-3">
           <a class="nav-link boton-nav" href="contacto">Contacto</a>
         </li>
+        <li class="nav-item mx-3 pl-3">
+          <a class="nav-link boton-nav" href="inicio_sesion">Iniciar sesion</a>
+        </li>
       </ul>
     </div>
   </div>
