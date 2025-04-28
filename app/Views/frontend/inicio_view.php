@@ -33,6 +33,7 @@
 </div> 
 </section>
 
+<h1 class ="text-center mt-4 mb-0">Podes acceder a nuestros catalogos</h1>
 <div class="row row-col-1 g-4 mt-4 cards">
   <div class="col">
     <div class="card w-70 h-100" >
@@ -63,6 +64,46 @@
         <p class="card-text">Tambien contamos con accesorios para poder potenciar tu entrenamiento, como conos, escaleras y más cosas, entrá para mirar.</p>
       </div>
       <a href="entrenamiento" class="btn boton-card" >Hace click acá</a>
+    </div>
+  </div>
+</div>
+
+<div class="">
+  <div class="banner">
+    <?php echo '<img src="assets/img/camisetas2.jpg" alt="" class="">';?>
+  </div>
+</div>
+
+<h1 class ="text-center mt-4 mb-0">Las camisetas más vendidas</h1>
+<div class="row row-col-1 g-4 mt-4 cards">
+  <div class="col">
+    <div class="card w-70 h-100">
+    <?php echo '<img src="assets/img/camisetamv1.webp" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Paris Saint Germain - 2021</h5>
+        <p class="card-text">Primera camiseta de Messi fuera del Barcelona.</p>
+      </div>
+      <a href="botines" class="btn boton-card" >Mirá todo el catálogo</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+    <?php echo '<img src="assets/img/camisetaarg.webp" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Selección Argentina - 1994</h5>
+        <p class="card-text">Camiseta suplente que vistió la selección en el mundial de 1994.</p>
+      </div>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+    <?php echo '<img src="assets/img/camisetabrasil.png" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Selección de Brasil - 2002</h5>
+        <p class="card-text">Camiseta de la selección de Brasil en el mundial Corea-Japón 2002, donde salieron campeones.</p>
+      </div>
+      <a href="entrenamiento" class="btn boton-card" >Mirá todo el catálogo</a>
     </div>
   </div>
 </div>

@@ -342,3 +342,7 @@ footer {
     font-size: 25px;
     margin-top: -20px;
 }
+
+footer .boton-nav:hover{
+    color: black !important; 
+}

@@ -3,53 +3,35 @@
 </div>
 
 <h1 class ="text-center mt-3">Camisetas</h1>
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+<div class="row row-col-1 g-4 mt-5 cards">
   <div class="col">
     <div class="card h-100">
       <img src="assets/img/galeria1.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Boca Juniors - 2000</h5>
+        <p class="card-text">Camiseta usada por Boca Juniors en la final intercontinental ante el Real Madrid.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="camisetas" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
       <img src="assets/img/galeria2.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Inter de Milan - 2010</h5>
+        <p class="card-text">Esta camiseta fue usada por el Inter de Milán durante la Champions League 2009/2010, donde salieron campeones.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="camisetas" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="assets/img/galeria3.webp" class="card-img-top" alt="...">
+      <img src="assets/img/camiseta-argentina-2.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <h5 class="card-title">Selección Argentina - 2022</h5>
+        <p class="card-text">Camiseta con la cual la Selección Argentina se coronó campeona del mundial de Qatar.</p>
       </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/img/galeria4.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
+      <a href="camisetas" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
 </div>
