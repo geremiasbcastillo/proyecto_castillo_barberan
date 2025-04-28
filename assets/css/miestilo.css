@@ -1,199 +1,201 @@
-.logo{
-    background-color: rgb(177, 171, 171);
-    width: 100%;
-    height: 70px;
-    top: 0;
+.logo {
+  background-color: rgb(177, 171, 171);
+  width: 100%;
+  height: 70px;
+  top: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.parrafos{
-    color: rgb(31, 145, 56);
-    font-weight: bold;
+.parrafos {
+  color: rgb(31, 145, 56);
+  font-weight: bold;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    position: relative; /* Define la posición del nav */
-    z-index: 5; /* Asegura que esté por debajo del header */
-    background-color: rgb(177, 171, 171);
-    color: black; 
-    width: 100%; /* Asegura que ocupe todo el ancho */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  position: relative;
+  z-index: 5; /* Asegura que esté por debajo del header */
+  background-color: rgb(177, 171, 171);
+  color: black;
+  width: 100%;
 }
 
-
-.collapse{
-    background-color: rgb(177, 171, 171);
-    width: 100%;
+.collapse {
+  background-color: rgb(177, 171, 171);
+  width: 100%;
 }
 
-.boton-card{
-    background-color: rgb(177, 171, 171) !important;
-    border-radius: 0% !important;
+.boton-card {
+  background-color: rgb(177, 171, 171) !important;
+  border-radius: 0% !important;
 }
 
 .nav-container-sections {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    width: 450px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 450px;
 }
 
 body {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .imagenes-carrousel {
-    width: 100%;
-    height: auto; /* Ajusta la altura proporcionalmente */
-    max-height: 800px; /* Limita la altura máxima */
-    object-fit: cover; /* Recorta la imagen si es necesario para que se vea bien */
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+  object-fit: cover;
 }
 
 .contenedor {
-    display: flex; /* Activa Flexbox */
-    width: 100%; /* Ocupa todo el ancho de la pantalla */
-    height: 700px; /* Ajusta la altura automáticamente */
-    align-items: center; /* Centra verticalmente los elementos */
-    margin-top: -200px;
-    margin-bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  align-items: center;
+  margin-top: -200px;
+  margin-bottom: 0;
 }
 
-.cards{
-    margin-bottom: 120px;
+.cards {
+  margin-bottom: 120px;
 }
 
 .card {
-    width: 300px; /* Aumenta el ancho de las cards */
-    height: auto; /* Ajusta la altura automáticamente */
-    margin: 0 auto; /* Centra las cards */
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .card img {
-    height: 200px; /* Aumenta la altura de las imágenes */
-    object-fit: contain; /* Asegura que la imagen completa sea visible */
+  height: 200px;
+  object-fit: contain; /* Asegura que la imagen completa sea visible */
 }
 
 .overlay {
-    position: absolute; /* Cubre todo el contenedor */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen con un color negro semitransparente */
-    z-index: 1; /* Coloca la capa por encima de la imagen */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Oscurece la imagen con un color negro semitransparente */
+  z-index: 1; /* Coloca la capa por encima de la imagen */
 }
 
-
-
-.card:hover{
-    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
-    transition: transform 0.5s ease; /* Transición suave */
+.card:hover {
+  transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+  transition: transform 0.5s ease; /* Transición suave */
 }
 
-.boton-nav{
-    color: black;
-    font-style: normal;
-    text-decoration: none;
+.boton-nav {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
 }
 
-.boton-nav:hover{
-    font-weight: bold;
-    text-decoration: underline;
-    color: rgb(32, 156, 59) !important;
+.boton-nav:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(32, 156, 59) !important;
 }
 
-html, body {
-    margin: 0; /* Elimina márgenes predeterminados */
-    padding: 0; /* Elimina rellenos predeterminados */
+html,
+body {
+  margin: 0; /* Elimina márgenes predeterminados */
+  padding: 0; /* Elimina rellenos predeterminados */
 }
 
-header{
-    position: relative; /* Define la posición del header */
-    z-index: 10; /* Asegura que esté por encima del nav */
-    background-color: rgb(177, 171, 171);
-    height: 30px;
-    align-items: center;
-    align-content: center;
+header {
+  position: relative; /* Define la posición del header */
+  z-index: 10; /* Asegura que esté por encima del nav */
+  background-color: rgb(177, 171, 171);
+  height: 30px;
+  align-items: center;
+  align-content: center;
 }
 
 .formulario {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 form {
-    width: 50%;  /*Ajusta el ancho del furmulario al 50% del contenedor*/ 
-    max-width: 400px;  /*Limita el ancho máximo a 400px */
-     margin: 0 auto; /*Centra el foumulario horizontalmente*/ 
-} 
+  width: 50%; /*Ajusta el ancho del furmulario al 50% del contenedor*/
+  max-width: 400px; /*Limita el ancho máximo a 400px */
+  margin: 0 auto;
+}
 
 .contenedor-contacto {
-    margin-top: 20px;
-    margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-
 
 footer {
-    bottom: 0;
-    left: 0;
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    background-color: rgb(31, 145, 56); /* Color del footer */
-    z-index: 10; /* Asegura que esté por encima de otros elementos */
-    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(31, 145, 56);
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  position: fixed;
 }
 
-.logos{
-    padding-top: 15px;
+.logos {
+  padding-top: 15px;
 }
 
 .logos a {
-    margin: 0 10px; /* Agrega un margen horizontal entre los logos */
-    display: inline-block; /* Asegura que los logos estén en línea */
+  margin: 0 10px; /* Agrega un margen horizontal entre los logos */
+  display: inline-block; /* Asegura que los logos estén en línea */
 }
 
-.banner{
-    position: relative;
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
-    height: auto; /* Ajusta la altura automáticamente */
-    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+.banner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
 }
 
 .banner img {
-    width: 100% ; /* Escala la imagen para que ocupe todo el ancho */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: cover; /* Asegura que la imagen se recorte si es necesario */
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Asegura que la imagen se recorte si es necesario */
 }
 
-.banner h3{
-    top: 50%;
-    position: absolute;
-    color: white;
-    font-style: oblique;
-    font-size: 4em;
-    top: 100px;
-    margin-left: 70px;
-    border-width: 2px;
-    border-color: black;
+.banner h3 {
+  top: 50%;
+  position: absolute;
+  color: white;
+  font-style: oblique;
+  font-size: 4em;
+  top: 100px;
+  margin-left: 70px;
+  border-width: 2px;
+  border-color: black;
 }
 
-.titulos{
-    font-weight: bold;
-    color: rgb(31, 145, 56);
-    margin-top: 40px;
+.titulos {
+  font-weight: bold;
+  color: rgb(31, 145, 56);
+  margin-top: 40px;
 }
 
-.boton-form{
-    background-color: rgb(177, 171, 171) !important;
+.boton-form {
+  background-color: rgb(177, 171, 171) !important;
 }
 
-.boton-form:hover{
-    background-color: rgb(31, 145, 56) !important;
-    transform: scale(1.08);
+.boton-form:hover {
+  background-color: rgb(31, 145, 56) !important;
+  transform: scale(1.08);
 }
 
 /* Media queries para pantallas medianas (tablets)
@@ -316,67 +318,66 @@ footer {
 } */
 
 .contenedor-fondo {
-    position: relative; /* Necesario para posicionar la capa superpuesta */
-    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); 
-    background-size: cover; 
-    background-position: center;
-    background-position-y: 30%; 
-    height: 500px; 
+  position: relative; /* Necesario para posicionar la capa superpuesta */
+  background-image: url("/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 30%;
+  height: 500px;
 }
 
 @media (max-width: 768px) {
-    .contenedor-fondo {
-        height: 300px; /* Reduce la altura del contenedor */
-        padding: 20px; /* Reduce el espacio interno */
-        background-position: center top; /* Ajusta la posición de la imagen */
-    }
+  .contenedor-fondo {
+    height: 300px;
+    padding: 20px;
+    background-position: center top; /* Ajusta la posición de la imagen */
+  }
 
-    .row {
-        flex-direction: column; /* Cambia la disposición a columna */
-        align-items: center; /* Centra los elementos horizontalmente */
-    }
+  .row {
+    flex-direction: column; /* Cambia la disposición a columna */
+    align-items: center;
+  }
 
-    .col-4 {
-        width: 100%; /* Ocupa todo el ancho disponible */
-        margin-bottom: 20px; /* Agrega espacio entre los textos */
-        text-align: center; /* Centra el texto */
-    }
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
-}
 
-/* Media queries para pantallas pequeñas (móviles) */
+/* Media queries para pantallas pequeñas (celulares) */
 @media (max-width: 480px) {
-    .contenedor-fondo {
-        height: 200px; /* Reduce aún más la altura */
-        padding: 10px; /* Reduce el espacio interno */
-        background-position: center top; /* Ajusta la posición de la imagen */
-    }
+  .contenedor-fondo {
+    height: 200px;
+    padding: 10px;
+    background-position: center top; /* Ajusta la posición de la imagen */
+  }
 
-    .row {
-        flex-direction: column; /* Cambia la disposición a columna */
-        align-items: center; /* Centra los elementos horizontalmente */
-    }
+  .row {
+    flex-direction: column; /* Cambia la disposición a columna */
+    align-items: center;
+  }
 
-    .col-4 {
-        width: 100%; /* Ocupa todo el ancho disponible */
-        margin-bottom: 20px; /* Agrega espacio entre los textos */
-        text-align: center; /* Centra el texto */
-    }
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
 .container {
-    margin-top: 20px;
-    margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 .texto-superpuesto {
-    position: relative; /* Asegura que el texto esté encima de la capa */
-    z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
-    color: white; /* Color del texto */
-    text-align: center; /* Centra el texto */
-    padding: 20px; /* Espaciado interno */
-} 
+  position: relative; /* Asegura que el texto esté encima de la capa */
+  z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
 .titulo {
-    font-weight: bold;
+  font-weight: bold;
 }
