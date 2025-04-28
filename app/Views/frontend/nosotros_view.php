@@ -28,5 +28,13 @@
                     estés, siempre con la mejor atención y seguimiento.</p>
             </div>
         </div>
+        <div class="contenedor-equipo">
+        <div class="overlay-1">
+            <div class="texto-superpuesto">
+                <h1 class="titulo-1">Nuestro objetivo</h1>
+                <p class="objetivo">Constantemente nos estamos capacitando para darte la mejor atención posible.</p>
+            </div>
+        </div>
+        </div>
     </section>
 </body>
