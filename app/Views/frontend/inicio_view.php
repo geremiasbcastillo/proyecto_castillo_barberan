@@ -41,7 +41,7 @@
         <h5 class="card-title">Botines</h5>
         <p class="card-text">Vas a poder ver todo el catálogo de botines.</p>
       </div>
-      <a href="botines" class="btn boton-card" >Go somewhere</a>
+      <a href="botines" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
   <div class="col">
@@ -52,7 +52,7 @@
         <p class="card-text">Acá vas a encontrar las mejores camisetas del mercado. Hay varios tipos de camisetas, desde retros hasta las más actuales
         </p>
       </div>
-      <a href="camisetas" class="btn boton-card" >Go somewhere</a>
+      <a href="camisetas" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
   <div class="col">
@@ -62,7 +62,7 @@
         <h5 class="card-title">Indumentaria de entrenamiento</h5>
         <p class="card-text">Tambien contamos con accesorios para poder potenciar tu entrenamiento, como conos, escaleras y más cosas, entrá para mirar.</p>
       </div>
-      <a href="entrenamiento" class="btn boton-card" >Go somewhere</a>
+      <a href="entrenamiento" class="btn boton-card" >Hace click acá</a>
     </div>
   </div>
 </div>

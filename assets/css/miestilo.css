@@ -183,6 +183,12 @@ header{
     margin-top: 40px;
 }
 
+form {
+    width: 50%;  /*Ajusta el ancho del furmulario al 50% del contenedor*/ 
+    max-width: 400px;  /*Limita el ancho máximo a 400px */
+     margin: 0 auto; /*Centra el foumulario horizontalmente*/ 
+} 
+
 .contenedor-contacto {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -195,6 +201,7 @@ footer {
     width: 100%; /* Asegura que ocupe todo el ancho */
     background-color: rgb(31, 145, 56); /* Color del footer */
     z-index: 10; /* Asegura que esté por encima de otros elementos */
+    position: fixed;
 }
 
 .logos{
@@ -300,7 +307,7 @@ footer {
     background-image: url('/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg'); /* Ruta de la imagen */
     background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
     background-position: center; /* Centra la imagen */
-    margin-bottom: 20px; /* Agrega espacio debajo del contenedor */
+    margin-bottom: -16px; /* Agrega espacio debajo del contenedor */
     padding: 60px 20px; /* Espaciado interno para evitar que el texto quede pegado */
     text-align: center; /* Centra el texto */
     display: flex; /* Activa Flexbox */
@@ -308,7 +315,7 @@ footer {
     align-items: center; /* Centra horizontalmente el contenido */
     justify-content: center; /* Centra verticalmente el contenido */
     height: 1000px;
-    margin-top: -95px;
+    margin-top: -160px;
 }
 
 

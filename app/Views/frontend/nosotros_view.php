@@ -32,7 +32,7 @@
         <div class="overlay-1">
             <div class="texto-superpuesto">
                 <h1 class="titulo-1">Nuestro objetivo</h1>
-                <p class="objetivo">Constantemente nos estamos capacitando para darte la mejor atención posible.</p>
+                <p class="objetivo">Constantemente nos estamos capacitando para darte la mejor atención.</p>
             </div>
         </div>
         </div>
