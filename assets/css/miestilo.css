@@ -198,10 +198,10 @@ form {
 footer {
     bottom: 0;
     left: 0;
+    margin-top: 100px;
     width: 100%; /* Asegura que ocupe todo el ancho */
     background-color: rgb(31, 145, 56); /* Color del footer */
     z-index: 10; /* Asegura que esté por encima de otros elementos */
-    position: fixed;
 }
 
 .logos{
@@ -232,7 +232,7 @@ footer {
     color: white;
     font-style: oblique;
     font-size: 4em;
-    top: 100px;
+    top: 6px;
     margin-left: 70px;
     border-width: 2px;
     border-color: black;
@@ -345,4 +345,15 @@ footer {
 
 footer .boton-nav:hover{
     color: black !important; 
+}
+
+.wrapper {
+    flex: 1; /* Hace que el contenedor principal ocupe todo el espacio restante */
+}
+
+html, body {
+    height: 100%; /* El documento ocupa el 100% de la altura de la ventana */
+    margin: 0; /* Elimina márgenes predeterminados */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
 }

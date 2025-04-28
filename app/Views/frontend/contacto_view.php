@@ -1,7 +1,7 @@
 <h1 class="text-center mt-5">Contacto</h1>
 <!-- <h4 class="text-center">Acá te dejamos un formulario para dejarnos tu consulta.</h4> -->
 <div class="container contenedor-contacto">
-    <div class="row">
+    <div class="row row-cols-1 row-cols-sm-2 ">
         <div class="col">
             <div>
                 <h2 class ="text-center">Datos de contacto</h2>

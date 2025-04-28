@@ -1,4 +1,4 @@
-<footer class="text-center text-lg-start mt-4">
+<footer class="text-center text-lg-start mt-3">
   <!-- Copyright -->
   <div class="container-fluid mt-2">
     <div class="col text-center">
