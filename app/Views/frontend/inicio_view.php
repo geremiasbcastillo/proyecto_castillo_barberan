@@ -83,7 +83,7 @@
         <h5 class="card-title">Paris Saint Germain - 2021</h5>
         <p class="card-text">Primera camiseta de Messi fuera del Barcelona.</p>
       </div>
-      <a href="botines" class="btn boton-card" >Mirá todo el catálogo</a>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
     </div>
   </div>
   <div class="col">
@@ -103,7 +103,41 @@
         <h5 class="card-title">Selección de Brasil - 2002</h5>
         <p class="card-text">Camiseta de la selección de Brasil en el mundial Corea-Japón 2002, donde salieron campeones.</p>
       </div>
-      <a href="entrenamiento" class="btn boton-card" >Mirá todo el catálogo</a>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
+    </div>
+  </div>
+</div>
+
+<h1 class ="text-center mt-4 mb-0">Camisetas Temporada 2024/2025</h1>
+<div class="row row-col-1 g-4 mt-4 cards">
+  <div class="col">
+    <div class="card w-70 h-100">
+    <?php echo '<img src="assets/img/boca25.png" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Boca Juniors</h5>
+        <p class="card-text">La camiseta que viste el club esta temporada.</p>
+      </div>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+    <?php echo '<img src="assets/img/city25.webp" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Manchester City</h5>
+        <p class="card-text">La camiseta que viste el club esta temporada.</p>
+      </div>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+    <?php echo '<img src="assets/img/united25.png" alt="" class="card-img-top">';?>
+      <div class="card-body">
+        <h5 class="card-title">Manchester United</h5>
+        <p class="card-text">La camiseta que viste el club esta temporada.</p>
+      </div>
+      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
     </div>
   </div>
 </div>
