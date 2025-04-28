@@ -64,63 +64,6 @@ body {
     margin-bottom: 0;
 }
 
-.linea-vertical {
-    width: 3px; /* Grosor de la línea */
-    height: 30%; /* Ajusta la altura de la línea */
-    background-color: rgb(31, 145, 56); /* Color de la línea */
-    margin: 0 20px; /* Espaciado entre los textos */
-}
-
-.texto-izquierdo {
-    flex: 1; /* Cada texto ocupa la mitad del contenedor */
-    padding: 20px; /* Espaciado interno */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
-    text-align: initial;
-    height: auto;
-} 
-
-.texto-derecho {
-    flex: 1; /* Cada texto ocupa la mitad del contenedor */
-    padding: 20px; /* Espaciado interno */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
-    text-align: initial;
-}
-
-.texto-izquierdo, .texto-derecho {
-    margin: 0 auto; /* Centra el texto horizontalmente */
-    max-width: 600px; /* Limita el ancho máximo del texto */
-}
-
-.texto-superpuesto {
-    position: relative; /* Asegura que el texto esté encima de la capa */
-    z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
-    color: white; /* Color del texto */
-    text-align: center; /* Centra el texto */
-    padding: 20px; /* Espaciado interno */
-    max-width: 80%; /* Limita el ancho del texto */
-    margin: 0 auto; /* Centra el texto horizontalmente */
-}
-
-.titulo {
-    font-weight: bold;
-}
-
-.contenedor-fondo {
-    position: relative; /* Necesario para posicionar la capa superpuesta */
-    width: 100%; /* Ocupa todo el ancho */
-    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); /* Ruta de la imagen */
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    margin-bottom: 20px; /* Agrega espacio debajo del contenedor */
-    padding: 60px 20px; /* Espaciado interno para evitar que el texto quede pegado */
-    text-align: center; /* Centra el texto */
-    display: flex; /* Activa Flexbox */
-    flex-direction: column; /* Asegura que el contenido se apile verticalmente */
-    align-items: center; /* Centra horizontalmente el contenido */
-    justify-content: center; /* Centra verticalmente el contenido */
-    height: 500px;
-}
-
 .cards{
     margin-bottom: 120px;
 }
@@ -198,10 +141,10 @@ form {
 footer {
     bottom: 0;
     left: 0;
-    margin-top: 100px;
     width: 100%; /* Asegura que ocupe todo el ancho */
     background-color: rgb(31, 145, 56); /* Color del footer */
     z-index: 10; /* Asegura que esté por encima de otros elementos */
+    position: fixed;
 }
 
 .logos{
@@ -232,7 +175,7 @@ footer {
     color: white;
     font-style: oblique;
     font-size: 4em;
-    top: 6px;
+    top: 100px;
     margin-left: 70px;
     border-width: 2px;
     border-color: black;
@@ -240,7 +183,7 @@ footer {
 
 .titulos{
     font-weight: bold;
-    color: rgb(31, 145, 56) !important;
+    color: rgb(31, 145, 56);
     margin-top: 40px;
 }
 
@@ -253,80 +196,56 @@ footer {
     transform: scale(1.08);
 }
 
-/* Media queries para pantallas medianas (tablets) */
+/* Media queries para pantallas medianas (tablets)
 @media (max-width: 768px) {
     .contenedor {
-        flex-direction: column; /* Cambia la disposición a columna */
-        align-items: center; /* Centra los elementos horizontalmente */
+        flex-direction: column; /* Cambia la disposición a columna 
+        align-items: center; Centra los elementos horizontalmente 
     }
 
     .texto-izquierdo, .texto-derecho {
-        flex: 1 1 100%; /* Ocupan todo el ancho */
-        padding: 10px; /* Reduce el padding */
-        max-width: 90%; /* Ajusta el ancho máximo */
-        text-align: initial; /* Centra el texto */
+        padding: 10px; /* Reduce el padding 
+        max-width: 90%; /* Ajusta el ancho máximo 
+        text-align: initial; /* Centra el texto 
     }
 
     .linea-vertical {
-        display: none; /* Oculta la línea vertical */
+        display: none; /* Oculta la línea vertical 
     }
 }
 
-/* Media queries para pantallas pequeñas (móviles) */
+/* Media queries para pantallas pequeñas (móviles) 
 @media (max-width: 480px) {
     .contenedor {
-        flex-direction: column; /* Cambia la disposición a columna */
-        align-items: center; /* Centra los elementos horizontalmente */
+        flex-direction: column; /* Cambia la disposición a columna 
+        align-items: center; /* Centra los elementos horizontalmente 
         margin-top: 200px;
     }
 
     .texto-izquierdo {
-        flex: 1 1 100%; /* Ocupan todo el ancho */
-        max-width: 100%; /* Ocupan todo el ancho disponible */
-        text-align: initial; /* Centra el texto */
+        text-align: initial; /* Centra el texto 
         margin: 5px;
-        margin-top: -150px;
     }
 
     .texto-derecho {
-        flex: 1 1 100%; /* Ocupan todo el ancho */
-        max-width: 100%; /* Ocupan todo el ancho disponible */
-        text-align: initial; /* Centra el texto */
+        max-width: 100%; /* Ocupan todo el ancho disponible 
+        text-align: initial; /* Centra el texto 
         margin: 5px;
-        margin-top: -300px;
     }
 
     .linea-vertical {
-        display: none; /* Oculta la línea vertical */
+        display: none; /* Oculta la línea vertical 
     }
 }
 
-.contenedor-equipo {
-    position: relative; /* Necesario para posicionar la capa superpuesta */
-    width: 100%; /* Ocupa todo el ancho */
-    background-image: url('/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg'); /* Ruta de la imagen */
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    margin-bottom: -16px; /* Agrega espacio debajo del contenedor */
-    padding: 60px 20px; /* Espaciado interno para evitar que el texto quede pegado */
-    text-align: center; /* Centra el texto */
-    display: flex; /* Activa Flexbox */
-    flex-direction: column; /* Asegura que el contenido se apile verticalmente */
-    align-items: center; /* Centra horizontalmente el contenido */
-    justify-content: center; /* Centra verticalmente el contenido */
-    height: 1000px;
-    margin-top: -160px;
-}
-
-
 .overlay-1 {
-    position: absolute; /* Cubre todo el contenedor */
+    position: absolute; /* Cubre todo el contenedor 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .3); /* Oscurece la imagen con un color negro semitransparente */
-    z-index: 1; /* Coloca la capa por encima de la imagen */
+    background-color: rgba(0, 0, 0, .3); /* Oscurece la imagen con un color negro semitransparente 
+    z-index: 1; /* Coloca la capa por encima de la imagen 
 }
 
 .titulo-1 {
@@ -343,17 +262,121 @@ footer {
     margin-top: -20px;
 }
 
-footer .boton-nav:hover{
-    color: black !important; 
+.linea-vertical {
+    width: 3px; /* Grosor de la línea 
+    height: 30%; /* Ajusta la altura de la línea 
+    background-color: rgb(31, 145, 56); /* Color de la línea 
+    margin: 0 20px; /* Espaciado entre los textos 
 }
 
-.wrapper {
-    flex: 1; /* Hace que el contenedor principal ocupe todo el espacio restante */
+.texto-izquierdo {
+    flex: 1; /* Cada texto ocupa la mitad del contenedor 
+    padding: 20px; /* Espaciado interno 
+    box-sizing: border-box; /* Incluye el padding en el ancho total 
+    text-align: initial;
+    height: auto;
+} 
+
+.texto-derecho {
+    flex: 1; /* Cada texto ocupa la mitad del contenedor 
+    padding: 20px; /* Espaciado interno 
+    box-sizing: border-box; /* Incluye el padding en el ancho total 
+    text-align: initial;
 }
 
-html, body {
-    height: 100%; /* El documento ocupa el 100% de la altura de la ventana */
-    margin: 0; /* Elimina márgenes predeterminados */
-    display: flex;
-    flex-direction: column; /* Organiza los elementos en columna */
+.texto-izquierdo, .texto-derecho {
+    margin: 0 auto; /* Centra el texto horizontalmente 
+    max-width: 600px; /* Limita el ancho máximo del texto 
+}
+
+.contenedor-fondo {
+    position: relative; /* Necesario para posicionar la capa superpuesta 
+    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-position-y: 30%; 
+    height: 500px; 
+}
+
+.contenedor-equipo {
+    position: relative; /* Necesario para posicionar la capa superpuesta 
+    width: 100%; /* Ocupa todo el ancho 
+    background-image: url('/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg'); /* Ruta de la imagen 
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor 
+    background-position: center; /* Centra la imagen 
+    margin-bottom: -16px; /* Agrega espacio debajo del contenedor 
+    padding: 60px 20px; /* Espaciado interno para evitar que el texto quede pegado 
+    text-align: center; /* Centra el texto 
+    display: flex; /* Activa Flexbox 
+    flex-direction: column; /* Asegura que el contenido se apile verticalmente 
+    align-items: center; /* Centra horizontalmente el contenido 
+    justify-content: center; /* Centra verticalmente el contenido 
+    height: 1000px;
+    margin-top: -160px;
+} */
+
+.contenedor-fondo {
+    position: relative; /* Necesario para posicionar la capa superpuesta */
+    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-position-y: 30%; 
+    height: 500px; 
+}
+
+@media (max-width: 768px) {
+    .contenedor-fondo {
+        height: 300px; /* Reduce la altura del contenedor */
+        padding: 20px; /* Reduce el espacio interno */
+        background-position: center top; /* Ajusta la posición de la imagen */
+    }
+
+    .row {
+        flex-direction: column; /* Cambia la disposición a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+
+    .col-4 {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 20px; /* Agrega espacio entre los textos */
+        text-align: center; /* Centra el texto */
+    }
+}
+}
+
+/* Media queries para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .contenedor-fondo {
+        height: 200px; /* Reduce aún más la altura */
+        padding: 10px; /* Reduce el espacio interno */
+        background-position: center top; /* Ajusta la posición de la imagen */
+    }
+
+    .row {
+        flex-direction: column; /* Cambia la disposición a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+    }
+
+    .col-4 {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 20px; /* Agrega espacio entre los textos */
+        text-align: center; /* Centra el texto */
+    }
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.texto-superpuesto {
+    position: relative; /* Asegura que el texto esté encima de la capa */
+    z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+} 
+
+.titulo {
+    font-weight: bold;
 }
