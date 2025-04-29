@@ -193,103 +193,6 @@ footer {
   transform: scale(1.08);
 }
 
-/* Media queries para pantallas medianas (tablets)
-@media (max-width: 768px) {
-    .contenedor {
-        flex-direction: column; /* Cambia la disposición a columna 
-        align-items: center; Centra los elementos horizontalmente 
-    }
-
-    .texto-izquierdo, .texto-derecho {
-        padding: 10px; /* Reduce el padding 
-        max-width: 90%; /* Ajusta el ancho máximo 
-        text-align: initial; /* Centra el texto 
-    }
-
-    .linea-vertical {
-        display: none; /* Oculta la línea vertical 
-    }
-}
-
-/* Media queries para pantallas pequeñas (móviles) 
-@media (max-width: 480px) {
-    .contenedor {
-        flex-direction: column; /* Cambia la disposición a columna 
-        align-items: center; /* Centra los elementos horizontalmente 
-        margin-top: 200px;
-    }
-
-    .texto-izquierdo {
-        text-align: initial; /* Centra el texto 
-        margin: 5px;
-    }
-
-    .texto-derecho {
-        max-width: 100%; /* Ocupan todo el ancho disponible 
-        text-align: initial; /* Centra el texto 
-        margin: 5px;
-    }
-
-    .linea-vertical {
-        display: none; /* Oculta la línea vertical 
-    }
-}
-
-.overlay-1 {
-    position: absolute; /* Cubre todo el contenedor 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .3); /* Oscurece la imagen con un color negro semitransparente 
-    z-index: 1; /* Coloca la capa por encima de la imagen 
-}
-
-
-.objetivo {
-    text-align: justify;
-    font-size: 25px;
-    margin-top: -20px;
-}
-
-.linea-vertical {
-    width: 3px; /* Grosor de la línea 
-    height: 30%; /* Ajusta la altura de la línea 
-    background-color: rgb(31, 145, 56); /* Color de la línea 
-    margin: 0 20px; /* Espaciado entre los textos 
-}
-
-.texto-izquierdo {
-    flex: 1; /* Cada texto ocupa la mitad del contenedor 
-    padding: 20px; /* Espaciado interno 
-    box-sizing: border-box; /* Incluye el padding en el ancho total 
-    text-align: initial;
-    height: auto;
-} 
-
-.texto-derecho {
-    flex: 1; /* Cada texto ocupa la mitad del contenedor 
-    padding: 20px; /* Espaciado interno 
-    box-sizing: border-box; /* Incluye el padding en el ancho total 
-    text-align: initial;
-}
-
-.texto-izquierdo, .texto-derecho {
-    margin: 0 auto; /* Centra el texto horizontalmente 
-    max-width: 600px; /* Limita el ancho máximo del texto 
-}
-
-.contenedor-fondo {
-    position: relative; /* Necesario para posicionar la capa superpuesta 
-    background-image: url('/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg'); 
-    background-size: cover; 
-    background-position: center;
-    background-position-y: 30%; 
-    height: 500px; 
-}
-
- */
-
 .contenedor-fondo {
   position: relative; /* Necesario para posicionar la capa superpuesta */
   background-image: url("/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg");
@@ -324,10 +227,6 @@ footer {
     height: 200px;
     padding: 10px;
     background-position: center top; /* Ajusta la posición de la imagen */
-  }
-
-  .contenedor-equipo {
-    height: -200px;
   }
 
   .row {
