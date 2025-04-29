@@ -30,6 +30,14 @@
             </div>
         </div>
     </div>
+    <section>
+    <div class="contenedor-equipo">
+        <div class="overlay-1">
+            <div class="texto-superpuesto">
+                <h1 class="titulo-1">Nuestro objetivo</h1>
+                <p class="objetivo" style="font-size: 25px">Constantemente nos estamos capacitando para darte la mejor atención.</p>
+    </div>
+    </section>
 
     <!-- <div class="wrapper">
     <div class="contenedor-fondo">

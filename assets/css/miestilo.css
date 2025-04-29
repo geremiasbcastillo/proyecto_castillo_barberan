@@ -84,12 +84,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Oscurece la imagen con un color negro semitransparente */
+  background-color: rgba(0, 0, 0, 0.5); /* Oscurece la imagen con un color negro semitransparente */
   z-index: 1; /* Coloca la capa por encima de la imagen */
 }
 
@@ -250,13 +245,6 @@ footer {
     z-index: 1; /* Coloca la capa por encima de la imagen 
 }
 
-.titulo-1 {
-    font-weight: bold;
-    margin-top: 200px;
-    margin-left: -25px;
-    padding: 25px;
-    text-align: justify;
-}
 
 .objetivo {
     text-align: justify;
@@ -300,22 +288,7 @@ footer {
     height: 500px; 
 }
 
-.contenedor-equipo {
-    position: relative; /* Necesario para posicionar la capa superpuesta 
-    width: 100%; /* Ocupa todo el ancho 
-    background-image: url('/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg'); /* Ruta de la imagen 
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor 
-    background-position: center; /* Centra la imagen 
-    margin-bottom: -16px; /* Agrega espacio debajo del contenedor 
-    padding: 60px 20px; /* Espaciado interno para evitar que el texto quede pegado 
-    text-align: center; /* Centra el texto 
-    display: flex; /* Activa Flexbox 
-    flex-direction: column; /* Asegura que el contenido se apile verticalmente 
-    align-items: center; /* Centra horizontalmente el contenido 
-    justify-content: center; /* Centra verticalmente el contenido 
-    height: 1000px;
-    margin-top: -160px;
-} */
+ */
 
 .contenedor-fondo {
   position: relative; /* Necesario para posicionar la capa superpuesta */
@@ -353,6 +326,10 @@ footer {
     background-position: center top; /* Ajusta la posición de la imagen */
   }
 
+  .contenedor-equipo {
+    height: -200px;
+  }
+
   .row {
     flex-direction: column; /* Cambia la disposición a columna */
     align-items: center;
@@ -366,8 +343,8 @@ footer {
 }
 
 .container {
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .texto-superpuesto {
@@ -380,4 +357,35 @@ footer {
 
 .titulo {
   font-weight: bold;
+}
+
+.contenedor-equipo {
+  position: relative; /* Necesario para posicionar la capa superpuesta */
+  background-image: url("/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-y: 10%;
+  height: 100%;
+}
+
+.titulo-1 {
+  font-weight: bold;
+  margin-top: 200px;
+  text-align: right;
+  margin-right: 480px;
+}
+
+.objetivo {
+  text-align: right;
+  margin-right: 0px;
+}
+
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Oscurece la imagen con un color negro semitransparente */
+  z-index: 1; /* Coloca la capa por encima de la imagen */
 }
