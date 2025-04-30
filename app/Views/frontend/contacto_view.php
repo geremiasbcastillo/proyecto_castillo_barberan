@@ -19,15 +19,15 @@
                     <form action="">
                         <div class="mb-2 formulario-label">
                             <label for="nombre" class="form-label">Ingrese su nombre:</label>
-                            <input type="text" class="form-control" name="nombre" value="" maxlength="20" placeholder="Juan">
+                            <input type="text" minlength="3" class="form-control" name="nombre" value="" maxlength="20" placeholder="Juan Gomez" required>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="telefono" class="form-label">Ingrese su teléfono:</label>
-                            <input type="text" class="form-control" name="telefono" value="" maxlength="15" placeholder="Gomez">
+                            <input type="number" class="form-control" name="telefono" value="" maxlength="15" placeholder="3795-150953" required>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="mail" class="form-label">Ingrese su correo:</label>
-                            <input type="email" name="mail" class="form-control" placeholder="name@example.com">
+                            <input type="email" name="mail" class="form-control" placeholder="benjamincastillo@gmail.com" required>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
