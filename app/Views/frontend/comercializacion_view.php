@@ -23,7 +23,7 @@
             </div>
                 <div class="col">
                     <div class="card mt-4" style="width: 18rem;">
-                        <img src="assets/img/mercadopago.png" class="card-img-top" alt="...">
+                    <?php echo '<img src="assets/img/mercadopago.png" class="card-img-top" alt="...">';?>
                         <div class="card-body">
                         <p class="card-text">Podes pagar con tarjetas mediante Mercado Pago (las promociones depende de la plataforma).</p>
                     </div>
@@ -33,7 +33,7 @@
     </div>
     <div>
     <div class="banner">
-        <?php echo '<img src="assets/img/envio.webp" alt="" posicion:relative>';?>
+    <?php echo '<img src="assets/img/envio.webp" class="card-img-top" alt="...">';?>
         <h3> Formas de entrega</h3>
     </div>
     </div>
