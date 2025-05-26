@@ -57,4 +57,10 @@ class Home extends BaseController
         $data['titulo'] ="Terminos y condiciones";
         return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/terminos_view').view('plantillas/footer_view');
     }
+
+    public function registrarse(): string
+    {
+        $data['titulo'] ="Registrarse";
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/registrarse_view').view('plantillas/footer_view');
+    }
 }

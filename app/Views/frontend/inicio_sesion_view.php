@@ -1,23 +1,20 @@
 <div class="wrapper">
-    <div class="container">
-        <div class="  my-5">
-            <h2 class="text-center">Inicie sesión con su cuenta</h2>    
-            <form class="col-6">
+              
+            <form class="formularios">
+                 <h2 class="text-center">Inicie sesión con su cuenta</h2> 
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+                    <label for="exampleInputEmail1">Dirección de correo electrónico</label>
                     <input type="email" placeholder="andresbarberan@gmail.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie más.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="••••••••"required>
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
                 </div>
-                <button type="submit" class="btn boton-form">Enviar</button>
+                <button type="submit" class="btn boton_formularios">Enviar</button>
             </form>
-        </div>
-    </div>
 </div>

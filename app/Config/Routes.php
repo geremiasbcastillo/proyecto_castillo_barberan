@@ -24,3 +24,5 @@ $routes->get('entrenamiento', 'Home::entrenamiento');
 $routes->get('inicio_sesion', 'Home::inicio_sesion');;
 
 $routes->get('terminos', 'Home::terminos');;
+
+$routes->get('registrarse', to: 'Home::registrarse');

@@ -17,7 +17,7 @@ class usuarios_controller extends BaseController
                 'telefono' => 'required|max_length[20]',
                 'correo' => 'required|valid_email',
                 'consulta' => 'required|max_length[150]',
-            ]
+            ],
             [   //Errors
                 'nombre' => [
                     'required' => 'El nombre es obligatorio.',
