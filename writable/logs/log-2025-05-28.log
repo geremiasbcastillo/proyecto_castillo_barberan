@@ -1,0 +1,460 @@
+CRITICAL - 2025-05-28 00:12:49 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:12:50 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:12:50 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:12:50 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:12:50 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:12:51 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:13:57 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:13:58 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:13:58 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:13:58 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:13:59 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:01 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 39.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:07 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:08 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:08 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:10 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:11 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:11 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:12 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:12 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:20 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:21 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 41.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:21 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 41.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:21 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 41.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:21 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 41.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:38 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:38 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:38 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:14:38 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 40.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:22:23 --> Error: Call to undefined function form_open()
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 4 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:22:23 --> Error: Call to undefined function form_open()
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 4 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:22:23 --> Error: Call to undefined function form_open()
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 4 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 00:22:23 --> Error: Call to undefined function form_open()
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 11.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 4 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 01:41:49 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 01:41:49 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 01:41:50 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 01:41:51 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-28 01:41:51 --> ParseError: syntax error, unexpected identifier "btn", expecting ")"
+[Method: GET, Route: registrarse]
+in APPPATH\Views\frontend\registrarse_view.php on line 38.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/registrarse_view', [], true)
+ 3 APPPATH\Controllers\Home.php(64): view('frontend/registrarse_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->registrarse()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

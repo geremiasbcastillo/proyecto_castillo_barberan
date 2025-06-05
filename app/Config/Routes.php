@@ -25,4 +25,5 @@ $routes->get('inicio_sesion', 'Home::inicio_sesion');;
 
 $routes->get('terminos', 'Home::terminos');;
 
-$routes->get('registrarse', to: 'Home::registrarse');
+$routes->get('registrarse', 'Home::registrarse');
+$routes->post('registro_usuario', 'usuarios_controller::add_cliente');

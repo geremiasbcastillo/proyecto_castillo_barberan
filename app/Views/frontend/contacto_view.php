@@ -1,3 +1,4 @@
+<?php helper('form'); ?>
 <h1 class="text-center mt-5">Contacto</h1>
 <!-- <h4 class="text-center">Acá te dejamos un formulario para dejarnos tu consulta.</h4> -->
 <div class="container contenedor-contacto">
@@ -16,25 +17,39 @@
         </div>
         <div class="col">
             <div class="formulario mt-0 ">
-                    <form action="">
+                <?php if(!empty($validation)):?>
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            <?php foreach($validation as $error):?>
+                                <li><?= esc($error) ?></li>
+                            <?php endforeach;?>
+                        </ul>
+                    </div>
+                <?php endif ?>
+
+                <?php if (session('mensaje_consulta')){
+                    echo session('mensaje_consulta');
+                } ?>
+                    <?php echo form_open('usuarios_controller::add_consulta', ['class' => 'formulario']); ?> 
+                    <!--<form action="" namespace='usuarios_controller::add_consulta' method="post" class="formulario">-->
                         <div class="mb-2 formulario-label">
                             <label for="nombre" class="form-label">Ingrese su nombre:</label>
-                            <input type="text" minlength="3" class="form-control" name="nombre" value="" maxlength="20" placeholder="Juan Gomez" required>
+                            <input type="text" minlength="3" class="form-control" name="nombre" value="" maxlength="20" placeholder="Juan Gomez">
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="telefono" class="form-label">Ingrese su teléfono:</label>
-                            <input type="number" class="form-control" name="telefono" value="" maxlength="15" placeholder="3795-150953" required>
+                            <input type="number" class="form-control" name="telefono" value="" maxlength="15" placeholder="3795-150953" >
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="mail" class="form-label">Ingrese su correo:</label>
-                            <input type="email" name="mail" class="form-control" placeholder="benjamincastillo@gmail.com" required>
+                            <input type="email" name="mail" class="form-control" placeholder="benjamincastillo@gmail.com" >
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
                             <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."></textarea>
                         </div>
                         <button type="submit" class="btn boton-form">Enviar</button>
-                    </form>
+                    <?php echo form_close(); ?>
                 </div>
         </div>
     </div>

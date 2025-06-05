@@ -1,0 +1,2 @@
+<?php
+miestilo.css

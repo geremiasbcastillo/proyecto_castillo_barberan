@@ -7,45 +7,60 @@
     <title>Registrarse</title>
     <link rel="stylesheet" href="miestilo.css">
 </head>
-
 <body>
-    <form class="formularios">
+    <?php helper('form'); ?>
+    
+    <?php if(!empty($validation)):?>
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            <?php foreach($validation as $error):?>
+                                <li><?= esc($error) ?></li>
+                            <?php endforeach;?>
+                        </ul>
+                    </div>
+                <?php endif ?>
+
+                <?php if(session('mensaje_registro')) {
+                    echo session('mensaje_registro');
+                } ?>
+
+    <?php echo form_open('registro_usuario', ['class' => 'formularios'])?>
+        
         <h2>Registrarse</h2>
         <div class="form-input">
-            <label>Apellidos
-                <input type="text" required placeholder="Barberan" minlength="3">
+            <label for="apellidos"> Apellido 
+                <?php echo form_input(['name'=>'apellidos', 'id'=>'apellidos', 'type'=>'text', 'placeholder'=>'Barberan']);?>
             </label>
-        </div>
+            </div>
         <div class="form-input">
-            <label>Nombres
-                <input type="text" required placeholder="Andres" minlength="3">
+            <label for="nombres"> Nombre 
+                <?php echo form_input(['name'=>'nombres', 'id'=>'nombres', 'type'=>'text', 'placeholder'=>'Andres']);?>
             </label>
-        </div>
-
-        <div class="form-input"><label>Dirección de correo electronico
-                <input type="email" required placeholder="ejemplo@gmail.com">
-            </label>
-        </div>
-
-        <div class="form-input"> <label>Numero de celular
-                <input type="text" required placeholder="3795-029606">
-            </label>
-        </div>
-
+            </div>
         <div class="form-input">
-            <label>Contraseña
-            <input type="password" required minlength="4" placeholder="••••••••">
-        </label>
-        </div>
-
-        <div class="form-input">
-            <label>Repetir contraseña
-            <input type="password" required minlength="4" placeholder="••••••••">
+            <label for="correo"> Dirección de correo electrónico 
+                <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'text', 'placeholder'=>'correo123@gmail.com']);?>
             </label>
+            </div>
+        <div class="form-input">
+            <label for="telefono"> Numero de celular 
+                <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'text', 'placeholder'=>'3794123456']);?>
+            </label>
+            </div>
+        <div class="form-input">
+            <label for="contrasena"> Contraseña 
+                <?php echo form_input(['name'=>'contrasena', 'id'=>'contrasena', 'type'=>'password', 'placeholder'=>'••••••••']);?>
+            </label>
+            </div>
+        <div class="form-input">
+            <label for="repass"> Repetir contraseña 
+                <?php echo form_input(['name'=>'repass', 'id'=>'repass', 'type'=>'password', 'placeholder'=>'••••••••']);?>
+            </label>
+            </div>
+        <div>
+            <?php echo form_submit('Registrarse', 'Registrarse', "class='btn boton_formularios'");?>
         </div>
-
-        <button type="submit" class="btn boton_formularios">Registrarse</button>
-    </form>
+    <?php echo form_close();?>
+    
 </body>
-
 </html>
