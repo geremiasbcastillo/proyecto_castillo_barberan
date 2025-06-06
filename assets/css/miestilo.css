@@ -6,6 +6,18 @@ body {
   padding-top: 100px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .logo {
   background-color: rgb(177, 171, 171);
   width: 100%;
@@ -83,6 +95,7 @@ nav {
   object-fit: contain; /* Asegura que la imagen completa sea visible */
 }
 
+/* posible borrada */
 .overlay {
   position: absolute;
   top: 0;
@@ -151,7 +164,6 @@ footer {
   width: 100%;
   background-color: rgb(31, 145, 56);
   z-index: 10; /* Asegura que esté por encima de otros elementos */
-  position: fixed;
 }
 
 .logos {
@@ -188,6 +200,7 @@ footer {
   border-color: black;
 }
 
+/* posible borrada */
 .titulos {
   font-weight: bold;
   color: rgb(31, 145, 56);
@@ -203,6 +216,7 @@ footer {
   transform: scale(1.08);
 }
 
+/* posible borrada */
 .contenedor-fondo {
   position: relative; /* Necesario para posicionar la capa superpuesta */
   background-image: url("/proyecto_castillo_barberan/assets/img/foto_nosotros.jpg");
@@ -212,62 +226,12 @@ footer {
   height: 500px;
 }
 
-@media (max-width: 768px) {
-  .contenedor-fondo {
-    height: 300px;
-    padding: 20px;
-    background-position: center top; /* Ajusta la posición de la imagen */
-  }
-
-  .row {
-    flex-direction: column; /* Cambia la disposición a columna */
-    align-items: center;
-  }
-
-  .col-4 {
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .contenedor-equipo {
-    height: 10px;
-    padding: 20px;
-    background-position: center top; /* Ajusta la posición de la imagen */
-  }
-}
-
-/* Media queries para pantallas pequeñas (celulares) */
-@media (max-width: 480px) {
-  .contenedor-fondo {
-    height: 200px;
-    padding: 10px;
-    background-position: center top; /* Ajusta la posición de la imagen */
-  }
-
-  .row {
-    flex-direction: column; /* Cambia la disposición a columna */
-    align-items: center;
-  }
-
-  .col-4 {
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-
-  .contenedor-equipo {
-    height: 10px;
-    padding: 10px;
-    background-position: center top;
-  }
-}
-
 .container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
+/* posible borrada */
 .texto-superpuesto {
   position: relative; /* Asegura que el texto esté encima de la capa */
   z-index: 2; /* Coloca el texto por encima de la capa superpuesta */
@@ -280,6 +244,7 @@ footer {
   font-weight: bold;
 }
 
+/* posible borrada */
 .contenedor-equipo {
   position: relative; /* Necesario para posicionar la capa superpuesta */
   background-image: url("/proyecto_castillo_barberan/assets/img/nosotros_empleados.jpg");
@@ -289,6 +254,7 @@ footer {
   height: 100%;
 }
 
+/* posible borrada */
 .titulo-1 {
   font-weight: bold;
   margin-top: 200px;
@@ -296,11 +262,14 @@ footer {
   margin-right: 480px;
 }
 
+/* posible borrada */
 .objetivo {
   text-align: right;
   margin-right: 0px;
 }
 
+
+/* posible borrada */
 .overlay-1 {
   position: absolute;
   top: 0;
@@ -331,6 +300,7 @@ footer {
 .form-input {
   padding: 6px 20px;
 }
+
 .formularios input {
   width: 100%;
   box-sizing: border-box;
@@ -375,4 +345,33 @@ footer {
 .form-check-label {
   margin-left: 5px;
   margin-top: 2px;
+}
+
+
+/* NOSOTROS */
+
+
+.container-nosotros {
+  border: 5px solid #000;
+  background-color: #abd;
+  min-height: 650px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 55px #2222;
+}
+
+.card-nosotros {
+  width: 500px;
+  padding: 5px;
+
+}
+
+.imagenes-nosotros, .card img {
+    width: 100%;
+    height: 200px; /* o el alto que prefieras */
+    object-fit: cover; /* Esto hace que la imagen rellene el espacio sin deformarse */
+    display: block;
+}
+
+.texto-nosotros {
+  font-size: 17px;
 }

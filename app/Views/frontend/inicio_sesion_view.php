@@ -1,4 +1,5 @@
-<div class="wrapper">
+<body>
+    <div class="wrapper">
               
             <form class="formularios">
                  <h2 class="text-center">Inicie sesión con su cuenta</h2> 
@@ -18,3 +19,4 @@
                 <button type="submit" class="btn boton_formularios">Enviar</button>
             </form>
 </div>
+</body>
