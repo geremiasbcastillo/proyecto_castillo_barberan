@@ -6,7 +6,7 @@
         <div class="col">
             <div>
                 <h2 class ="text-center">Datos de contacto</h2>
-                <div style="margin-top: 50px">
+                <div class="info-contacto" style="margin-top: 50px">
                 <p>Teléfono: 3794-437486</p>
                 <p>Correo: correodecontacto@gmail.com</p>
                 <p>Direccion 9 de julio 1449</p>
@@ -16,6 +16,7 @@
             </div>
         </div>
         <div class="col">
+            <h2>Contactenos</h2>
             <div class="formulario mt-0 ">
                 <?php if(!empty($validation)):?>
                     <div class="alert alert-danger" role="alert">
