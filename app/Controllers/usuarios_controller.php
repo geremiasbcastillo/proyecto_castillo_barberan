@@ -48,12 +48,12 @@ class usuarios_controller extends BaseController
             
             $consulta = new Consultas_model();
             $consulta->insert($data);
-
+            
             return redirect()->route('contacto')->with('mensaje_consulta', 'Su consulta se envió exitosamente!');
         }else{
             $data['titulo']= 'Contacto';
             $data['validation'] = $validation->getErrors();
-            return view('plantillas/encabezado', $data).view('plantillas/nav').view('contenido/contacto_view').view('plantillas/footer.php');
+            return view('plantillas/header_view', $data).view('plantillas/nav_view').view('contenido/contacto_view').view('plantillas/footer_view');
         }
     }
 
@@ -105,7 +105,7 @@ class usuarios_controller extends BaseController
             'telefono_usuarios' => $request->getPost('celular'),
             'contraseña_usuarios' => password_hash($request->getPost('contrasena'), PASSWORD_BCRYPT),
             'perfil_id' => 2, // Cliente
-            'estado_usuarios' => 1 // Activo
+            'persona_estado' => 1 // Activo
         ];             
         $usuario = new usuarios_model();
         $usuario->insert($data);
@@ -114,7 +114,7 @@ class usuarios_controller extends BaseController
         $data['titulo'] = 'Registrarse';
         $data['validation'] = $validation->getErrors();
         
-        return view('plantillas/header.view', $data).view('plantillas/nav.view').view('contenido/registrarse_view').view('plantillas/footer.view');
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('contenido/registrarse_view').view('plantillas/footer_view');
     }
 }
 }

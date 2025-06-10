@@ -14,14 +14,14 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-# CI_ENVIRONMENT = production
+# CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
 #--------------------------------------------------------------------
-
-app.baseURL = 'http://localhost/proyecto_barberan/'
-# If you have trouble with `.`, you could also use `_`.
+so 
+app.baseURL = 'http://localhost/proyecto_castillo_barberan/'
+# If you have trouble with `.`, you could aluse `_`.
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false

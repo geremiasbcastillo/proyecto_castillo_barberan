@@ -31,7 +31,7 @@
                 <?php if (session('mensaje_consulta')){
                     echo session('mensaje_consulta');
                 } ?>
-                    <?php echo form_open('usuarios_controller::add_consulta', ['class' => 'formulario']); ?> 
+                    <?php echo form_open('consulta_usuario', ['class' => 'formulario']); ?> 
                     <!--<form action="" namespace='usuarios_controller::add_consulta' method="post" class="formulario">-->
                         <div class="mb-2 formulario-label">
                             <label for="nombre" class="form-label">Ingrese su nombre:</label>
@@ -43,7 +43,7 @@
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="mail" class="form-label">Ingrese su correo:</label>
-                            <input type="email" name="mail" class="form-control" placeholder="benjamincastillo@gmail.com" >
+                            <input type="email" name="correo" class="form-control" placeholder="benjamincastillo@gmail.com" >
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
