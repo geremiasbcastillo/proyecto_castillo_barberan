@@ -39,4 +39,11 @@ $routes->get('logout', 'Usuarios_controller::cerrar_sesion');
 $routes->get('user_admin', 'Usuarios_controller::admin');
 
 $routes->get('agregar', 'Productos_controller::agregar_producto');
+
 $routes->post('agregar_producto', 'Productos_controller::registrar_producto');
+
+$routes->get('gestionar', 'Productos_controller::listar_productos');
+
+$routes->get('editar_producto/(:num)', 'Productos_controller::editar_producto/$1');
+
+$routes->post('actualizar', 'Productos_controller::actualizar_producto');

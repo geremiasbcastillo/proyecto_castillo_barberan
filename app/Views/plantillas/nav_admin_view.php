@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="inicio"><?php echo '<img src="assets/img/logo.png" class ="logo";>' ?></a>
+    <a class="navbar-brand" href="inicio"><img src="<?= base_url('assets/img/logo.png') ?>" class="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
           <a class="nav-link boton-nav" href="agregar">Agregar productos</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="#">Gestionar productos</a>
+          <a class="nav-link boton-nav" href="gestionar">Gestionar productos</a>
         </li>
         <?php if (session('login')) { ?>
           <li class="nav-item mx-3 pl-3">
