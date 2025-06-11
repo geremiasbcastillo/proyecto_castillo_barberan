@@ -35,21 +35,21 @@
                     <!--<form action="" namespace='usuarios_controller::add_consulta' method="post" class="formulario">-->
                         <div class="mb-2 formulario-label">
                             <label for="nombre" class="form-label">Ingrese su nombre:</label>
-                            <input type="text" minlength="3" class="form-control" name="nombre" value="" maxlength="20" placeholder="Juan Gomez">
+                            <?php echo form_input(['name'=>'nombre', 'id'=>'nombre', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'Juan Gomez', 'maxlength'=>'20']);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="telefono" class="form-label">Ingrese su teléfono:</label>
-                            <input type="number" class="form-control" name="telefono" value="" maxlength="15" placeholder="3795-150953" >
+                            <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'number', 'class'=>'form-control', 'placeholder'=>'3794-123456', 'maxlength'=>'15']);?>
                         </div>
                         <div class="mb-2 formulario-label">
-                            <label for="mail" class="form-label">Ingrese su correo:</label>
-                            <input type="email" name="correo" class="form-control" placeholder="benjamincastillo@gmail.com" >
+                            <label for="correo" class="form-label">Ingrese su correo:</label>
+                            <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com']);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
                             <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."></textarea>
                         </div>
-                        <button type="submit" class="btn boton-form">Enviar</button>
+                        <?php echo form_submit('Enviar', 'Enviar', "class='btn boton-form'");?>
                     <?php echo form_close(); ?>
                 </div>
         </div>

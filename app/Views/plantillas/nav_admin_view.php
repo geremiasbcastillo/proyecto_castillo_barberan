@@ -29,23 +29,8 @@
           <a class="nav-link boton-nav" href="contacto">Contacto</a>
         </li>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="inicio_sesion">Iniciar sesion</a>
+          <a class="nav-link boton-nav" href="inicio_sesion">Salir sesion</a>
         </li>
-        <?php if(session('login')){?>
-        <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="#">Ver carrito</a>
-        </li>
-        <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="#"><?php echo session('apellido');?></a>
-        </li>
-        <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="logout">Cerrar sesion</a>
-        </li>
-        <?php } else { ?>
-        <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="registrarse">Registrarse</a>
-        </li>
-        <?php } ?>
       </ul>
     </div>
   </div>

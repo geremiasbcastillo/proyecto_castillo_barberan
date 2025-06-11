@@ -1,11 +1,11 @@
 <?php
 
-namespace APP\Controllers;
+namespace App\Controllers;
 
 use App\Models\usuarios_model;
 use App\Models\Consultas_model;
 
-class usuarios_controller extends BaseController
+class Usuarios_controller extends BaseController
 {
     public function add_consulta(){
         $validation = \Config\Services::validation();
@@ -53,7 +53,7 @@ class usuarios_controller extends BaseController
         }else{
             $data['titulo']= 'Contacto';
             $data['validation'] = $validation->getErrors();
-            return view('plantillas/header_view', $data).view('plantillas/nav_view').view('contenido/contacto_view').view('plantillas/footer_view');
+            return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/contacto_view').view('plantillas/footer_view');
         }
     }
 
@@ -81,7 +81,7 @@ class usuarios_controller extends BaseController
             'correo' => [
                 'required' => 'El correo es obligatorio.',
                 'valid_email' => 'El correo debe ser un formato válido.',
-                'is_Unique' => 'El correo ya está registrado.'
+                'is_unique' => 'El correo ya está registrado.'
             ],
             'celular' => [
                 'required' => 'El número de celular es obligatorio.',
@@ -89,9 +89,9 @@ class usuarios_controller extends BaseController
             ],
             'contrasena' => [
                 'required' => 'La contraseña es obligatoria.',
-                  'min_length' => 'La contraseña debe tener al menos 8 caracteres.',
+                'min_length' => 'La contraseña debe tener al menos 8 caracteres.',
             ],
-            'repetir_contrasena' => [
+            'repass' => [
                 'required' => 'Debe repetir su contraseña.',
                 'matches' => "Las contraseñas no coinciden."
             ]
@@ -99,22 +99,88 @@ class usuarios_controller extends BaseController
     );
     if($validation->withRequest($request)->run()){
         $data = [
-            'apellido_usuarios' => $request->getPost('apellidos'),
             'nombre_usuarios' => $request->getPost('nombres'),
+            'apellido_usuarios' => $request->getPost('apellidos'),
             'correo_usuarios' => $request->getPost('correo'),
             'telefono_usuarios' => $request->getPost('celular'),
             'contraseña_usuarios' => password_hash($request->getPost('contrasena'), PASSWORD_BCRYPT),
             'perfil_id' => 2, // Cliente
             'persona_estado' => 1 // Activo
         ];             
-        $usuario = new usuarios_model();
+        $usuario = new Usuarios_model();
         $usuario->insert($data);
         return redirect()->route('registrarse')->with('mensaje_registro', 'Usuario registrado exitosamente!');   
     } else{
         $data['titulo'] = 'Registrarse';
         $data['validation'] = $validation->getErrors();
         
-        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('contenido/registrarse_view').view('plantillas/footer_view');
+        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/registrarse_view').view('plantillas/footer_view');
+        }
     }
-}
+
+    public function buscar_usuario(){
+        $validation = \Config\Services::validation();
+        $request = \Config\Services::request();
+        $session = session();
+        $validation->setRules([
+            'correo' => 'required|valid_email',
+            'contrasena' => 'required|min_length[8]'
+        ],
+        [   //Errors
+            'correo' => [
+                'required' => 'El correo es obligatorio.',
+                'valid_email' => 'El correo debe ser un formato válido.'
+            ],
+            'contrasena' => [
+                'required' => 'La contraseña es obligatoria.',
+                'min_length' => 'La contraseña debe tener al menos 8 caracteres.'
+            ]
+        ]);
+
+        if(!$validation->withRequest($request)->run()){
+            $data['titulo'] = 'Inicio de sesión';
+            $data['validation'] = $validation->getErrors();
+            return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/inicio_sesion_view').view('plantillas/footer_view');
+        }
+        $mail = $request->getPost('correo');
+        $pass = $request->getPost('contrasena');
+
+        $usuario = new Usuarios_model();
+        $user = $usuario->where('correo_usuarios', $mail)->where('persona_estado', 1)->first();
+
+        if($user && password_verify($pass, $user['contraseña_usuarios'])){
+            $data = [
+                'id' => $user['id_usuarios'],
+                'nombre' => $user['nombre_usuarios'],
+                'apellido' => $user['apellido_usuarios'],
+                'correo' => $user['correo_usuarios'],
+                'telefono' => $user['telefono_usuarios'],
+                'perfil_id' => $user['perfil_id'],
+                'login' => true
+            ];
+            $session->set($data);
+            switch ($user['perfil_id']) {
+                case 1: // Admin
+                    return redirect()->route('user_admin');
+                case 2: // Cliente
+                    return redirect()->route('inicio');
+                break;
+                }
+            } else{
+                return redirect()->route('inicio_sesion')->with('mensaje_error', 'Usuario y/o contraseña incorrectos!.');
+            }
+        }      
+    
+    public function cerrar_sesion(){
+        $session = session();
+        $session->destroy();
+        return redirect()->route('inicio');
+    }
+
+    public function admin(){
+        $data['titulo'] = 'Panel de administración';
+        
+        return view('plantillas/header_view', $data).view('plantillas/nav_admin_view').view('backend/contenido_admin_view');
+    }
+
 }

@@ -27,5 +27,13 @@ $routes->get('terminos', 'Home::terminos');;
 
 $routes->get('registrarse', 'Home::registrarse');
 
-$routes->post('registro_usuario', 'usuarios_controller::add_cliente');
-$routes->post('consulta_usuario', 'usuarios_controller::add_consulta');
+$routes->post('registro_usuario', 'Usuarios_controller::add_cliente');
+$routes->post('consulta_usuario', 'Usuarios_controller::add_consulta');
+
+$routes->get('login_cliente', 'Usuarios_controller::login');
+
+$routes->post('verificar_usuario', 'Usuarios_controller::buscar_usuario');
+
+$routes->get('logout', 'Usuarios_controller::cerrar_sesion');
+
+$routes->get('user_admin', 'Usuarios_controller::admin');
