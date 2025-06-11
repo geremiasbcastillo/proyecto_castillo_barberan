@@ -147,6 +147,7 @@ class Usuarios_controller extends BaseController
 
         $usuario = new Usuarios_model();
         $user = $usuario->where('correo_usuarios', $mail)->where('persona_estado', 1)->first();
+        
 
         if($user && password_verify($pass, $user['contraseña_usuarios'])){
             $data = [
@@ -156,15 +157,16 @@ class Usuarios_controller extends BaseController
                 'correo' => $user['correo_usuarios'],
                 'telefono' => $user['telefono_usuarios'],
                 'perfil_id' => $user['perfil_id'],
-                'login' => true
+                'login' => true,
             ];
             $session->set($data);
             switch ($user['perfil_id']) {
-                case 1: // Admin
+                case '1': // Admin
                     return redirect()->route('user_admin');
-                case 2: // Cliente
+                    break;
+                case '2': // Cliente
                     return redirect()->route('inicio');
-                break;
+                    break;
                 }
             } else{
                 return redirect()->route('inicio_sesion')->with('mensaje_error', 'Usuario y/o contraseña incorrectos!.');
