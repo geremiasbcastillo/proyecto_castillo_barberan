@@ -299,7 +299,6 @@ footer {
   background-color: transparent;
   border-radius: 4px;
   color: #000;
-  
 }
 
 .formularios h2 {
@@ -313,10 +312,9 @@ footer {
 
 .boton_formularios {
   border: 1px solid #000 !important;
-  margin-left: 20px !important;
   background-color: #dddd !important;
   margin-top: 15px !important;
-  max-width: 100px;
+  max-width: 110px;
 }
 
 .boton_formularios:hover {
@@ -367,3 +365,8 @@ footer {
 .texto-nosotros {
   font-size: 17px;
 }
+
+/* registrarse */
+.boton_registrarse {
+  margin-left: 20px;
+} 

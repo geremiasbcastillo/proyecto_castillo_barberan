@@ -50,7 +50,7 @@
             </label>
         </div>
         <div>
-            <?php echo form_submit('Registrarse', 'Registrarse', "class='btn boton_formularios'");?>
+            <?php echo form_submit('Registrarse', 'Registrarse', "class='btn boton_formularios boton_registrarse'");?>
         </div>
     <?php echo form_close();?>
     
