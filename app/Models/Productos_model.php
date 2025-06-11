@@ -4,15 +4,14 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Categorias_model extends Model{
+class Productos_model extends Model{
+    protected $table = 'productos';
+    protected $primaryKey = 'id_producto';
 
-    protected $table = 'categorias';
-    protected $primaryKey = 'id_categoria';
-    
     protected $useAutoIncrement = true;
     
-    protected $allowedFields = ['nombre_categoria'];
-    
+    protected $allowedFields = ['producto_descripcion', 'producto_nombre', 'producto_categoria', 'producto_precio', 'producto_cantidad'];
+
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
 
@@ -20,5 +19,5 @@ class Categorias_model extends Model{
     protected $createdField  = '';
     protected $updatedField  = '';
     protected $validationRules = [];
-
+    
 }

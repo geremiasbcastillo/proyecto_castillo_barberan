@@ -8,19 +8,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav active" aria-current="page" href="inicio">Ver consultas</a>
+          <a class="nav-link boton-nav active" aria-current="page" href="#">Ver consultas</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="nosotros">Lista de productos</a>
+          <a class="nav-link boton-nav" href="#">Lista de productos</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="comercializacion">Lista de ventas</a>
+          <a class="nav-link boton-nav" href="#">Lista de ventas</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="comercializacion">Agregar productos</a>
+          <a class="nav-link boton-nav" href="agregar">Agregar productos</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="comercializacion">Gestionar productos</a>
+          <a class="nav-link boton-nav" href="#">Gestionar productos</a>
         </li>
         <?php if (session('login')) { ?>
           <li class="nav-item mx-3 pl-3">

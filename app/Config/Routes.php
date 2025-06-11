@@ -37,3 +37,6 @@ $routes->post('verificar_usuario', 'Usuarios_controller::buscar_usuario');
 $routes->get('logout', 'Usuarios_controller::cerrar_sesion');
 
 $routes->get('user_admin', 'Usuarios_controller::admin');
+
+$routes->get('agregar', 'Productos_controller::agregar_producto');
+$routes->post('agregar_producto', 'Productos_controller::registrar_producto');
