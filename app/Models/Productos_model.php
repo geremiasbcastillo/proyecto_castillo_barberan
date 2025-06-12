@@ -10,7 +10,7 @@ class Productos_model extends Model{
 
     protected $useAutoIncrement = true;
     
-    protected $allowedFields = ['producto_descripcion', 'producto_nombre', 'producto_categoria', 'producto_precio', 'producto_cantidad'];
+    protected $allowedFields = ['producto_descripcion', 'producto_nombre', 'producto_categoria', 'producto_precio', 'producto_cantidad', 'producto_imagen', 'producto_estado'];
 
     protected $returnType = 'array';
     protected $useSoftDeletes = false;

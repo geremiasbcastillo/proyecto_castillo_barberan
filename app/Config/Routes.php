@@ -44,6 +44,10 @@ $routes->post('agregar_producto', 'Productos_controller::registrar_producto');
 
 $routes->get('gestionar', 'Productos_controller::listar_productos');
 
-$routes->get('editar_producto/(:num)', 'Productos_controller::editar_producto/$1');
+$routes->get('editar/(:num)', 'Productos_controller::editar_producto/$1');
 
 $routes->post('actualizar', 'Productos_controller::actualizar_producto');
+
+$routes->get('eliminar/(:num)', 'Productos_controller::eliminar_producto/$1');
+
+$routes->get('activar/(:num)', 'Productos_controller::activar_producto/$1');

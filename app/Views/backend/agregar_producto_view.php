@@ -54,6 +54,7 @@
             <div class="form-group mt-3">
                 <?php echo form_submit('Agregar', 'Agregar', "class='btn btn-success'"); ?>
             </div>
+            
         <?php echo form_close(); ?>  
     </div>
 </div>

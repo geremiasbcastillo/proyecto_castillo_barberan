@@ -55,11 +55,12 @@ class Productos_controller extends BaseController
                 'is_image' => 'El archivo seleccionado debe ser una imagen válida.'
             ]
         ]);
+        
         if($validation->withRequest($request)->run()){
             $img = $this->request->getFile('imagen');
             $imgName = $img->getRandomName();
             $img->move(ROOTPATH.'public/assets/upload', $imgName);
-
+                
             $data = [
                 'producto_descripcion' => $request->getPost('descripcion'),
                 'producto_nombre' => $request->getPost('nombre'),
@@ -82,6 +83,7 @@ class Productos_controller extends BaseController
                 .view('plantillas/nav_admin_view')
                 .view('backend/agregar_producto_view');
         }
+        
     }
     
     public function listar_productos(){
@@ -145,6 +147,7 @@ class Productos_controller extends BaseController
                 'is_image' => 'El archivo seleccionado debe ser una imagen válida.'
             ]
         ]);
+        
         if($validation->withRequest($request)->run()){
             $id = $request->getPost('id_producto');
             $data=[
@@ -173,21 +176,17 @@ class Productos_controller extends BaseController
     }
 
     public function eliminar_producto($id = null){
-        $data = array(
-            'producto_estado' => 0
-        );
+        $data = ['producto_estado' => 0];
         $producto = new Productos_model();
         $producto->update($id, $data);
-        return redirect()->route('gestionar');
+        return redirect()->route('gestionar')->with('mensaje', 'Producto desactivado correctamente!');
     }
 
     public function activar_producto($id = null){
-        $data = array(
-            'producto_estado' => 1
-        );
+        $data = array('producto_estado' => 1);
         $producto = new Productos_model();
         $producto->update($id, $data);
-        return redirect()->route('gestionar');
+        return redirect()->route('gestionar')->with('mensaje', 'Producto desactivado correctamente!');
     }
 
 }
