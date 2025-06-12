@@ -189,4 +189,15 @@ class Productos_controller extends BaseController
         return redirect()->route('gestionar')->with('mensaje', 'Producto desactivado correctamente!');
     }
 
+    public function listar_productos_catalogo(){
+        $producto = new Productos_model();
+        $data['producto'] = $producto->where('producto_estado', 1)->where('producto_cantidad >', 0)
+        ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();    
+    
+        $data['titulo'] = 'Catalogo de Productos';
+
+        return view('plantillas/header_view', $data)
+            .view('plantillas/nav_view')
+            .view('frontend/catalogo_productos_view').view('plantillas/footer_view');
+    }
 }

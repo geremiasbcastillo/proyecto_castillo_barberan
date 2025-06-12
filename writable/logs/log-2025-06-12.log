@@ -161,3 +161,1174 @@ DEBUG - 2025-06-12 01:36:54 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-06-12 01:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-12 01:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-12 01:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 04:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 04:21:09 --> ErrorException: Undefined variable $libro
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 4.
+ 1 APPPATH\Views\frontend\catalogo_productos_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libro', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 5 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 04:25:40 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 4.
+ 1 APPPATH\Views\frontend\catalogo_productos_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 5 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 04:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 04:25:42 --> ErrorException: Undefined variable $producto
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 4.
+ 1 APPPATH\Views\frontend\catalogo_productos_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\catalogo_productos_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 5 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 04:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:06:56 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:48 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:49 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:49 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:50 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:07:51 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:09:04 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:09:05 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:09:05 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:09:05 --> Error: Call to undefined function form_open()
+[Method: GET, Route: catalogo]
+in APPPATH\Views\frontend\catalogo_productos_view.php on line 15.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/catalogo_productos_view', [], true)
+ 4 APPPATH\Controllers\Productos_controller.php(201): view('frontend/catalogo_productos_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Productos_controller->listar_productos_catalogo()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:09:39 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:11:27 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:11:29 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:14:05 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:14:07 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:14:09 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:15:02 --> Error: Class "CodeIgniter\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::cart(false)
+ 2 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 3 APPPATH\Controllers\Cart_controller.php(20): Config\Services::cart()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:15:04 --> Error: Class "CodeIgniter\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::cart(false)
+ 2 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 3 APPPATH\Controllers\Cart_controller.php(20): Config\Services::cart()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:17:49 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:21:22 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:23:07 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-12 05:23:13 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:26:07 --> Error: Class "CodeIgniter\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::cart(false)
+ 2 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 3 APPPATH\Controllers\Cart_controller.php(20): Config\Services::cart()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:26:09 --> Error: Class "CodeIgniter\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::cart(false)
+ 2 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 3 APPPATH\Controllers\Cart_controller.php(20): Config\Services::cart()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:26:23 --> Error: Class "CodeIgniter\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in APPPATH\Config\Services.php on line 27.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::cart(false)
+ 2 APPPATH\Config\Services.php(25): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 3 APPPATH\Controllers\Cart_controller.php(20): Config\Services::cart()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:27:58 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: POST, Route: agregar_al_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(20): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->agregar_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:34:14 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:10 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:10 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:12 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:12 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:12 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:12 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:13 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:13 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:13 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:49 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:49 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:50 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:50 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:50 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:56 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:41:58 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:44:10 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:44:10 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-12 05:44:11 --> Error: Class "JasonN\Cart\Cart" not found
+[Method: GET, Route: ver_carrito]
+in FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php on line 35.
+ 1 SYSTEMPATH\Config\BaseService.php(312): CodeIgniterCart\Config\Services::cart(false)
+ 2 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('cart', [...])
+ 3 FCPATH\vendor\jason-napolitano\codeigniter4-cart-module\src\Config\Services.php(33): CodeIgniter\Config\BaseService::getSharedInstance('cart')
+ 4 SYSTEMPATH\Config\BaseService.php(321): CodeIgniterCart\Config\Services::cart()
+ 5 APPPATH\Controllers\Cart_controller.php(11): CodeIgniter\Config\BaseService::__callStatic('cart', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:47:26 --> Cart Class Initialized
+CRITICAL - 2025-06-12 05:47:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\Views\plantillas\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\plantillas\footer_view.php -->
+"
+[Method: GET, Route: ver_carrito]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+', [], true)
+ 3 APPPATH\Controllers\Cart_controller.php(16): view('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:47:27 --> Cart Class Initialized
+CRITICAL - 2025-06-12 05:47:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\Views\plantillas\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\plantillas\footer_view.php -->
+"
+[Method: GET, Route: ver_carrito]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+', [], true)
+ 3 APPPATH\Controllers\Cart_controller.php(16): view('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:48:03 --> Cart Class Initialized
+DEBUG - 2025-06-12 05:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:48:03 --> Cart Class Initialized
+CRITICAL - 2025-06-12 05:48:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\Views\plantillas\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\Views\plantillas\footer_view.php -->
+"
+[Method: GET, Route: ver_carrito]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+', [], true)
+ 3 APPPATH\Controllers\Cart_controller.php(16): view('frontend/carrito_view<!-- DEBUG-VIEW START 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+
+<footer class="text-center text-lg-start mt-3">
+  <!-- Copyright -->
+  <div class="container-fluid mt-2">
+    <div class="col text-center">
+      <a href="terminos" class="text-body ">Terminos y Usos</a>
+    </div>
+    <div class="col">
+      <div class="text-center p-3">
+        © 2025 Copyright:
+        <a class="text-body" href="#">Castillo - Barberan</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright -->
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 3 APPPATH\\Views\\plantillas\\footer_view.php -->
+')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->ver_carrito()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-12 05:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:49:31 --> Cart Class Initialized
+DEBUG - 2025-06-12 05:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 05:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:50:07 --> Cart Class Initialized
+DEBUG - 2025-06-12 05:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 05:50:07 --> Cart Class Initialized
+DEBUG - 2025-06-12 05:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:15:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:16:21 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:16:21 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:17:43 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-12 06:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:08 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:09 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:09 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:30 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:31 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:31 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:31 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:32 --> Cart Class Initialized
+DEBUG - 2025-06-12 06:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-12 06:19:32 --> Cart Class Initialized

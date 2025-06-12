@@ -15,15 +15,8 @@
         <li class="nav-item mx-3 pl-3 ">
           <a class="nav-link boton-nav" href="comercializacion">Comercialización</a>
         </li>
-        <li class="nav-item mx-3 pl-3 dropdown">
-          <a class="nav-link boton-nav dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Categorias
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="botines">Botines</a></li>
-            <li><a class="dropdown-item" href="camisetas">Camisetas</a></li>
-            <li><a class="dropdown-item" href="entrenamiento">Entrenamiento</a></li>
-          </ul>
+        <li class="nav-item mx-3 pl-3 ">
+          <a class="nav-link boton-nav" href="catalogo">Catálogo</a>
         </li>
         <li class="nav-item mx-3 pl-3">
           <a class="nav-link boton-nav" href="contacto">Contacto</a>
