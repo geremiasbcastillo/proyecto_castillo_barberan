@@ -1,5 +1,10 @@
 <?php helper('form'); ?>
 <div class="container">
+    <?php if(session('mensaje')){ ?>
+            <div class="alert alert-success" role="alert">
+                <?= session('mensaje') ?>
+            </div>
+        <?php }?>
     <h1 class="display-4 text-center">Lista de productos</h1>
     <div class="row">
         <?php foreach($producto as $row) { ?>
