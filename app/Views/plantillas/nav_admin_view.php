@@ -11,9 +11,6 @@
           <a class="nav-link boton-nav active" aria-current="page" href="#">Ver consultas</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="#">Lista de productos</a>
-        </li>
-        <li class="nav-item mx-3 pl-3 ">
           <a class="nav-link boton-nav" href="#">Lista de ventas</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
