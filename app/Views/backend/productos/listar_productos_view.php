@@ -1,6 +1,6 @@
 <?php helper('form'); ?>
 <h1 class="text-center">Listado de productos disponibles</h1>
-<div class="container">
+<div class="container container-listar-productos">
     <table id="mytable" class="table table-bordred table-striped table-hover">
         <thead>
             <th>Nombre</th>
