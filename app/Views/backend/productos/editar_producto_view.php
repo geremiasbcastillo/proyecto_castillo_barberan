@@ -52,8 +52,11 @@
 
         <div class="form-group">
             <label for="imagen">Imagen</label>
-            <img src="<?php echo base_url('assets/uploads/'.$producto['producto_imagen']); ?>" alt="" height="100" width="100" />
+            <img src="<?php echo base_url('public/assets/upload/'.$producto['producto_imagen']); ?>" alt="" height="100" width="100" />
             <?php echo form_input(['name' => 'imagen', 'id' => 'imagen', 'type'=>'file']); ?>
+            <?php if(isset($validation['imagen'])){
+                echo form_hidden('imagen', $producto['producto_imagen']);
+            }?>
         </div>
         <?php echo form_hidden('id_producto', $producto["id_producto"]); ?>
 

@@ -55,4 +55,7 @@ $routes->get('activar/(:num)', 'Productos_controller::activar_producto/$1');
 $routes->get('catalogo', 'Productos_controller::listar_productos_catalogo');
 
 $routes->post('agregar_al_carrito', 'Cart_controller::agregar_carrito');
+
 $routes->get('ver_carrito', 'Cart_controller::ver_carrito');
+
+$routes->get('ventas', 'Cart_controller::guardar_venta');
