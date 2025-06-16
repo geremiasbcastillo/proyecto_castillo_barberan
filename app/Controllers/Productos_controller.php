@@ -118,7 +118,7 @@ class Productos_controller extends BaseController
             'categoria' => 'required|is_not_unique[categorias.id_categoria]',
             'precio' => 'required|decimal',
             'cantidad' => 'required|integer',
-            'imagen' => 'uploaded[imagen]|max_size[imagen,4096]|is_image[imagen]'
+            'imagen' => 'max_size[imagen,4096]|is_image[imagen]'
         ],
         [   //Errors
             'nombre' => [

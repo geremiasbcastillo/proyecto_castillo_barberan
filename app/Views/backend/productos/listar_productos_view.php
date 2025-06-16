@@ -21,8 +21,8 @@
                     <td><?php echo $row['nombre_categoria'];?></td>
                     <td><?php echo $row['producto_precio'];?></td>
                     <td><?php echo $row['producto_cantidad'];?></td>
-                    <td><img src="<?php echo base_url('assets/uploads/'.$row['producto_imagen']); ?>" alt="" height ="100" width ="100"/></td>
-                    <td><a class="btn btn-success" href="<?php echo base_url('editar_producto/'.$row['id_producto']);?>">Editar</a></td>
+                    <td><img src="<?php echo base_url('public/assets/upload/'.$row['producto_imagen']); ?>" alt="" height ="100" width ="100"/></td>
+                    <td><a class="btn btn-success" href="<?php echo base_url('editar/'.$row['id_producto']);?>">Editar</a></td>
                 <?php 
                 if($row['producto_estado'] == 1) 
                 {?>
