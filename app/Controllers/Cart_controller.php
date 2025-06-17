@@ -84,19 +84,18 @@ class Cart_controller extends BaseController
         $venta = new Ventas_model();
         $detalle = new Detalle_ventas_model();
         $producto = new Productos_model();
-        
-        $data['ventas'] = $venta->join('clientes', 'clientes.id_cliente = ventas.cliente_id')
+        $data = ['ventas' => $venta
+            ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
+            ->findAll()];
+
+        $data['detalle_ventas'] = $detalle
+            ->join('ventas', 'ventas.id_ventas = detalle_ventas.venta_id')
+            ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
             ->findAll();
-        
-        foreach ($data['ventas'] as &$venta) {
-            $venta['detalles'] = $detalle->where('venta_id', $venta['id_ventas'])
-                ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
-                ->findAll();
-        }
         
         $data['titulo'] = 'Historial de Ventas';
         return view('plantillas/header_view', $data)
             .view('plantillas/nav_admin_view')
-            .view('backend/ventas/listar_ventas_view');
+            .view('backend/listar_ventas_view');
     }
 }

@@ -397,3 +397,15 @@ footer {
   box-shadow: 0px 0px 55px #2222;
   border: 1px solid #000;
 }
+
+.lista-productos {
+  text-align: center;
+  background-color: #fff;
+  align-items: left;
+  min-width: 30vh;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  width: 0%;
+  border-radius: 8px;
+  border: 1px solid #000;
+}

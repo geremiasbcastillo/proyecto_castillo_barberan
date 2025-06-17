@@ -61,3 +61,5 @@ $routes->get('ver_carrito', 'Cart_controller::ver_carrito');
 $routes->get('ventas', 'Cart_controller::guardar_venta');
 
 $routes->get('ver_consultas', 'Usuarios_controller::listar_consultas');
+
+$routes->get('ver_ventas', 'Cart_controller::listar_ventas');

@@ -1,26 +1,44 @@
-<?php if($venta == NULL) { ?>
+<?php if($ventas == NULL) { ?>
     <h2 class="text-center alert alert-danger">No existen ventas guardadas!</h2>
 <?php } else { ?>
 <div class="container formulario-agregar-producto">
     <h1 class="text-center">Listado de Ventas</h1>
-    <table id="mytable" class="table table-bordered table-striped">
-        <thead>
-            <tr>
+    <div class="row">
+        <div class="col-2 col-md-2">
+            <?php foreach($ventas as $row){
                 
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach($venta as $consulta) { ?>
-                <tr>
-                    <td><?php echo esc($consulta['nombre_mensaje']); ?></td>
-                    <td><?php echo esc($consulta['telefono_mensaje']); ?></td>
-                    <td><?php echo esc($consulta['correo_mensaje']); ?></td>
-                    <td><?php echo esc($consulta['titulo_mensaje']); ?></td>
-                    <td><?php echo esc($consulta['consulta_mensaje']); ?></td>
-                    
-                </tr>
-            <?php } ?>
-        </tbody>
-    </table>
+                $id = $row['id_ventas'];
+                $sumador = 0?>
+                <div class="lista-productos">
+                <h5><?php echo esc($row['nombre_usuarios'].' '.$row['apellido_usuarios']); ?></h5>
+                <h6><?php echo esc('Numero de compra: '.$row['id_ventas']); ?></h6>
+                <h6><?php echo esc($row['venta_fecha']); ?></h6>
+                <h5>Productos</h5>
+                <table id="mytable" class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nombre del producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <?php foreach($detalle_ventas as $row) { ?>
+                        <?php if($row['id_ventas'] == $id) { ?>                    
+                            <tbody>
+                                <tr>
+                                    <td><?php echo esc($row['producto_nombre']); ?></td>
+                                    <td><?php echo esc($row['detalle_cantidad']); ?></td>
+                                    <td><?php echo esc('$'.$row['detalle_precio']*$row['detalle_cantidad']); ?></td>
+                                </tr>
+                                <?php $sumador = $sumador + $row['detalle_precio']*$row['detalle_cantidad'];?>
+                            </tbody>
+                        <?php } ?>
+                    <?php } ?>
+                </table>
+                <h5>Total: <?php echo esc('$'.$sumador); ?></h5>
+                </div>
+            <?php }?>
+        </div>
+    </div>
 </div>
 <?php } ?>
