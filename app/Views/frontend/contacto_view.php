@@ -46,6 +46,10 @@
                             <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com']);?>
                         </div>
                         <div class="mb-2 formulario-label">
+                            <label for="correo" class="form-label">Motivo de su consulta:</label>
+                            <?php echo form_input(['name'=>'titulo', 'id'=>'titulo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'Cambio de una prenda']);?>
+                        </div>
+                        <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
                             <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."></textarea>
                         </div>

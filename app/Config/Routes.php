@@ -59,3 +59,5 @@ $routes->post('agregar_al_carrito', 'Cart_controller::agregar_carrito');
 $routes->get('ver_carrito', 'Cart_controller::ver_carrito');
 
 $routes->get('ventas', 'Cart_controller::guardar_venta');
+
+$routes->get('ver_consultas', 'Usuarios_controller::listar_consultas');

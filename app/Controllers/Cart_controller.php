@@ -73,4 +73,30 @@ class Cart_controller extends BaseController
         $cart->destroy();
         return redirect()->route('catalogo')->with('mensaje', 'Compra realizada exitosamente!');
     }
+
+    public function eliminar_item($rowid){
+        $cart = \Config\Services::cart();
+        $cart->remove($rowid);
+        return redirect()->route('ver_carrito')->with('mensaje', 'Producto eliminado del carrito exitosamente!');
+    }
+
+    public function listar_ventas(){
+        $venta = new Ventas_model();
+        $detalle = new Detalle_ventas_model();
+        $producto = new Productos_model();
+        
+        $data['ventas'] = $venta->join('clientes', 'clientes.id_cliente = ventas.cliente_id')
+            ->findAll();
+        
+        foreach ($data['ventas'] as &$venta) {
+            $venta['detalles'] = $detalle->where('venta_id', $venta['id_ventas'])
+                ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
+                ->findAll();
+        }
+        
+        $data['titulo'] = 'Historial de Ventas';
+        return view('plantillas/header_view', $data)
+            .view('plantillas/nav_admin_view')
+            .view('backend/ventas/listar_ventas_view');
+    }
 }

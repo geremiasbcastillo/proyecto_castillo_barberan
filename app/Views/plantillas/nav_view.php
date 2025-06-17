@@ -10,33 +10,33 @@
           <a class="nav-link boton-nav active" aria-current="page" href="inicio">Inicio</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="nosotros">Nosotros</a>
+          <a class="nav-link boton-nav" href="<?= base_url('nosotros') ?>">Nosotros</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="comercializacion">Comercialización</a>
+          <a class="nav-link boton-nav" href="<?= base_url('comercializacion') ?>">Comercialización</a>
         </li>
         <li class="nav-item mx-3 pl-3 ">
-          <a class="nav-link boton-nav" href="catalogo">Catálogo</a>
+          <a class="nav-link boton-nav" href="<?= base_url('catalogo') ?>">Catálogo</a>
         </li>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="contacto">Contacto</a>
+          <a class="nav-link boton-nav" href="<?= base_url('contacto') ?>">Contacto</a>
         </li>
         <?php if(session('login')){?>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="#">Ver carrito</a>
+          <a class="nav-link boton-nav" href="<?= base_url('ver_carrito') ?>">Ver carrito</a>
         </li>
         <li class="nav-item mx-3 pl-3">
           <a class="nav-link boton-nav" href="#"><?php echo session('apellido');?></a>
         </li>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="logout">Cerrar sesion</a>
+          <a class="nav-link boton-nav" href="<?= base_url('logout') ?>">Cerrar sesion</a>
         </li>
         <?php } else { ?>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="inicio_sesion">Iniciar sesion</a>
+          <a class="nav-link boton-nav" href="<?= base_url('inicio_sesion') ?>">Iniciar sesion</a>
         </li>
         <li class="nav-item mx-3 pl-3">
-          <a class="nav-link boton-nav" href="registrarse">Registrarse</a>
+          <a class="nav-link boton-nav" href="<?= base_url('registrarse') ?>">Registrarse</a>
         </li>
         <?php } ?>
       </ul>

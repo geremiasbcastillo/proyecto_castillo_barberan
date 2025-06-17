@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\usuarios_model;
+use App\Models\Usuarios_model;
 use App\Models\Consultas_model;
 
 class Usuarios_controller extends BaseController
@@ -16,6 +16,7 @@ class Usuarios_controller extends BaseController
                 'nombre' => 'required|max_length[50]',
                 'telefono' => 'required|max_length[20]',
                 'correo' => 'required|valid_email',
+                'titulo' => 'required|max_length[50]',
                 'consulta' => 'required|max_length[150]',
             ],
             [   //Errors
@@ -31,6 +32,10 @@ class Usuarios_controller extends BaseController
                     'required' => 'El correo es obligatorio.',
                     'valid_email' => 'El correo debe ser un correo electrónico válido.'
                 ],
+                'titulo' => [
+                    'required' => 'El titulo de la consulta es obligatorio.',
+                    'max_length' => 'El titulo de la consulta no puede exceder los 50 caracteres.'
+                ],
                 'consulta' => [
                     'required' => 'El motivo de la consulta es obligatorio.',
                     'max_length' => 'La consulta no puede exceder los 150 caracteres.'
@@ -43,6 +48,7 @@ class Usuarios_controller extends BaseController
                 'nombre_mensaje' => $request->getPost('nombre'),
                 'telefono_mensaje' => $request->getPost('telefono'),
                 'correo_mensaje' => $request->getPost('correo'),
+                'titulo_mensaje' => $request->getPost('titulo'),
                 'consulta_mensaje' => $request->getPost('consulta')
             ];
             
@@ -185,4 +191,11 @@ class Usuarios_controller extends BaseController
         return view('plantillas/header_view', $data).view('plantillas/nav_admin_view').view('backend/contenido_admin_view');
     }
 
+    public function listar_consultas(){
+        $consultas = new Consultas_model();
+        $data['consultas'] = $consultas->findAll();
+        $data['titulo'] = 'Consultas de usuarios';
+        
+        return view('plantillas/header_view', $data).view('plantillas/nav_admin_view').view('backend/consultas_view');
+    }
 }
