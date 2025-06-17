@@ -1,13 +1,13 @@
 <?php $cart = \Config\Services::cart(); ?>
 
 <h1 class="text-center">Carrito de compras</h1>
-<a href="catalogo" class="btn btn-success" role="button">Continuar comprando</a>
 
 <?php if ($cart->contents() == NULL) { ?>
     <h2 class="text-center alert alert-danger">Carrito está vacío</h2>
-<?php } ?>
+<?php } else { ?>
+<a href="catalogo" class="btn btn-success mx-4" role="button">Continuar comprando</a>
 
-<table id="mytable" class="table table-bordered table-striped">
+<table id="mytable" class="table table-bordered table-striped mt-3">
     <?php if ($cart1 = $cart->contents()) : ?>
         <thead>
                 <td>Nº item</td>
@@ -22,13 +22,12 @@
     $total = 0;
     $i = 1;
     foreach ($cart1 as $item):?>
-    <tr>
         <td><?php echo $i++; ?></td>
         <td><?php echo $item['name']; ?> </td>
-        <td>$ <?php echo $item['price']; ?></td>
+        <td><?php echo $item['price']; ?></td>
         <td><?php echo $item['qty']; ?></td>
         <td><?php echo $item['subtotal']; ?></td>
-        <td><?php echo anchor('eliminar_item/'.$item['rowid'],'Eliminar'); ?> </td>
+        <td><a href="<?php echo base_url('eliminar_carrito/'.$item['rowid'])?>">Eliminar</a></td>
     </tr>
     <?php $total += $item['subtotal']; ?>
 <?php endforeach; ?>
@@ -36,7 +35,8 @@
     <td>Total Compra: $<?php echo $total; ?> </td>
     <td><a href="ventas" class="btn btn-success" role="button">Ordenar compra</a></td>
 </tr>
-<a href="<?php echo base_url('vaciar_carrito/all'); ?>" class="btn boton-form">Vaciar carrito</a>
 <?php endif; ?>
 </tbody>
 </table>
+<a href="<?php echo base_url('vaciar_carrito'); ?>" class="btn boton-form mx-4">Vaciar carrito</a>
+<?php } ?>

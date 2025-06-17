@@ -98,4 +98,10 @@ class Cart_controller extends BaseController
             .view('plantillas/nav_admin_view')
             .view('backend/listar_ventas_view');
     }
+
+    public function limpiar_carrito(){
+        $cart = \Config\Services::cart();
+        $cart->destroy();
+        return redirect()->route('ver_carrito')->with('mensaje', 'Carrito vaciado exitosamente!');
+    }
 }
