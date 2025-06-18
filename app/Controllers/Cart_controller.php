@@ -13,8 +13,7 @@ class Cart_controller extends BaseController
         $cart = \Config\Services::cart();
         $data['titulo'] = 'Carrito de Compras';
 
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_view')
+        return view('plantillas/nav_view', $data)
             .view('frontend/carrito_view').view('plantillas/footer_view');
     }
 
@@ -94,8 +93,7 @@ class Cart_controller extends BaseController
             ->findAll();
         
         $data['titulo'] = 'Historial de Ventas';
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_admin_view')
+        return view('plantillas/nav_admin_view', $data)
             .view('backend/listar_ventas_view');
     }
 

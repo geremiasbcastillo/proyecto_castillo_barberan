@@ -11,8 +11,7 @@ class Productos_controller extends BaseController
         $categoria = new Categorias_model();
         $data['producto_categoria'] = $categoria->findAll();
         $data['titulo'] = 'Agregar Producto';
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_admin_view')
+        return view('plantillas/nav_admin_view', $data)
             .view('backend/agregar_producto_view');
     }    
     
@@ -79,8 +78,7 @@ class Productos_controller extends BaseController
             $data['validation'] = $validation->getErrors();
             $data['producto_categoria'] = $categoria->findAll();
             $data['titulo'] = 'Agregar Producto';
-            return view('plantillas/header_view', $data)
-                .view('plantillas/nav_admin_view')
+            return view('plantillas/nav_admin_view', $data)
                 .view('backend/agregar_producto_view');
         }
         
@@ -91,8 +89,7 @@ class Productos_controller extends BaseController
         $categoria = new Categorias_model();
         $data['productos'] = $producto->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();
         $data['titulo'] = 'Gestionar Productos';
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_admin_view')
+        return view('plantillas/nav_admin_view', $data)
             .view('backend/productos/listar_productos_view');
     }
 
@@ -103,8 +100,7 @@ class Productos_controller extends BaseController
         $data['producto'] = $producto->where('id_producto', $id)->first();
         $data['titulo'] = 'Editar Producto';
 
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_admin_view', $data)
+        return view('plantillas/nav_admin_view', $data)
             .view('backend/productos/editar_producto_view');
     }
 
@@ -169,8 +165,7 @@ class Productos_controller extends BaseController
             $data['producto'] = $producto->where('id_producto', $request->getPost('id_producto'))->first();
             $data['categoria'] = $categoria->findAll();
             $data['titulo'] = 'Editar Producto';
-            return view('plantillas/header_view', $data)
-                .view('plantillas/nav_admin_view')
+            return view('plantillas/nav_admin_view', $data)
                 .view('backend/productos/editar_producto_view');
         }
     }
@@ -196,8 +191,7 @@ class Productos_controller extends BaseController
     
         $data['titulo'] = 'Catalogo de Productos';
 
-        return view('plantillas/header_view', $data)
-            .view('plantillas/nav_view')
+        return view('plantillas/nav_view', $data)
             .view('frontend/catalogo_productos_view').view('plantillas/footer_view');
     }
 }

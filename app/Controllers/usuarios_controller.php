@@ -59,7 +59,7 @@ class Usuarios_controller extends BaseController
         }else{
             $data['titulo']= 'Contacto';
             $data['validation'] = $validation->getErrors();
-            return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/contacto_view').view('plantillas/footer_view');
+            return view('plantillas/nav_view', $data).view('frontend/contacto_view').view('plantillas/footer_view');
         }
     }
 
@@ -120,7 +120,7 @@ class Usuarios_controller extends BaseController
         $data['titulo'] = 'Registrarse';
         $data['validation'] = $validation->getErrors();
         
-        return view('plantillas/header_view', $data).view('plantillas/nav_view').view('frontend/registrarse_view').view('plantillas/footer_view');
+        return view('plantillas/nav_view', $data).view('frontend/registrarse_view').view('plantillas/footer_view');
         }
     }
 
@@ -188,7 +188,7 @@ class Usuarios_controller extends BaseController
     public function admin(){
         $data['titulo'] = 'Panel de administración';
         
-        return view('plantillas/header_view', $data).view('plantillas/nav_admin_view').view('backend/contenido_admin_view');
+        return view('plantillas/nav_admin_view', $data).view('backend/contenido_admin_view');
     }
 
     public function listar_consultas(){
@@ -196,6 +196,6 @@ class Usuarios_controller extends BaseController
         $data['consultas'] = $consultas->findAll();
         $data['titulo'] = 'Consultas de usuarios';
         
-        return view('plantillas/header_view', $data).view('plantillas/nav_admin_view').view('backend/consultas_view');
+        return view('plantillas/nav_admin_view', $data).view('backend/consultas_view');
     }
 }
