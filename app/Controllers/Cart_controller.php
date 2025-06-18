@@ -35,9 +35,16 @@ class Cart_controller extends BaseController
         $producto = new Productos_model();
         $detalle = new Detalle_ventas_model();
         $venta = new \App\Models\Ventas_model();
+        $usuarioModel = new \App\Models\Usuarios_model();
+        
+        $usuario = $usuarioModel->where('id_usuarios', session('id'))->first();
+        
+        if(!$usuario['telefono_usuarios'] || !$usuario['dni_usuarios']){
+            return redirect()->route('perfil')->with('mensaje', 'Por favor, complete su perfil antes de realizar una compra.');
+        }
 
         $carrito = $cart->contents();
-
+        
         foreach ($carrito as $item) {
             $productos = $producto->where('id_producto', $item['id'])->first();
             if ($productos['producto_cantidad'] < $item['qty']) {

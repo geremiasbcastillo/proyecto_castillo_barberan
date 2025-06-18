@@ -2,7 +2,6 @@
 <div class="container formulario-agregar-producto align-items-center">
 <h1 class="text-center">Carrito de compras</h1>
 
-
 <?php if ($cart->contents() == NULL) { ?>
     <h2 class="text-center alert alert-danger">Carrito está vacío</h2>
 <?php } else { ?>

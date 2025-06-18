@@ -67,3 +67,7 @@ $routes->get('ver_consultas', 'Usuarios_controller::listar_consultas');
 $routes->get('ver_ventas', 'Cart_controller::listar_ventas');
 
 $routes->get('vaciar_carrito', 'Cart_controller::limpiar_carrito');
+
+$routes->get('perfil', 'Usuarios_controller::perfil');
+
+$routes->post('actualizar_perfil', 'Usuarios_controller::actualizar_datos');

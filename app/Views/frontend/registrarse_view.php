@@ -35,11 +35,6 @@
             </label>
         </div>
         <div class="form-input">
-            <label for="celular"> Numero de celular 
-                <?php echo form_input(['name'=>'celular', 'id'=>'celular', 'type'=>'text', 'placeholder'=>'3794123456']);?>
-            </label>
-        </div>
-        <div class="form-input">
             <label for="contrasena"> Contraseña 
                 <?php echo form_input(['name'=>'contrasena', 'id'=>'contrasena', 'type'=>'password', 'placeholder'=>'••••••••']);?>
             </label>

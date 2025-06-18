@@ -1,5 +1,5 @@
 <?php helper('form'); ?>
-<div class="container formulario-agregar-producto">
+<div class="container tabla-listas formulario-agregar-producto">
 <h1 class="text-center">Listado de productos </h1>
     <table id="mytable" class="table table-bordred table-striped table-hover">
         <thead>

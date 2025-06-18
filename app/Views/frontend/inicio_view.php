@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<body>
 <section>
     
 <div id="carouselExampleIndicators" class="carousel slide">
@@ -141,5 +138,3 @@
     </div>
   </div>
 </div>
-</body>
-</html>
