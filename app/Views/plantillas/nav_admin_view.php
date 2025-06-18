@@ -1,3 +1,16 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $titulo; ?></title>
+
+    <link href="<?= base_url('assets/css/miestilo.css') ?>" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce6c7e6ad7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="<?= base_url('user_admin') ?>"><?php echo '<img src="assets/img/logo.png" class ="logo";>'?></a>
