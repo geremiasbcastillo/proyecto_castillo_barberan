@@ -6,6 +6,22 @@ body {
   padding-top: 100px;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
 .logo {
   background-color: rgb(177, 171, 171);
   width: 100%;
@@ -391,8 +407,8 @@ footer {
 .formulario-agregar-producto {
   background-color: #fff;
   padding: 20px 10px;
-  margin: 70px auto;
-  width: 90%;
+  margin: 50px auto;
+  max-width: 98%;
   border-radius: 8px;
   box-shadow: 0px 0px 55px #2222;
   border: 1px solid #000;
@@ -408,4 +424,25 @@ footer {
   width: 0%;
   border-radius: 8px;
   border: 1px solid #000;
+}
+
+/* Carrito */
+.tabla-carrito {
+  max-width: 85%;
+  margin: auto;
+}
+
+.boton-carrito {
+  margin-left: 95px;
+}
+
+/* editar producto */
+.container-editar {
+  padding: 0px;
+  margin: 0px;
+}
+
+.tabla-consultas{
+  max-width: 55% !important;
+  margin: auto;
 }

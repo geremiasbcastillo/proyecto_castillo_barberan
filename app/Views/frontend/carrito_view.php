@@ -1,13 +1,15 @@
-<?php $cart = \Config\Services::cart(); ?>
-
+<main> <?php $cart = \Config\Services::cart(); ?>
+<div class="container formulario-agregar-producto align-items-center">
 <h1 class="text-center">Carrito de compras</h1>
+
 
 <?php if ($cart->contents() == NULL) { ?>
     <h2 class="text-center alert alert-danger">Carrito está vacío</h2>
 <?php } else { ?>
-<a href="catalogo" class="btn btn-success mx-4" role="button">Continuar comprando</a>
+<a href="catalogo" class="btn btn-success boton-carrito" role="button">Continuar comprando</a>
 
-<table id="mytable" class="table table-bordered table-striped mt-3">
+
+<table id="mytable" class="table tabla-carrito table-bordered table-striped mt-3">
     <?php if ($cart1 = $cart->contents()) : ?>
         <thead>
                 <td>Nº item</td>
@@ -38,5 +40,7 @@
 <?php endif; ?>
 </tbody>
 </table>
-<a href="<?php echo base_url('vaciar_carrito'); ?>" class="btn boton-form mx-4">Vaciar carrito</a>
+<a href="<?php echo base_url('vaciar_carrito'); ?>" class="btn boton-form boton-carrito">Vaciar carrito</a>
 <?php } ?>
+</div>
+</main>

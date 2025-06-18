@@ -1,5 +1,5 @@
 <?php helper('form'); ?>
-<div class="container">
+<div class="container container-editar">
     <?php if(!empty($validation)):?>
         <div class="alert alert-danger" role="alert">
             <ul>
@@ -14,8 +14,9 @@
         echo session('mensaje_consulta');
     } ?>
     
-    <div class="w-50 mx-auto">
-        <?php echo form_open_multipart('actualizar', ['class' => 'formulario-agregar-producto']); ?>
+    <div class="row">
+        <div class="col-12">
+        <?php echo form_open_multipart('actualizar', ['class' => 'formulario-agregar-producto ']); ?>
         <h2 class="text-center"> Edición de Productos</h1>
         <div class="form-input">
             <label for="titulo">Nombre del producto</label>
@@ -52,7 +53,7 @@
         <div class="form-input">
             <label for="imagen">Imagen</label>
             <img src="<?php echo base_url('public/assets/upload/'.$producto['producto_imagen']); ?>" alt="" height="100" width="100" />
-            <?php echo form_input(['name' => 'imagen', 'id' => 'imagen', 'type'=>'file']); ?>
+            <?php echo form_input(['name' => 'imagen', 'id' => 'imagen', 'type'=>'file', 'class'=>'form-control']); ?>
             <?php if(isset($validation['imagen'])){
                 echo form_hidden('imagen', $producto['producto_imagen']);
             }?>
@@ -64,5 +65,6 @@
         </div>
         
         <?php echo form_close(); ?>
+        </div>
     </div>
 </div>

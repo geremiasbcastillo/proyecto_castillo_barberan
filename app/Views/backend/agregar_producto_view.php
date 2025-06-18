@@ -17,7 +17,7 @@
             </div>
         <?php }?>
 
-        <?php echo form_open_multipart('agregar_producto', ['class' => 'formulario-agregar-producto']) ?>
+        <?php echo form_open_multipart('agregar_producto', ['class' => 'formulario-agregar-producto w-100']) ?>
         <h2 class="text-center"> Registro de productos</h1>
             <div class="form-input">
                 <label for="nombre">Nombre del producto</label>
