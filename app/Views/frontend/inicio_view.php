@@ -14,7 +14,7 @@
 
                         <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
                             <div class="card mx-2 producto-card">
-                                <img src="assets/img/argentina86.png" class="card-img-top" alt="Camiseta 1">
+                                <img src="<?php echo base_url('assets/img/argentina86.png') ?>" class="card-img-top" alt="Camiseta 1">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Camiseta Argentina '86</h5>
                                     <p class="card-text">$89.000</p>
@@ -26,7 +26,7 @@
                             <div class="card mx-2 producto-card">
                                 <img src="assets/img/realmadrid25.png" class="card-img-top" alt="Camiseta 2">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Real Madrid '25</h5>
+                                    <h5 class="card-title">Camiseta Real Madrid '24</h5>
                                     <p class="card-text">$110.000</p>
                                 </div>
                             </div>
@@ -63,9 +63,9 @@
 
                         <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark target">
                             <div class="card mx-2 producto-card">
-                                <img src="assets/img/leeds78.png" class="card-img-top" alt="Camiseta 6">
+                                <img src="assets/img/united2008.png" class="card-img-top" alt="Camiseta 6">
                                 <div class="card-body text-center">
-                                    <h5 class="card-title">Leeds United '78</h5>
+                                    <h5 class="card-title">Manchester United '08</h5>
                                     <p class="card-text">$65.500</p>
                                 </div>
                             </div>
@@ -185,6 +185,7 @@
                 </div>
             </div>
         </section>
+
         <script>
             function scrollCarruselBotines(direction) {
                 const container = document.getElementById('carousel-botines');

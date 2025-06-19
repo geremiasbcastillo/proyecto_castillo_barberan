@@ -6,7 +6,7 @@
     <h2 class="text-center alert alert-danger">Carrito está vacío</h2>
 <?php } else { ?>
 <a href="catalogo" class="btn btn-success boton-carrito" role="button">Continuar comprando</a>
-
+// agregar mensaje
 
 <table id="mytable" class="table tabla-carrito table-bordered table-striped mt-3">
     <?php if ($cart1 = $cart->contents()) : ?>
