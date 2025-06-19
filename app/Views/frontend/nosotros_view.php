@@ -1,5 +1,5 @@
-<body>
-    <div class="container container-nosotros">
+<main>
+    <div class="container container-nosotros mb-5 mt-5">
         <h2>QUIENES SOMOS?</h2>
             <p class="texto-nosotros">Somos Doble Cinco, una empresa comprometida con la calidad y la satisfacción del cliente. Fundada hace más de 20 años, nuestra tienda de futbol se convirtió en un referente de calidad en el sector por ofrecer una amplia gama de productos tanto como para hinchas, jugadores y directores.</p>
             <p class="texto-nosotros">Nuestra misión es proporcionar soluciones integrales a nuestros clientes, ofreciendo productos de calidad, asesoramiento experto y un servicio al cliente excepcional. Creemos en la importancia de la confianza y la transparencia en nuestras relaciones comerciales, y nos esforzamos por construir relaciones duraderas basadas en el respeto y la satisfacción mutua.</p>
@@ -33,4 +33,4 @@
             </div>
         </div>
     </div>
-</body>
+</main>

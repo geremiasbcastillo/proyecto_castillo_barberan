@@ -1,5 +1,5 @@
 <?php helper('form'); ?>
-<div class="container">
+<div class="container my-4">
     <?php if(session('mensaje')){ ?>
             <div class="alert alert-success" role="alert">
                 <?= session('mensaje') ?>
@@ -8,10 +8,11 @@
     <?php if($producto == NULL) { ?>
         <h2 class="text-center alert alert-danger">No hay productos disponibles</h2>
     <?php } else {?>
-        <h1 class="display-4 text-center">Lista de productos</h1>
-        <div class="row">
+        <div class="formulario-agregar-producto">
+        <h1 class="display-4 text-center mb-4">Lista de productos</h1>
+        <div class="row ">
             <?php foreach($producto as $row) { ?>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card text-center">
                         <img class="card-img-top" src="<?php echo base_url('public/assets/upload/'.$row['producto_imagen']); ?>" width=100 height=100 alt="Card image cap">
                         <div class="card-body">
@@ -33,6 +34,6 @@
                     </div>
                 </div>
             <?php } ?>
-        </div>
+        </div></div>
     <?php }?>
 </div>

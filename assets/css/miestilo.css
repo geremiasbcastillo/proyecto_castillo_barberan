@@ -6,10 +6,18 @@ body {
   padding-top: 100px;
 }
 
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 body {
@@ -90,12 +98,7 @@ nav {
 }
 
 
-.imagenes-carrousel {
-  width: 100%;
-  height: auto;
-  max-height: 800px;
-  object-fit: cover;
-}
+
 
 .contenedor {
   display: flex;
@@ -252,10 +255,7 @@ footer {
   height: 500px;
 }
 
-.container {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+
 
 /* posible borrada */
 .texto-superpuesto {
@@ -434,7 +434,7 @@ footer {
   border-radius: 8px;
   box-shadow: 0px 0px 55px #2222;
   border: 1px solid #000;
-  overflow-x: auto;
+  overflow-x: auto, hidden;
 }
 
 .lista-productos {
@@ -448,6 +448,7 @@ footer {
   width: 0%;
   border-radius: 8px;
   border: 1px solid #000;
+  margin: 30px;
 }
 
 
@@ -491,4 +492,119 @@ footer {
   text-align: center;
 }
 
+/* inicio */
+.imagen-inicio {
+  
+  width: 100%;
+  display: block;
+  margin: 0 0 0 0;
+}
 
+.imagenes-carrousel {
+  max-width: 100%;
+  height: auto;
+  max-height: 800px;
+  object-fit: cover;
+}
+
+.carousel-item {
+  max-height: 335px;
+}
+
+.contenido-inspirador h2,
+.contenido-inspirador h4 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contenido-inspirador h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 10px;
+}
+
+.seccion-inspiradora {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contenido-inspirador p {
+  font-size: 1.7rem;
+  font-family: 'Anton', sans-serif;
+}
+
+.btn-carousel {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 24px;
+  z-index: 10;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.btn-carousel.prev {
+  left: 10px;
+}
+
+.btn-carousel.next {
+  right: 10px;
+}
+
+.carousel-wrapper:hover .btn-carousel {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.text-left {
+  text-align: center;
+}
+
+h2.text-left {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2.text-center {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}

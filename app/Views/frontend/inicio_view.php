@@ -1,140 +1,199 @@
+<main>
+    <div class="container-fluid">
+        <div class="imagen-inicio">
+            <?php echo '<img src="assets/img/imagen_principal.png" class="imagen-inicio" alt="">'; ?>
+        </div>
+         <section class="py-5">
+            <div class="container">
+                <h2 class="text-left mb-4">CAMISETAS</h2>
 
-<section>
-    
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" ></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <?php echo '<img src="assets/img/carrousel_1.jpg" alt=""  class="imagenes-carrousel">';?>
-    </div>
-    <div class="carousel-item">
-    <?php echo '<img src="assets/img/futbo_sala2-1920x500.jpg" alt=""  class="imagenes-carrousel">';?>
-    </div>
-    <div class="carousel-item">
-    <?php echo '<img src="assets/img/sintetico.avif" alt="" class="imagenes-carrousel">';?>
-    </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> 
-</section>
+                <div class="carousel-wrapper position-relative">
+                    <button class="btn-carousel prev" onclick="scrollCarruselNike('left')">&#10094;</button>
 
-<h1 class ="text-center mt-4 mb-0">Podes acceder a nuestros catalogos</h1>
-<div class="row row-col-1 g-4 mt-4 cards">
-  <div class="col">
-    <div class="card w-70 h-100" >
-    <?php echo '<img src="assets/img/botines.jpg" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Botines</h5>
-        <p class="card-text">Vas a poder ver todo el catálogo de botines.</p>
-      </div>
-      <a href="botines" class="btn boton-card" >Hace click acá</a>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/camiseta2.jpg" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Camisetas</h5>
-        <p class="card-text">Acá vas a encontrar las mejores camisetas del mercado. Hay varios tipos de camisetas, desde retros hasta las más actuales
-        </p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Hace click acá</a>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/conos.jpg" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Indumentaria de entrenamiento</h5>
-        <p class="card-text">Tambien contamos con accesorios para poder potenciar tu entrenamiento, como conos, escaleras y más cosas, entrá para mirar.</p>
-      </div>
-      <a href="entrenamiento" class="btn boton-card" >Hace click acá</a>
-    </div>
-  </div>
-</div>
+                    <div class="carousel-container" id="carousel-nike">
 
-<div class="">
-  <div class="banner">
-    <?php echo '<img src="assets/img/camisetas2.jpg" alt="" class="">';?>
-  </div>
-</div>
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/argentina86.png" class="card-img-top" alt="Camiseta 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Camiseta Argentina '86</h5>
+                                    <p class="card-text">$89.000</p>
+                                </div>
+                            </div>
+                        </a>
 
-<h1 class ="text-center mt-4 mb-0">Las camisetas más vendidas</h1>
-<div class="row row-col-1 g-4 mt-4 cards">
-  <div class="col">
-    <div class="card w-70 h-100">
-    <?php echo '<img src="assets/img/camisetamv1.webp" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Paris Saint Germain - 2021</h5>
-        <p class="card-text">Primera camiseta de Messi fuera del Barcelona.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/camisetaarg.webp" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Selección Argentina - 1994</h5>
-        <p class="card-text">Camiseta suplente que vistió la selección en el mundial de 1994.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/camisetabrasil.png" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Selección de Brasil - 2002</h5>
-        <p class="card-text">Camiseta de la selección de Brasil en el mundial Corea-Japón 2002, donde salieron campeones.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
-    </div>
-  </div>
-</div>
+                        <a href="<?= base_url('/catalogo') ?>" target="blank class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/realmadrid25.png" class="card-img-top" alt="Camiseta 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Camiseta Real Madrid '25</h5>
+                                    <p class="card-text">$110.000</p>
+                                </div>
+                            </div>
+                        </a>
 
-<h1 class ="text-center mt-4 mb-0">Camisetas Temporada 2024/2025</h1>
-<div class="row row-col-1 g-4 mt-4 cards">
-  <div class="col">
-    <div class="card w-70 h-100">
-    <?php echo '<img src="assets/img/boca25.png" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Boca Juniors</h5>
-        <p class="card-text">La camiseta que viste el club esta temporada.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/barcelona24.png" class="card-img-top" alt="Camiseta 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Camiseta Barcelona '24</h5>
+                                    <p class="card-text">$167.500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/internazionale07.png" class="card-img-top" alt="Camiseta 4">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Camiseta Internazionale '07</h5>
+                                    <p class="card-text">$80.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/boca25.png" class="card-img-top" alt="Camiseta 5">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Camiseta Boca Juniors '25</h5>
+                                    <p class="card-text">$138.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark target">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/leeds78.png" class="card-img-top" alt="Camiseta 6">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Leeds United '78</h5>
+                                    <p class="card-text">$65.500</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <button class="btn-carousel next" onclick="scrollCarruselNike('right')">&#10095;</button>
+                </div>
+
+            </div>
+        </section>
+        <div class="container mb-4">
+            <section class="seccion-inspiradora">
+                <div class="contenido-inspirador text-center">
+                    <h2>Viví el fútbol con pasión</h2>
+                    <p>Jugá con lo mejor</p>
+                </div>
+            </section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <?php echo '<img src="assets/img/imagen_car_1.jpg" class="d-block w-100" alt="">'; ?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php echo '<img src="assets/img/imagen_car_2.png" class="d-block w-100" alt="">'; ?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php echo '<img src="assets/img/imagen_car_3.png" class="d-block w-100" alt="">'; ?>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-left mb-4">BOTINES</h2>
+
+                <div class="carousel-wrapper position-relative">
+                    <button class="btn-carousel prev" onclick="scrollCarruselNike('left')">&#10094;</button>
+
+                    <div class="carousel-container" id="carousel-nike">
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/nikephantom.jpg" class="card-img-top" alt="Botín 1">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nike Phantom GX</h5>
+                                    <p class="card-text">$119.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/pumaborussia.png" class="card-img-top" alt="Botín 2">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Puma Borussia</h5>
+                                    <p class="card-text">$125.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/nikemercurial.jpg" class="card-img-top" alt="Botín 3">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Nike Mercurial Superfly</h5>
+                                    <p class="card-text">$132.500</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/adidaspredator.png" class="card-img-top" alt="Botín 4">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Adidas Predator</h5>
+                                    <p class="card-text">$115.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/adidasf50.png" class="card-img-top" alt="Botín 5">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Adidas F50</h5>
+                                    <p class="card-text">$128.000</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark target">
+                            <div class="card mx-2 producto-card">
+                                <img src="assets/img/topper.png" class="card-img-top" alt="Botín 6">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Topper San Siro</h5>
+                                    <p class="card-text">$109.500</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <button class="btn-carousel next" onclick="scrollCarruselNike('right')">&#10095;</button>
+                </div>
+
+            </div>
+        </section>
+        <script>
+  function scrollCarruselNike(direction) {
+    const container = document.getElementById('carousel-nike');
+    const scrollAmount = 300;
+    if (direction === 'left') {
+      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    } else {
+      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    }
+  }
+</script>
     </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/city25.webp" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Manchester City</h5>
-        <p class="card-text">La camiseta que viste el club esta temporada.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-    <?php echo '<img src="assets/img/united25.png" alt="" class="card-img-top">';?>
-      <div class="card-body">
-        <h5 class="card-title">Manchester United</h5>
-        <p class="card-text">La camiseta que viste el club esta temporada.</p>
-      </div>
-      <a href="camisetas" class="btn boton-card" >Mirá todo el catálogo</a>
-    </div>
-  </div>
-</div>
+</main>
