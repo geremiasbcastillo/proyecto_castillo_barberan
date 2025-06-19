@@ -194,4 +194,23 @@ class Productos_controller extends BaseController
         return view('plantillas/nav_view', $data)
             .view('frontend/catalogo_productos_view').view('plantillas/footer_view');
     }
+
+    public function filtrado_productos(){
+        $producto = new Productos_model();
+        $categoria = new Categorias_model();
+
+        $categoria = $categoria->findAll(); 
+        $productos = $producto->where('producto_estado', 1)->where('producto_cantidad >', 0)
+            ->join('categorias', 'categorias.id_categoria = productos.producto_categoria');
+
+
+        
+        $categoriaSeleccionada = $this->request->getPost('categoria');
+        $productos = $productos->where('producto_categoria', $categoriaSeleccionada)->findAll();
+       
+
+        $data['categoria'] = $categoria;
+
+        return view('frontend/catalogo_productos_view', $data);
+    }
 }

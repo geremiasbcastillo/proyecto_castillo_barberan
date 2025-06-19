@@ -8,7 +8,7 @@
     <?php if($producto == NULL) { ?>
         <h2 class="text-center alert alert-danger">No hay productos disponibles</h2>
     <?php } else {?>
-        <div class="formulario-agregar-producto">
+        <div class="contenedor-catalogo">
         <h1 class="display-4 text-center mb-4">Lista de productos</h1>
         <div class="row ">
             <?php foreach($producto as $row) { ?>

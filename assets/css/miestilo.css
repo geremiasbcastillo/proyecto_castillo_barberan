@@ -97,9 +97,6 @@ nav {
   width: 450px;
 }
 
-
-
-
 .contenedor {
   display: flex;
   width: 100%;
@@ -425,6 +422,24 @@ footer {
   padding: 5px 5px;
 }
 
+.contenedor-catalogo {
+  background-color: #fff;
+  padding: 20px 10px;
+  margin: 50px auto;
+  max-width: 98%;
+  min-width: 97%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 55px #2222;
+  border: 1px solid #000;
+  overflow-x: auto, hidden;
+}
+
+.contenedor-catalogo .card {
+  width: 100%; 
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+} 
 
 .formulario-agregar-producto {
   background-color: #fff;
@@ -435,6 +450,10 @@ footer {
   box-shadow: 0px 0px 55px #2222;
   border: 1px solid #000;
   overflow-x: auto, hidden;
+}
+
+.formulario-agregar-producto h2 {
+  font-size: 1.6rem;
 }
 
 .lista-productos {
@@ -494,10 +513,12 @@ footer {
 
 /* inicio */
 .imagen-inicio {
-  
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
   width: 100%;
-  display: block;
-  margin: 0 0 0 0;
 }
 
 .imagenes-carrousel {
@@ -590,20 +611,6 @@ h2.text-left {
   font-weight: bold;
   font-size: 2.5rem;
   color: black;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 20px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-h2.text-center {
-  font-family: 'Anton', sans-serif;
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: whitesmoke;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 20px;

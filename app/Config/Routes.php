@@ -71,3 +71,5 @@ $routes->get('vaciar_carrito', 'Cart_controller::limpiar_carrito');
 $routes->get('perfil', 'Usuarios_controller::perfil');
 
 $routes->post('actualizar_perfil', 'Usuarios_controller::actualizar_datos');
+
+$routes->post('filtrar_productos', 'Productos_controller::filtrado_productos');

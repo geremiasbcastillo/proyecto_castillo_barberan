@@ -8,9 +8,9 @@
                 <h2 class="text-left mb-4">CAMISETAS</h2>
 
                 <div class="carousel-wrapper position-relative">
-                    <button class="btn-carousel prev" onclick="scrollCarruselNike('left')">&#10094;</button>
+                    <button class="btn-carousel prev" onclick="scrollCarruselCamiseta('left')">&#10094;</button>
 
-                    <div class="carousel-container" id="carousel-nike">
+                    <div class="carousel-container" id="carousel-camisetas">
 
                         <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
                             <div class="card mx-2 producto-card">
@@ -22,7 +22,7 @@
                             </div>
                         </a>
 
-                        <a href="<?= base_url('/catalogo') ?>" target="blank class="text-decoration-none text-dark">
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
                             <div class="card mx-2 producto-card">
                                 <img src="assets/img/realmadrid25.png" class="card-img-top" alt="Camiseta 2">
                                 <div class="card-body text-center">
@@ -73,18 +73,20 @@
 
                     </div>
 
-                    <button class="btn-carousel next" onclick="scrollCarruselNike('right')">&#10095;</button>
+                    <button class="btn-carousel next" onclick="scrollCarruselCamiseta('right')">&#10095;</button>
                 </div>
 
             </div>
         </section>
         <div class="container mb-4">
+            
             <section class="seccion-inspiradora">
                 <div class="contenido-inspirador text-center">
                     <h2>Viví el fútbol con pasión</h2>
                     <p>Jugá con lo mejor</p>
                 </div>
             </section>
+
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -114,9 +116,9 @@
                 <h2 class="text-left mb-4">BOTINES</h2>
 
                 <div class="carousel-wrapper position-relative">
-                    <button class="btn-carousel prev" onclick="scrollCarruselNike('left')">&#10094;</button>
+                    <button class="btn-carousel prev" onclick="scrollCarruselBotines('left')">&#10094;</button>
 
-                    <div class="carousel-container" id="carousel-nike">
+                    <div class="carousel-container" id="carousel-botines">
 
                         <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
                             <div class="card mx-2 producto-card">
@@ -128,7 +130,7 @@
                             </div>
                         </a>
 
-                        <a href="<?= base_url('/catalogo') ?>" target="blank class="text-decoration-none text-dark">
+                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
                             <div class="card mx-2 producto-card">
                                 <img src="assets/img/pumaborussia.png" class="card-img-top" alt="Botín 2">
                                 <div class="card-body text-center">
@@ -179,21 +181,29 @@
 
                     </div>
 
-                    <button class="btn-carousel next" onclick="scrollCarruselNike('right')">&#10095;</button>
+                    <button class="btn-carousel next" onclick="scrollCarruselBotines('right')">&#10095;</button>
                 </div>
-
             </div>
         </section>
         <script>
-  function scrollCarruselNike(direction) {
-    const container = document.getElementById('carousel-nike');
-    const scrollAmount = 300;
-    if (direction === 'left') {
-      container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-    } else {
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-    }
-  }
-</script>
+            function scrollCarruselBotines(direction) {
+                const container = document.getElementById('carousel-botines');
+                const scrollAmount = 300;
+                if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                } else {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                }
+            }
+            function scrollCarruselCamiseta(direction) {
+                const container = document.getElementById('carousel-camisetas');
+                const scrollAmount = 300;
+                if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                } else {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                }
+            }
+        </script>
     </div>
 </main>
