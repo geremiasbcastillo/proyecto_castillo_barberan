@@ -9,7 +9,7 @@
                 
                 $id = $row['id_ventas'];
                 $sumador = 0?>
-                <div class="col-md-3 lista-productos">
+                <div class="col-md-4 lista-productos">
                     <h5><?php echo esc($row['nombre_usuarios'].' '.$row['apellido_usuarios']); ?></h5>
                     <h6><?php echo esc('Numero de compra: '.$row['id_ventas']); ?></h6>
                     <h6><?php echo esc($row['venta_fecha']); ?></h6>
