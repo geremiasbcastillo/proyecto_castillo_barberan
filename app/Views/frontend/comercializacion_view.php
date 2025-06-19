@@ -1,7 +1,7 @@
     <div>
     <div class="banner">
         <?php echo '<img src="assets/img/comercializacion.jpg" alt="" posicion:relative>';?>
-        <h3> Medios de pago</h3>
+        <h3 class>Medios de pago</h3>
     </div>
     </div>
     <div class ="container mb-5">
@@ -38,7 +38,7 @@
     </div>
     </div>
     <div class ="container mb-5 ">
-        <div class="row row-col-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
                     <div class="card mt-4" style="width: 18rem;">
                         <img src="assets/img/oca.png" class="card-img-top" alt="...">
