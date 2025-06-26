@@ -45,6 +45,9 @@
               <a class="nav-link boton-nav" href="<?= base_url('ver_carrito') ?>">Ver carrito</a>
             </li>
             <li class="nav-item mx-3 pl-3">
+              <a class="nav-link boton-nav" href="<?= base_url('ver_compras') ?>">Mis compras</a>
+            </li>
+            <li class="nav-item mx-3 pl-3">
               <a class="nav-link boton-nav" href="<?= base_url('perfil') ?>"><?php echo session('apellido'); ?></a>
             </li>
             <li class="nav-item mx-3 pl-3">

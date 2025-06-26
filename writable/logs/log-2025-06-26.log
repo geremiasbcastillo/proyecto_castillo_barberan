@@ -412,3 +412,1091 @@ DEBUG - 2025-06-26 04:01:33 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-06-26 04:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-26 04:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-26 04:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:07:44 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(104): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:07:59 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(104): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:12:32 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(135): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:12:32 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(135): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:12:33 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(135): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:12:33 --> Error: Call to undefined function form_open()
+[Method: GET, Route: ver_ventas]
+in APPPATH\Views\backend\listar_ventas_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 4 APPPATH\Controllers\Cart_controller.php(135): view('backend/listar_ventas_view')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Cart_controller->listar_ventas()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:26:36 --> ErrorException: Undefined variable $ventas
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 8.
+ 1 APPPATH\Views\frontend\compras_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(275): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:26:57 --> ErrorException: Undefined variable $detalle_ventas
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 24.
+ 1 APPPATH\Views\frontend\compras_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detalle_ventas', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(275): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:26:59 --> ErrorException: Undefined variable $detalle_ventas
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 24.
+ 1 APPPATH\Views\frontend\compras_view.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detalle_ventas', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(275): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:28:31 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(280): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:28:32 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(280): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:34:50 --> mysqli_sql_exception: Column 'telefono_usuarios' cannot be null in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->add_cliente()
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-26 04:34:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'telefono_usuarios' cannot be null
+[Method: POST, Route: registro_usuario]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (:nombre_usuarios:, :apellido_usuarios:, :correo_usuarios:, :telefono_usuarios:, :contraseña_usuarios:, :perfil_id:, :persona_estado:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(113): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->add_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:34:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'telefono_usuarios' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (\'Miranda\', \'Gomez\', \'mirandagomez@gmail.com\', NULL, \'$2y$10$YDXHcKhxyUkmNRwZZspU9.joiFUQJvJEjSgqQx103522RgJemTS.m\', 2, 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (\'Miranda\', \'Gomez\', \'mirandagomez@gmail.com\', NULL, \'$2y$10$YDXHcKhxyUkmNRwZZspU9.joiFUQJvJEjSgqQx103522RgJemTS.m\', 2, 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (:nombre_usuarios:, :apellido_usuarios:, :correo_usuarios:, :telefono_usuarios:, :contraseña_usuarios:, :perfil_id:, :persona_estado:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Usuarios_controller.php(113): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->add_cliente()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:34:50 --> [Caused by] mysqli_sql_exception: Column 'telefono_usuarios' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (\'Miranda\', \'Gomez\', \'mirandagomez@gmail.com\', NULL, \'$2y$10$YDXHcKhxyUkmNRwZZspU9.joiFUQJvJEjSgqQx103522RgJemTS.m\', 2, 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (\'Miranda\', \'Gomez\', \'mirandagomez@gmail.com\', NULL, \'$2y$10$YDXHcKhxyUkmNRwZZspU9.joiFUQJvJEjSgqQx103522RgJemTS.m\', 2, 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (\'Miranda\', \'Gomez\', \'mirandagomez@gmail.com\', NULL, \'$2y$10$YDXHcKhxyUkmNRwZZspU9.joiFUQJvJEjSgqQx103522RgJemTS.m\', 2, 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre_usuarios`, `apellido_usuarios`, `correo_usuarios`, `telefono_usuarios`, `contraseña_usuarios`, `perfil_id`, `persona_estado`) VALUES (:nombre_usuarios:, :apellido_usuarios:, :correo_usuarios:, :telefono_usuarios:, :contraseña_usuarios:, :perfil_id:, :persona_estado:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Usuarios_controller.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->add_cliente()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 04:35:43 --> Cart Class Initialized
+DEBUG - 2025-06-26 04:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 04:35:43 --> Cart Class Initialized
+DEBUG - 2025-06-26 04:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 04:35:48 --> Cart Class Initialized
+DEBUG - 2025-06-26 04:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 04:35:55 --> Cart Class Initialized
+DEBUG - 2025-06-26 04:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 04:35:56 --> Cart Class Initialized
+DEBUG - 2025-06-26 04:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:38:10 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(284): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:39:26 --> mysqli_sql_exception: Not unique table/alias: 'ventas' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:39:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'ventas'
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:39:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'ventas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:39:26 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'ventas'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `ventas` ON `ventas`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:39:44 --> mysqli_sql_exception: Table 'db_castillo_barberan.compras' doesn't exist in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:39:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.compras' doesn't exist
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:39:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.compras' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:39:44 --> [Caused by] mysqli_sql_exception: Table 'db_castillo_barberan.compras' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = \'12\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ventas`
+JOIN `compras` ON `compras`.`cliente_id` = `usuarios`.`id_usuarios`
+WHERE `id_usuarios` = :id_usuarios:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:42:32 --> ErrorException: Undefined variable $ventasModel
+[Method: GET, Route: ver_compras]
+in APPPATH\Controllers\Usuarios_controller.php on line 277.
+ 1 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventasModel', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Controllers\\Usuarios_controller.php', 277)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:42:33 --> ErrorException: Undefined variable $ventasModel
+[Method: GET, Route: ver_compras]
+in APPPATH\Controllers\Usuarios_controller.php on line 277.
+ 1 APPPATH\Controllers\Usuarios_controller.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventasModel', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Controllers\\Usuarios_controller.php', 277)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:42:55 --> ErrorException: Undefined array key "nombre_usuarios"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 12.
+ 1 APPPATH\Views\frontend\compras_view.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_usuarios"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:44:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:44:26 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:44:27 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:44:27 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 25.
+ 1 APPPATH\Views\frontend\compras_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:46:01 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:46:02 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:46:02 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(288): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:49:25 --> mysqli_sql_exception: Unknown column 'productos.nombre_producto' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:49:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_producto' in 'field list'
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:25 --> [Caused by] mysqli_sql_exception: Unknown column 'productos.nombre_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:49:27 --> mysqli_sql_exception: Unknown column 'productos.nombre_producto' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:49:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_producto' in 'field list'
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.nombre_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:27 --> [Caused by] mysqli_sql_exception: Unknown column 'productos.nombre_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`nombre_producto`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:49:55 --> mysqli_sql_exception: Unknown column 'productos.precio_producto' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:49:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.precio_producto' in 'field list'
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.precio_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:55 --> [Caused by] mysqli_sql_exception: Unknown column 'productos.precio_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:49:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-06-26 04:49:56 --> mysqli_sql_exception: Unknown column 'productos.precio_producto' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 04:49:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.precio_producto' in 'field list'
+[Method: GET, Route: ver_compras]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'productos.precio_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:49:56 --> [Caused by] mysqli_sql_exception: Unknown column 'productos.precio_producto' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN (\'22\',\'23\',\'24\',\'25\',\'26\',\'27\',\'28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_ventas`.*, `productos`.`producto_nombre`, `productos`.`precio_producto`, `detalle_ventas`.`venta_id`
+FROM `detalle_ventas`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_ventas`.`producto_id`
+WHERE `detalle_ventas`.`venta_id` IN :detalle_ventas.venta_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(286): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:50:36 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(291): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:50:37 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(291): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:53:10 --> Error: Class "App\Controllers\Productos_model" not found
+[Method: GET, Route: ver_compras]
+in APPPATH\Controllers\Usuarios_controller.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:53:11 --> Error: Class "App\Controllers\Productos_model" not found
+[Method: GET, Route: ver_compras]
+in APPPATH\Controllers\Usuarios_controller.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 04:53:12 --> Error: Class "App\Controllers\Productos_model" not found
+[Method: GET, Route: ver_compras]
+in APPPATH\Controllers\Usuarios_controller.php on line 273.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 04:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:54:16 --> ErrorException: Undefined variable $ventas
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\backend\listar_ventas_view.php on line 51.
+ 1 APPPATH\Views\backend\listar_ventas_view.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\listar_ventas_view.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\listar_ventas_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(286): view('backend/listar_ventas_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:54:20 --> ErrorException: Undefined variable $ventas
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\backend\listar_ventas_view.php on line 51.
+ 1 APPPATH\Views\backend\listar_ventas_view.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\listar_ventas_view.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\listar_ventas_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/listar_ventas_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(286): view('backend/listar_ventas_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:55:30 --> ErrorException: Undefined array key "nombre_producto"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_producto"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(286): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 04:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 04:59:40 --> ErrorException: Undefined array key "producto_nombre"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(287): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 05:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 05:00:37 --> ErrorException: Undefined array key "producto_nombre"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(287): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 05:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 05:05:14 --> ErrorException: Undefined array key "producto_nombre"
+[Method: GET, Route: ver_compras]
+in APPPATH\Views\frontend\compras_view.php on line 55.
+ 1 APPPATH\Views\frontend\compras_view.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_nombre"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\frontend\\compras_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/compras_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(298): view('frontend/compras_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_compras()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 05:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 05:06:04 --> Cart Class Initialized
+DEBUG - 2025-06-26 05:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 05:06:04 --> Cart Class Initialized
+DEBUG - 2025-06-26 05:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 05:06:09 --> Cart Class Initialized
+DEBUG - 2025-06-26 05:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 05:06:09 --> Cart Class Initialized
+DEBUG - 2025-06-26 05:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-06-26 05:06:10 --> Cart Class Initialized
+DEBUG - 2025-06-26 05:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 05:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

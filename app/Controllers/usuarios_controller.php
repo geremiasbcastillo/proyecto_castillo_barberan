@@ -4,6 +4,9 @@ namespace App\Controllers;
 
 use App\Models\Usuarios_model;
 use App\Models\Consultas_model;
+use App\Models\Detalle_ventas_model;
+use App\Models\Ventas_model;
+use App\Models\Productos_model;
 
 class Usuarios_controller extends BaseController
 {
@@ -263,5 +266,35 @@ class Usuarios_controller extends BaseController
         $consultas = new Consultas_model();
         $consultas->update($id, $data);
         return redirect()->route('ver_consultas')->with('mensaje_consulta', 'Consulta marcada como leída!');
+    }
+
+    public function listar_compras(){
+        $venta = new Ventas_model();
+        $detalle = new Detalle_ventas_model();
+        $producto = new Productos_model();
+
+        $compras = $venta
+            ->where('cliente_id', session('id'))
+            ->orderBy('venta_fecha', 'DESC')
+            ->findAll();
+
+        // 2. Obtener los IDs de las compras
+        $idsVentas = array_column($compras, 'id_ventas');
+
+        // 3. Traer los detalles de esas compras (con join a productos)
+        $detalle_ventas = [];
+        if (!empty($idsVentas)) {
+            $detalle_ventas = $detalle
+                ->select('detalle_ventas.*, productos.producto_nombre, productos.producto_imagen')
+                ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
+                ->whereIn('venta_id', $idsVentas)
+                ->findAll();
+        }
+
+        $data['compras'] = $compras;
+        $data['detalle_ventas'] = $detalle_ventas;
+        $data['titulo'] = 'Mis Compras';
+        return view('plantillas/nav_view', $data)
+            .view('frontend/compras_view').view('plantillas/footer_view');
     }
 }

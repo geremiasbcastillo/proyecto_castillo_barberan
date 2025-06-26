@@ -1,3 +1,53 @@
+<?php helper('form'); ?>
+<div class="contenedor-filtros">
+    <div class="row mb-3">
+        <div class="col-12">
+            <h3 class="text-center">Busqueda y filtros</h3>
+            <div class="search-container">
+                <?php echo form_open('ver_ventas', ['method' => 'get']); ?>
+                    <div class="mb-3">
+                        <label for="searchInput" class="form-label">Buscar por nombre:</label>
+                        <?= form_input([
+                            'type' => 'text',
+                            'name' => 'nombre',
+                            'id' => 'searchInput',
+                            'class' => 'form-control search-input',
+                            'placeholder' => 'Buscar clientes',
+                            'value' => esc($filtros['nombre'] ?? '')
+                        ]); ?>
+                    </div>
+                    <div class="mb-3">
+                        <label for="fecha_inicio" class="form-label">Fecha de inicio:</label>
+                        <?= form_input([
+                            'type' => 'date',
+                            'name' => 'fecha_inicio',
+                            'id' => 'fecha_inicio',
+                            'class' => 'form-control search-input',
+                            'value' => esc($filtros['fecha_inicio'] ?? '')
+                        ]); ?>
+                    </div>
+                    <div class="mb-3">
+                        <label for="fecha_fin" class="form-label">Fecha de fin:</label>
+                        <?= form_input([
+                            'type' => 'date',
+                            'name' => 'fecha_fin',
+                            'id' => 'fecha_fin',
+                            'class' => 'form-control search-input',
+                            'value' => esc($filtros['fecha_fin'] ?? '')
+                        ]); ?>
+                    </div>
+                    <?php echo form_button([
+                            'type' => 'submit',
+                            'class' => 'btn boton-form mt-2',
+                            'content' => '<i class="fas fa-search"></i>'
+                        ]); ?>
+                <?php echo form_close(); ?>
+            </div>
+            <a href="<?= base_url('ver_ventas') ?>" class="btn boton-form">Limpiar todos los filtros</a>
+        </div>
+    </div>
+</div>
+
 <?php if($ventas == NULL) { ?>
     <h2 class="text-center alert alert-danger">No existen ventas guardadas!</h2>
 <?php } else { ?>

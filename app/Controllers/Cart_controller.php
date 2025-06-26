@@ -90,14 +90,45 @@ class Cart_controller extends BaseController
         $venta = new Ventas_model();
         $detalle = new Detalle_ventas_model();
         $producto = new Productos_model();
+
+        // Filtros para la búsqueda
+        $nombre = $this->request->getGet('nombre');
+        $fecha_inicio = $this->request->getGet('fecha_inicio');
+        $fecha_fin = $this->request->getGet('fecha_fin');
+        
         $data = ['ventas' => $venta
             ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
             ->findAll()];
+
+        if ($nombre) {
+            $data['ventas'] = $venta->like('nombre_usuarios', $nombre)
+                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
+                ->findAll();
+        }
+
+        if ($fecha_inicio ) {
+            $data['ventas'] = $venta->where('venta_fecha >=', $fecha_inicio)
+                ->where('venta_fecha <=', $fecha_fin)
+                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
+                ->findAll();
+        }
+
+        if($fecha_fin) {
+            $data['ventas'] = $venta->where('venta_fecha <=', $fecha_fin)
+                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
+                ->findAll();
+        }
 
         $data['detalle_ventas'] = $detalle
             ->join('ventas', 'ventas.id_ventas = detalle_ventas.venta_id')
             ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
             ->findAll();
+        
+        $data['filtros'] = [
+            'nombre' => $nombre,
+            'fecha_inicio' => $fecha_inicio,
+            'fecha_fin' => $fecha_fin
+        ];
         
         $data['titulo'] = 'Historial de Ventas';
         return view('plantillas/nav_admin_view', $data)

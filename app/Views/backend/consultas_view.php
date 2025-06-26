@@ -1,5 +1,5 @@
 <?php if($consultas == NULL) { ?>
-    <h2 class="text-center alert alert-danger">No hay consultas disponibles</h2>
+    <h2 class="text-center alert alert-danger mt-3 ">No hay consultas disponibles</h2>
 <?php } else { ?>
             <?php if (session('mensaje_consulta')): ?>
                 <div class="alert alert-success" role="alert">
