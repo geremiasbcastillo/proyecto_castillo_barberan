@@ -35,23 +35,23 @@
                     <!--<form action="" namespace='usuarios_controller::add_consulta' method="post" class="formulario">-->
                         <div class="mb-2 formulario-label">
                             <label for="nombre" class="form-label">Ingrese su nombre:</label>
-                            <?php echo form_input(['name'=>'nombre', 'id'=>'nombre', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'Juan Gomez', 'maxlength'=>'20']);?>
+                            <?php echo form_input(['name'=>'nombre', 'id'=>'nombre', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'Juan Gomez', 'maxlength'=>'20', 'value' => set_value('nombre')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="telefono" class="form-label">Ingrese su teléfono:</label>
-                            <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'number', 'class'=>'form-control', 'placeholder'=>'3794-123456', 'maxlength'=>'15']);?>
+                            <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'number', 'class'=>'form-control', 'placeholder'=>'3794-123456', 'maxlength'=>'15', 'value' => set_value('telefono')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Ingrese su correo:</label>
-                            <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com']);?>
+                            <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com', 'value' => set_value('correo')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Motivo de su consulta:</label>
-                            <?php echo form_input(['name'=>'titulo', 'id'=>'titulo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'Cambio de una prenda']);?>
+                            <?php echo form_input(['name'=>'titulo', 'id'=>'titulo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'Cambio de una prenda', 'value' => set_value('titulo')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
-                            <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."></textarea>
+                            <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."><?= set_value('consulta') ?></textarea>
                         </div>
                         <?php echo form_submit('Enviar', 'Enviar', "class='btn boton-form'");?>
                     <?php echo form_close(); ?>

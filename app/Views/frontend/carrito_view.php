@@ -1,4 +1,11 @@
 <main> <?php $cart = \Config\Services::cart(); ?>
+
+<?php if (session('mensaje')): ?>
+    <div class="alert alert-danger" role="alert">
+        <?= session('mensaje'); ?>
+    </div>
+<?php endif; ?>
+
 <div class="container formulario-agregar-producto align-items-center">
 <h1 class="text-center">Carrito de compras</h1>
 

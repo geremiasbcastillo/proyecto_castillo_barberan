@@ -1,10 +1,57 @@
 <?php helper('form'); ?>
-<div class="container my-4">
+<div class="container">
     <?php if(session('mensaje')){ ?>
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-success my-4" role="alert">
                 <?= session('mensaje') ?>
             </div>
         <?php }?>
+        
+        <div class="catalog-hero">
+            <div class="catalog-container">
+                 <div class="catalog-title">
+                    <h1><i class="fas fa-store me-3"></i>Catálogo de Productos</h1>
+                    <p class="catalog-subtitle">Descubre nuestra increíble colección de productos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-filtros">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h3 class="text-center">Busqueda y filtros</h3>
+                    <div class="search-container">
+                        <?php echo form_open('filtrar_productos'); ?>
+                            <div class="mb-3">
+                                <label for="searchInput" class="form-label">Buscar por nombre:</label>
+                                <?= form_input([
+                                    'type' => 'text',
+                                    'name' => 'nombre',
+                                    'id' => 'searchInput',
+                                    'class' => 'form-control search-input',
+                                    'placeholder' => 'Buscar productos',
+                                    'value' => esc($filtros['nombre'] ?? '')
+                                ]); ?>
+                            </div>
+                            <div class="mb-3">
+                                <label for="categoria" class="form-label">Filtrar por categoría:</label>
+                                <?= form_dropdown(
+                                    'categoria',
+                                    ['' => 'Todas las categorías'] + array_column($categoria, 'nombre_categoria', 'id_categoria'),
+                                    $filtros['categoria'] ?? '',
+                                    ['class' => 'form-select search-select']
+                                ); ?>
+                                <?php echo form_button([
+                                    'type' => 'submit',
+                                    'class' => 'btn boton-form ms-2',
+                                    'content' => '<i class="fas fa-search"></i>'
+                                ]); ?>
+                            </div>
+                        <?php echo form_close(); ?>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     <?php if($producto == NULL) { ?>
         <h2 class="text-center alert alert-danger">No hay productos disponibles</h2>
     <?php } else {?>

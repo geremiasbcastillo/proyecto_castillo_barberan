@@ -22,17 +22,17 @@
     <h2>Registrarse</h2>
     <div class="form-input">
         <label for="apellidos"> Apellido
-            <?php echo form_input(['name' => 'apellidos', 'id' => 'apellidos', 'type' => 'text', 'placeholder' => 'Barberan']); ?>
+            <?php echo form_input(['name' => 'apellidos', 'id' => 'apellidos', 'type' => 'text', 'placeholder' => 'Barberan', 'value' => set_value('apellidos')]); ?>
         </label>
     </div>
     <div class="form-input">
         <label for="nombres"> Nombre
-            <?php echo form_input(['name' => 'nombres', 'id' => 'nombres', 'type' => 'text', 'placeholder' => 'Andres']); ?>
+            <?php echo form_input(['name' => 'nombres', 'id' => 'nombres', 'type' => 'text', 'placeholder' => 'Andres', 'value' => set_value('nombres')]); ?>
         </label>
     </div>
     <div class="form-input">
         <label for="correo"> Dirección de correo electrónico
-            <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'placeholder' => 'correo123@gmail.com']); ?>
+            <?php echo form_input(['name' => 'correo', 'id' => 'correo', 'type' => 'text', 'placeholder' => 'correo123@gmail.com', 'value' => set_value('correo')]); ?>
         </label>
     </div>
     <div class="form-input">

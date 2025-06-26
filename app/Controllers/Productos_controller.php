@@ -186,6 +186,9 @@ class Productos_controller extends BaseController
 
     public function listar_productos_catalogo(){
         $producto = new Productos_model();
+        $categoria = new Categorias_model();
+        $data['categoria'] = $categoria->findAll();
+
         $data['producto'] = $producto->where('producto_estado', 1)->where('producto_cantidad >', 0)
         ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();    
     
@@ -199,18 +202,24 @@ class Productos_controller extends BaseController
         $producto = new Productos_model();
         $categoria = new Categorias_model();
 
+        
+        $nombre = $this->request->getPost('nombre');
+        
+        if($nombre){
+             $producto->like('producto_nombre', $nombre);
+        }
+
         $categoria = $categoria->findAll(); 
         $productos = $producto->where('producto_estado', 1)->where('producto_cantidad >', 0)
             ->join('categorias', 'categorias.id_categoria = productos.producto_categoria');
 
-
-        
         $categoriaSeleccionada = $this->request->getPost('categoria');
         $productos = $productos->where('producto_categoria', $categoriaSeleccionada)->findAll();
        
-
+        $data['producto'] = $productos;
         $data['categoria'] = $categoria;
+        $data['titulo'] = 'Catalogo de Productos';
 
-        return view('frontend/catalogo_productos_view', $data);
+        return view('plantillas/nav_view', $data).view('frontend/catalogo_productos_view').view('plantillas/footer_view');
     }
 }
