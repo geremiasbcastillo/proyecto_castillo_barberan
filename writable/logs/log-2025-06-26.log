@@ -1658,3 +1658,963 @@ DEBUG - 2025-06-26 17:46:13 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-06-26 17:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-26 17:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-26 17:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 17:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:57:23 --> ErrorException: Undefined array key "id_ventas"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 15.
+ 1 APPPATH\Views\backend\usuarios_view.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ventas"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:58:59 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:00 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:00 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:09 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:10 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:10 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 17:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 17:59:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:12 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:13 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:13 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:13 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:48 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:49 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:49 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:00:49 --> ErrorException: Undefined array key 0
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:04:41 --> ErrorException: Undefined array key "descripcion_estado"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion_estado"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:05:02 --> ErrorException: Undefined array key "estado_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:05:03 --> ErrorException: Undefined array key "estado_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:05:03 --> ErrorException: Undefined array key "estado_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:05:04 --> ErrorException: Undefined array key "estado_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(320): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:06:56 --> Error: Call to a member function where() on array
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Controllers\Usuarios_controller.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:06:57 --> Error: Call to a member function where() on array
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Controllers\Usuarios_controller.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:06:57 --> Error: Call to a member function where() on array
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Controllers\Usuarios_controller.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:06:57 --> Error: Call to a member function where() on array
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Controllers\Usuarios_controller.php on line 321.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:08:10 --> ErrorException: Undefined array key "perfil_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "perfil_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(325): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:08:11 --> ErrorException: Undefined array key "perfil_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "perfil_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(325): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:08:11 --> ErrorException: Undefined array key "perfil_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "perfil_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(325): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:08:11 --> ErrorException: Undefined array key "perfil_descripcion"
+[Method: GET, Route: ver_usuarios]
+in APPPATH\Views\backend\usuarios_view.php on line 19.
+ 1 APPPATH\Views\backend\usuarios_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "perfil_descripcion"', 'C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_castillo_barberan\\app\\Views\\backend\\usuarios_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('backend/usuarios_view', [], true)
+ 5 APPPATH\Controllers\Usuarios_controller.php(325): view('backend/usuarios_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-26 18:08:56 --> mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 18:08:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+[Method: GET, Route: ver_usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:56 --> [Caused by] mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-26 18:08:57 --> mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 18:08:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+[Method: GET, Route: ver_usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:57 --> [Caused by] mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-26 18:08:57 --> mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 18:08:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+[Method: GET, Route: ver_usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:08:57 --> [Caused by] mysqli_sql_exception: Table 'db_castillo_barberan.perfiles' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfiles` ON `perfiles`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-26 18:09:09 --> mysqli_sql_exception: Unknown column 'perfiles.perfil_descripcion' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 18:09:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+[Method: GET, Route: ver_usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:09:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:09:09 --> [Caused by] mysqli_sql_exception: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-26 18:09:10 --> mysqli_sql_exception: Unknown column 'perfiles.perfil_descripcion' in 'field list' in C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuario...', 0)
+#1 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuario...')
+#2 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuario...')
+#3 C:\xampp\htdocs\proyecto_castillo_barberan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuario...', Array, false)
+#4 C:\xampp\htdocs\proyecto_castillo_barberan\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_castillo_barberan\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_castillo_barberan\app\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+#9 C:\xampp\htdocs\proyecto_castillo_barberan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\proyecto_castillo_barberan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\proyecto_castillo_barberan\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-26 18:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+[Method: GET, Route: ver_usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:09:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-26 18:09:10 --> [Caused by] mysqli_sql_exception: Unknown column 'perfiles.perfil_descripcion' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usuarios`.*, `estados`.`estado_descripcion`, `perfiles`.`perfil_descripcion`
+FROM `usuarios`
+JOIN `estados` ON `estados`.`id_estado` = `usuarios`.`persona_estado`
+JOIN `perfil` ON `perfil`.`id_perfil` = `usuarios`.`perfil_id`
+WHERE `perfil_id` = :perfil_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Usuarios_controller.php(322): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Usuarios_controller->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios_controller))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:18:28 --> ParseError: Unclosed '{' on line 13
+[Method: GET, Route: inicio_sesion]
+in APPPATH\Views\frontend\inicio_sesion_view.php on line 33.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/inicio_sesion_view', [], true)
+ 3 APPPATH\Controllers\Home.php(82): view('frontend/inicio_sesion_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->inicio_sesion()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-26 18:19:00 --> ParseError: Unclosed '{' on line 13
+[Method: GET, Route: inicio_sesion]
+in APPPATH\Views\frontend\inicio_sesion_view.php on line 33.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('frontend/inicio_sesion_view', [], true)
+ 3 APPPATH\Controllers\Home.php(82): view('frontend/inicio_sesion_view')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->inicio_sesion()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-06-26 18:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-26 18:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

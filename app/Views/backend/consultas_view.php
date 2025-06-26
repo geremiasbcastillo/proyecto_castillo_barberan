@@ -5,7 +5,7 @@
                 <div class="alert alert-success" role="alert">
                     <?= session('mensaje_consulta') ?>
                 </div>
-        <?php endif; ?>
+            <?php endif; ?>
 <div class="container formulario-agregar-producto">
     <h1 class="text-center">Listado de consultas</h1>
     <table id="mytable" class="table tabla-consultas table-bordered table-striped">

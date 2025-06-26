@@ -31,6 +31,9 @@
         <li class="nav-item mx-3 pl-3 ">
           <a class="nav-link boton-nav" href="<?= base_url('gestionar') ?>">Gestionar productos</a>
         </li>
+        <li class="nav-item mx-3 pl-3 ">
+          <a class="nav-link boton-nav" href="<?= base_url('ver_usuarios') ?>">Visualizar usuarios</a>
+        </li>
         <?php if (session('login')) { ?>
           <li class="nav-item mx-3 pl-3">
           <a class="nav-link boton-nav" href="#"><?php echo session('apellido');?></a>

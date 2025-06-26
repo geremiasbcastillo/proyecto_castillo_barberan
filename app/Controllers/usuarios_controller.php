@@ -154,7 +154,7 @@ class Usuarios_controller extends BaseController
         $user = $usuario->where('correo_usuarios', $mail)->where('persona_estado', 1)->first();
         
 
-        if($user && password_verify($pass, $user['contraseña_usuarios'])){
+        if(($user && password_verify($pass, $user['contraseña_usuarios'])) && $user['persona_estado'] == 1){
             $data = [
                 'id' => $user['id_usuarios'],
                 'nombre' => $user['nombre_usuarios'],
@@ -174,7 +174,7 @@ class Usuarios_controller extends BaseController
                     break;
                 }
             } else{
-                return redirect()->route('inicio_sesion')->with('mensaje_error', 'Usuario y/o contraseña incorrectos!.');
+                return redirect()->route('inicio_sesion')->with('mensaje_error', 'Usuario y/o contraseña incorrectos!. O su usuario se encuentra inactivo.');
             }
         }      
     
@@ -310,5 +310,32 @@ class Usuarios_controller extends BaseController
         $data['titulo'] = 'Mis Compras';
         return view('plantillas/nav_view', $data)
             .view('frontend/compras_view').view('plantillas/footer_view');
+    }
+
+    public function listar_usuarios(){
+        $usuario = new Usuarios_model();
+        $usuarios = $usuario
+        ->select('usuarios.*, estados.estado_descripcion, perfil.perfil_descripcion')
+        ->join('estados', 'estados.id_estado = usuarios.persona_estado')
+        ->join('perfil', 'perfil.id_perfil = usuarios.perfil_id')
+        ->findAll();
+        $data['usuarios'] = $usuarios;
+            $data['titulo'] = 'Usuarios registrados';
+        
+        return view('plantillas/nav_admin_view', $data).view('backend/usuarios_view');
+    }
+
+    public function activar_usuario($id = null){
+        $data = ['persona_estado' => 1];
+        $usuario = new Usuarios_model();
+        $usuario->update($id, $data);
+        return redirect()->route('ver_usuarios')->with('mensaje', 'Usuario activado exitosamente!');
+    }
+
+    public function desactivar_usuario($id = null){
+        $data = ['persona_estado' => 0];
+        $usuario = new Usuarios_model();
+        $usuario->update($id, $data);
+        return redirect()->route('ver_usuarios')->with('mensaje', 'Usuario desactivado exitosamente!');
     }
 }

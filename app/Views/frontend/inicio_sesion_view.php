@@ -10,9 +10,11 @@
                         </div>
                     <?php endif ?>
 
-    <?php if (session('mensaje_error')){
-        echo session('mensaje_error');
-    } ?>
+    <?php if (session('mensaje_error')){ ?>
+        <div class="alert alert-danger" role="alert">
+            <?= session('mensaje_error') ?>
+        </div>
+    <?php } ?>
 
     <?php echo form_open('verificar_usuario', ['class' => 'formularios']); ?>
         <h2 class ="text-center"> Inicie sesion con su cuenta</h2>

@@ -77,3 +77,9 @@ $routes->get('filtrar_productos', 'Productos_controller::filtrado_productos');
 $routes->get('marcar_leido/(:num)', 'Usuarios_controller::leer/$1');
 
 $routes->get('ver_compras', 'Usuarios_controller::listar_compras');
+
+$routes->get('ver_usuarios', 'Usuarios_controller::listar_usuarios');
+
+$routes->get('activar_usuario/(:num)', 'Usuarios_controller::activar_usuario/$1');
+
+$routes->get('desactivar_usuario/(:num)', 'Usuarios_controller::desactivar_usuario/$1');
