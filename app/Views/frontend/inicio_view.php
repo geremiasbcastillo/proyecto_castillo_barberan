@@ -3,7 +3,7 @@
         <div class="imagen-inicio">
             <?php echo '<img src="assets/img/imagen_principal.png" class="imagen-inicio" alt="">'; ?>
         </div>
-         <section class="py-5">
+        <section class="py-5">
             <div class="container">
                 <h2 class="text-left mb-4">CAMISETAS</h2>
 
@@ -11,68 +11,22 @@
                     <button class="btn-carousel prev" onclick="scrollCarruselCamiseta('left')">&#10094;</button>
 
                     <div class="carousel-container" id="carousel-camisetas">
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="<?php echo base_url('assets/img/argentina86.png') ?>" class="card-img-top" alt="Camiseta 1">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Argentina '86</h5>
-                                    <p class="card-text">$89.000</p>
+                        <?php
+                        $max = min(5, count($camisetas));
+                        for ($i = 0; $i < $max; $i++): 
+                            $camiseta = $camisetas[$i];
+                        ?>
+                            <a href="<?= base_url('filtrar_productos?categoria=' . $camiseta['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
+                                <div class="card mx-2 producto-card">
+                                    <img src="<?= base_url('public/assets/upload/' . $camiseta['producto_imagen']) ?>" class="card-img-top" alt="<?= esc($camiseta['producto_nombre']) ?>">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title"><?= esc($camiseta['producto_nombre']) ?></h5>
+                                        <p class="card-text">$<?= number_format($camiseta['producto_precio'], 0, ',', '.') ?></p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/realmadrid25.png" class="card-img-top" alt="Camiseta 2">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Real Madrid '24</h5>
-                                    <p class="card-text">$110.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/barcelona24.png" class="card-img-top" alt="Camiseta 3">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Barcelona '24</h5>
-                                    <p class="card-text">$167.500</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/internazionale07.png" class="card-img-top" alt="Camiseta 4">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Internazionale '07</h5>
-                                    <p class="card-text">$80.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/boca25.png" class="card-img-top" alt="Camiseta 5">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Camiseta Boca Juniors '25</h5>
-                                    <p class="card-text">$138.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark target">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/united2008.png" class="card-img-top" alt="Camiseta 6">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Manchester United '08</h5>
-                                    <p class="card-text">$65.500</p>
-                                </div>
-                            </div>
-                        </a>
-
+                            </a>
+                        <?php endfor; ?>
                     </div>
-
                     <button class="btn-carousel next" onclick="scrollCarruselCamiseta('right')">&#10095;</button>
                 </div>
 
@@ -120,64 +74,21 @@
 
                     <div class="carousel-container" id="carousel-botines">
 
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/nikephantom.jpg" class="card-img-top" alt="Botín 1">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Nike Phantom GX</h5>
-                                    <p class="card-text">$119.000</p>
+                        <?php
+                        $max = min(5, count($botines));
+                        for ($i = 0; $i < $max; $i++): 
+                            $botin = $botines[$i];
+                        ?>
+                            <a href="<?= base_url('filtrar_productos?categoria=' . $botin['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
+                                <div class="card mx-2 producto-card">
+                                    <img src="<?= base_url('public/assets/upload/' . $botin['producto_imagen']) ?>" class="card-img-top" alt="<?= esc($botin['producto_nombre']) ?>">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title"><?= esc($botin['producto_nombre']) ?></h5>
+                                        <p class="card-text">$<?= number_format($botin['producto_precio'], 0, ',', '.') ?></p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/pumaborussia.png" class="card-img-top" alt="Botín 2">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Puma Borussia</h5>
-                                    <p class="card-text">$125.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/nikemercurial.jpg" class="card-img-top" alt="Botín 3">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Nike Mercurial Superfly</h5>
-                                    <p class="card-text">$132.500</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/adidaspredator.png" class="card-img-top" alt="Botín 4">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Adidas Predator</h5>
-                                    <p class="card-text">$115.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/adidasf50.png" class="card-img-top" alt="Botín 5">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Adidas F50</h5>
-                                    <p class="card-text">$128.000</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="<?= base_url('/catalogo') ?>" target="blank" class="text-decoration-none text-dark target">
-                            <div class="card mx-2 producto-card">
-                                <img src="assets/img/topper.png" class="card-img-top" alt="Botín 6">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Topper San Siro</h5>
-                                    <p class="card-text">$109.500</p>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        <?php endfor; ?>
 
                     </div>
 

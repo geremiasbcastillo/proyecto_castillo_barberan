@@ -2,11 +2,32 @@
 
 namespace App\Controllers;
 
+use App\Models\Productos_model;
+use App\Models\Categorias_model;
+
 class Home extends BaseController
 {
     public function index(): string
     {
+        $producto = new Productos_model();
+        $camisetas = $producto
+            ->where('producto_estado', 1)
+            ->where('producto_cantidad >', 0)
+            ->where('producto_categoria', 2) // Cambia 1 por el ID real de "Camisetas"
+            ->findAll();
+
+        $data['camisetas'] = $camisetas;
+
+        $botines = $producto
+            ->where('producto_estado', 1)
+            ->where('producto_cantidad >', 0)
+            ->where('producto_categoria', 1) // Cambia 2 por el ID real de "Botines"
+            ->findAll();
+        
+        $data['botines'] = $botines;
+
         $data['titulo'] = "Inicio";
+
         return view('plantillas/nav_view', $data).view('frontend/inicio_view').view('plantillas/footer_view');
     }
 

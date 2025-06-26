@@ -203,10 +203,10 @@ class Productos_controller extends BaseController
     $categoriaModel = new Categorias_model();
 
     // Filtros
-    $nombre = $this->request->getPost('nombre');
-    $precioMinimo = $this->request->getPost('precio_minimo');
-    $precioMaximo = $this->request->getPost('precio_maximo');
-    $categoriaSeleccionada = $this->request->getPost('categoria');
+    $nombre = $this->request->getGet('nombre');
+    $precioMinimo = $this->request->getGet('precio_minimo');
+    $precioMaximo = $this->request->getGet('precio_maximo');
+    $categoriaSeleccionada = $this->request->getGet('categoria');
 
     // Construir la consulta
     $producto->where('producto_estado', 1)
@@ -234,7 +234,7 @@ class Productos_controller extends BaseController
         'precio_maximo' => $precioMaximo,
         'categoria' => $categoriaSeleccionada
     ];
-    
+
     $data['producto'] = $productos;
     $data['categoria'] = $categoriaModel->findAll();
     $data['titulo'] = 'Catalogo de Productos';
