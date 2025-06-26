@@ -73,3 +73,5 @@ $routes->get('perfil', 'Usuarios_controller::perfil');
 $routes->post('actualizar_perfil', 'Usuarios_controller::actualizar_datos');
 
 $routes->get('filtrar_productos', 'Productos_controller::filtrado_productos');
+
+$routes->get('marcar_leido/(:num)', 'Usuarios_controller::leer/$1');

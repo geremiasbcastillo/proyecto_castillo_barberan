@@ -87,7 +87,22 @@ class Productos_controller extends BaseController
     public function listar_productos(){
         $producto = new Productos_model();
         $categoria = new Categorias_model();
-        $data['productos'] = $producto->join('categorias', 'categorias.id_categoria = productos.producto_categoria')->findAll();
+
+        // Filtros
+        $nombre = $this->request->getGet('nombre');
+
+        if ($nombre) {
+            $data['productos'] = $producto->like('producto_nombre', $nombre)
+                ->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
+                ->findAll();
+        } else {
+            $data['productos'] = $producto->join('categorias', 'categorias.id_categoria = productos.producto_categoria')
+                ->findAll();
+        }
+        $data['filtros'] = [
+            'nombre' => $nombre
+        ];
+
         $data['titulo'] = 'Gestionar Productos';
         return view('plantillas/nav_admin_view', $data)
             .view('backend/productos/listar_productos_view');

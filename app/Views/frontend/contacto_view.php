@@ -28,9 +28,11 @@
                     </div>
                 <?php endif ?>
 
-                <?php if (session('mensaje_consulta')){
-                    echo session('mensaje_consulta');
-                } ?>
+                <?php if (session('mensaje_consulta')): ?>
+                    <div class="alert alert-success" role="alert">
+                        <?= session('mensaje_consulta') ?>
+                    </div>
+                <?php endif ?>
                     <?php echo form_open('consulta_usuario', ['class' => 'formulario']); ?> 
                     <!--<form action="" namespace='usuarios_controller::add_consulta' method="post" class="formulario">-->
                         <div class="mb-2 formulario-label">
@@ -47,12 +49,13 @@
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Motivo de su consulta:</label>
-                            <?php echo form_input(['name'=>'titulo', 'id'=>'titulo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'Cambio de una prenda', 'value' => set_value('titulo')]);?>
+                            <?php echo form_input(['name'=>'titulo', 'id'=>'titulo', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'Cambio de una prenda', 'value' => set_value('titulo')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
                             <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."><?= set_value('consulta') ?></textarea>
                         </div>
+                        <?php echo form_hidden('estado', 0); ?>
                         <?php echo form_submit('Enviar', 'Enviar', "class='btn boton-form'");?>
                     <?php echo form_close(); ?>
                 </div>

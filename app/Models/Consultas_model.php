@@ -11,7 +11,7 @@ class Consultas_model extends Model
     
     protected $useAutoIncrement = true;
     
-    protected $allowedFields = ['nombre_mensaje', 'telefono_mensaje', 'correo_mensaje', 'titulo_mensaje', 'consulta_mensaje'];
+    protected $allowedFields = ['nombre_mensaje', 'telefono_mensaje', 'correo_mensaje', 'titulo_mensaje', 'consulta_mensaje', 'estado_mensaje'];
     
     protected $returnType = 'array';
     protected $useSoftDeletes = false;

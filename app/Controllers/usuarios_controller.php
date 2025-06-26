@@ -49,7 +49,8 @@ class Usuarios_controller extends BaseController
                 'telefono_mensaje' => $request->getPost('telefono'),
                 'correo_mensaje' => $request->getPost('correo'),
                 'titulo_mensaje' => $request->getPost('titulo'),
-                'consulta_mensaje' => $request->getPost('consulta')
+                'consulta_mensaje' => $request->getPost('consulta'),
+                'estado_mensaje' => $request->getPost('estado') // 0 = No leído, 1 = Leído
             ];
             
             $consulta = new Consultas_model();
@@ -255,5 +256,12 @@ class Usuarios_controller extends BaseController
         $data['titulo'] = 'Consultas de usuarios';
         
         return view('plantillas/nav_admin_view', $data).view('backend/consultas_view');
+    }
+
+    public function leer($id = null){
+        $data = ['estado_mensaje' => 1];
+        $consultas = new Consultas_model();
+        $consultas->update($id, $data);
+        return redirect()->route('ver_consultas')->with('mensaje_consulta', 'Consulta marcada como leída!');
     }
 }
