@@ -41,7 +41,7 @@
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="telefono" class="form-label">Ingrese su teléfono:</label>
-                            <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'number', 'class'=>'form-control', 'placeholder'=>'3794-123456', 'maxlength'=>'15', 'value' => set_value('telefono')]);?>
+                            <?php echo form_input(['name'=>'telefono', 'id'=>'telefono', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'3794-123456', 'maxlength'=>'15', 'value' => (string)set_value('telefono')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Ingrese su correo:</label>
@@ -55,7 +55,7 @@
                             <label for="consulta" class="form-label">Deje su consulta aquí:</label>
                             <textarea class="form-control" name="consulta" rows="3" placeholder="Consulta..."><?= set_value('consulta') ?></textarea>
                         </div>
-                        <?php echo form_hidden('estado', 0); ?>
+                        <?php echo form_hidden('estado', '0'); ?>
                         <?php echo form_submit('Enviar', 'Enviar', "class='btn boton-form'");?>
                     <?php echo form_close(); ?>
                 </div>

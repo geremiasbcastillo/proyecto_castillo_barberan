@@ -20,13 +20,13 @@
     <div class="row justify-content-center">
         <h3 class="text-center">Busqueda y filtros</h3>
 
-        <?php echo form_open('filtrar_productos'); ?>
+        <?php echo form_open('catalogo', ['method' => 'get']); ?>
         <label for="searchInput" class="form-label">Buscar por nombre:</label>
         <?= form_input([
             'type' => 'text',
             'name' => 'nombre',
             'id' => 'searchInput',
-            'class' => 'form-control search-input',
+            'class' => 'form-control search-input w-50',
             'placeholder' => 'Buscar productos',
             'value' => esc($filtros['nombre'] ?? '')
         ]); ?>

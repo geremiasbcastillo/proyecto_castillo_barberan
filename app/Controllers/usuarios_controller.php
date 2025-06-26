@@ -273,15 +273,24 @@ class Usuarios_controller extends BaseController
         $detalle = new Detalle_ventas_model();
         $producto = new Productos_model();
 
-        $compras = $venta
-            ->where('cliente_id', session('id'))
-            ->orderBy('venta_fecha', 'DESC')
-            ->findAll();
+        $fecha_inicio = $this->request->getGet('fecha_inicio');
+        $fecha_fin = $this->request->getGet('fecha_fin');
+        
+        $builder = $venta->where('cliente_id', session('id'));
 
-        // 2. Obtener los IDs de las compras
+        if ($fecha_inicio && $fecha_fin) {
+            $builder = $builder->where('venta_fecha >=', $fecha_inicio)
+                            ->where('venta_fecha <=', $fecha_fin);
+        } elseif ($fecha_inicio) {
+            $builder = $builder->where('venta_fecha >=', $fecha_inicio);
+        } elseif ($fecha_fin) {
+            $builder = $builder->where('venta_fecha <=', $fecha_fin);
+        }
+        
+        $compras = $builder->orderBy('venta_fecha', 'DESC')->findAll();
+
         $idsVentas = array_column($compras, 'id_ventas');
 
-        // 3. Traer los detalles de esas compras (con join a productos)
         $detalle_ventas = [];
         if (!empty($idsVentas)) {
             $detalle_ventas = $detalle
@@ -290,6 +299,11 @@ class Usuarios_controller extends BaseController
                 ->whereIn('venta_id', $idsVentas)
                 ->findAll();
         }
+
+        $data['filtros'] = [
+            'fecha_inicio' => $fecha_inicio,
+            'fecha_fin' => $fecha_fin
+        ];
 
         $data['compras'] = $compras;
         $data['detalle_ventas'] = $detalle_ventas;

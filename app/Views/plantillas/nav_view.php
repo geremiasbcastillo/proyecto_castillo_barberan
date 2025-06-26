@@ -34,8 +34,16 @@
           <li class="nav-item mx-3 pl-3 ">
             <a class="nav-link boton-nav" href="<?= base_url('comercializacion') ?>">Comercialización</a>
           </li>
-          <li class="nav-item mx-3 pl-3 ">
-            <a class="nav-link boton-nav" href="<?= base_url('catalogo') ?>">Catálogo</a>
+          <li class="nav-item mx-3 pl-3 dropdown">
+            <a class="nav-link boton-nav dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Catálogo
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="catalogo">Catalogo</a></li>
+              <li><a class="dropdown-item" href="catalogo?categoria=1">Botines</a></li>
+              <li><a class="dropdown-item" href="catalogo?categoria=2">Camisetas</a></li>
+              <li><a class="dropdown-item" href="catalogo?categoria=3">Entrenamiento</a></li>
+            </ul>
           </li>
           <li class="nav-item mx-3 pl-3">
             <a class="nav-link boton-nav" href="<?= base_url('contacto') ?>">Contacto</a>

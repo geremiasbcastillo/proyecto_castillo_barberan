@@ -53,7 +53,7 @@
         <div class="form-input">
             <label for="imagen">Imagen</label>
             <img src="<?php echo base_url('public/assets/upload/'.$producto['producto_imagen']); ?>" alt="" height="100" width="100" />
-            <?php echo form_input(['name' => 'imagen', 'id' => 'imagen', 'type'=>'file', 'class'=>'form-control']); ?>
+            <?php echo form_input(['name' => 'imagen', 'id' => 'imagen', 'type'=>'file', 'class'=>'form-control' ]); ?>
             <?php if(isset($validation['imagen'])){
                 echo form_hidden('imagen', $producto['producto_imagen']);
             }?>

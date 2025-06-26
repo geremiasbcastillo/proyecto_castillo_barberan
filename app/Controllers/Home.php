@@ -13,7 +13,7 @@ class Home extends BaseController
         $camisetas = $producto
             ->where('producto_estado', 1)
             ->where('producto_cantidad >', 0)
-            ->where('producto_categoria', 2) // Cambia 1 por el ID real de "Camisetas"
+            ->where('producto_categoria', 2) 
             ->findAll();
 
         $data['camisetas'] = $camisetas;
@@ -21,10 +21,19 @@ class Home extends BaseController
         $botines = $producto
             ->where('producto_estado', 1)
             ->where('producto_cantidad >', 0)
-            ->where('producto_categoria', 1) // Cambia 2 por el ID real de "Botines"
+            ->where('producto_categoria', 1) 
             ->findAll();
         
         $data['botines'] = $botines;
+
+        $entrenamiento = $producto
+            ->where('producto_estado', 1)
+            ->where('producto_cantidad >', 0)
+            ->where('producto_categoria', 3) 
+            ->findAll();
+        
+        $data['entrenamiento'] = $entrenamiento;
+
 
         $data['titulo'] = "Inicio";
 

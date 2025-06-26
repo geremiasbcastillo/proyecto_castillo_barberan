@@ -96,6 +96,38 @@
                 </div>
             </div>
         </section>
+        
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-left mb-4">ENTRENAMIENTO</h2>
+
+                <div class="carousel-wrapper position-relative">
+                    <button class="btn-carousel prev" onclick="scrollCarruselEntrenamiento('left')">&#10094;</button>
+
+                    <div class="carousel-container" id="carousel-entrenamiento">
+
+                        <?php
+                        $max = min(5, count($entrenamiento));
+                        for ($i = 0; $i < $max; $i++): 
+                            $entreno = $entrenamiento[$i];
+                        ?>
+                            <a href="<?= base_url('catalogo?categoria=' . $entreno['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
+                                <div class="card mx-2 producto-card">
+                                    <img src="<?= base_url('public/assets/upload/' . $entreno['producto_imagen']) ?>" class="card-img-top" alt="<?= esc($botin['producto_nombre']) ?>">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title"><?= esc($entreno['producto_nombre']) ?></h5>
+                                        <p class="card-text">$<?= number_format($entreno['producto_precio'], 0, ',', '.') ?></p>
+                                    </div>
+                                </div>
+                            </a>
+                        <?php endfor; ?>
+
+                    </div>
+
+                    <button class="btn-carousel next" onclick="scrollCarruselEntrenamiento('right')">&#10095;</button>
+                </div>
+            </div>
+        </section>
 
         <script>
             function scrollCarruselBotines(direction) {
@@ -109,6 +141,15 @@
             }
             function scrollCarruselCamiseta(direction) {
                 const container = document.getElementById('carousel-camisetas');
+                const scrollAmount = 300;
+                if (direction === 'left') {
+                container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                } else {
+                container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                }
+            }
+            function scrollCarruselEntrenamiento(direction) {
+                const container = document.getElementById('carousel-entrenamiento');
                 const scrollAmount = 300;
                 if (direction === 'left') {
                 container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });

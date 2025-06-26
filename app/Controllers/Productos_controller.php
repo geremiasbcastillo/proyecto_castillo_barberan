@@ -166,8 +166,14 @@ class Productos_controller extends BaseController
                 'producto_nombre' => $request->getPost('nombre'),
                 'producto_categoria' => $request->getPost('categoria'),
                 'producto_precio' => $request->getPost('precio'),
-                'producto_cantidad' => $request->getPost('cantidad')
+                'producto_cantidad' => $request->getPost('cantidad'),
             ];
+                $img = $request->getFile('imagen');
+                if ($img && $img->isValid() && !$img->hasMoved()) {
+                    $imgName = $img->getRandomName();
+                    $img->move(ROOTPATH.'public/assets/upload', $imgName);
+                    $data['producto_imagen'] = $imgName;
+                }
                 $producto = new Productos_model();
                 $producto->update($id, $data);
                 return redirect()->route('gestionar')->with('mensaje', 'Producto actualizado correctamente!');
