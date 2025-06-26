@@ -18,20 +18,20 @@
 <div class="container contenedor-filtros">
 
     <div class="row justify-content-center">
-        <h3 class="text-center">Busqueda y filtros</h3>
+        <h3 class="text-center mt-3">Busqueda y filtros</h3>
 
-        <?php echo form_open('filtrar_productos'); ?>
-        <label for="searchInput" class="form-label">Buscar por nombre:</label>
+        <?php echo form_open('catalogo', ['method' => 'get']); ?>
+        <label for="searchInput" class="form-label mx-4">Buscar por nombre:</label>
         <?= form_input([
             'type' => 'text',
             'name' => 'nombre',
             'id' => 'searchInput',
-            'class' => 'form-control search-input',
+            'class' => 'form-control mx-4 search-input w-25',
             'placeholder' => 'Buscar productos',
             'value' => esc($filtros['nombre'] ?? '')
         ]); ?>
 
-        <div class="row justify-content-center align-items-center">
+        <div class="row mt-5 mx-3 justify-content-center align-items-center">
             <div class="col-3">
             <label for="categoria" class="form-label">Filtrar por categoría:</label>
             <?= form_dropdown(

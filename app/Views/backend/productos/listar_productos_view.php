@@ -1,31 +1,33 @@
 <?php helper('form'); ?>
-<div class="contenedor-filtros">
-    <div class="row mb-3">
-        <div class="col-12">
-            <h3 class="text-center">Busqueda y filtros</h3>
-            <div class="search-container">
-                <?php echo form_open('gestionar', ['method' => 'get']); ?>
-                    <div class="mb-3">
-                        <label for="searchInput" class="form-label">Buscar por nombre:</label>
-                        <?= form_input([
-                            'type' => 'text',
-                            'name' => 'nombre',
-                            'id' => 'searchInput',
-                            'class' => 'form-control search-input',
-                            'placeholder' => 'Buscar productos',
-                            'value' => esc($filtros['nombre'] ?? '')
-                        ]); ?>
-                    </div>
-                        <?php echo form_button([
-                            'type' => 'submit',
-                            'class' => 'btn boton-form mt-2',
-                            'content' => '<i class="fas fa-search"></i>'
-                        ]); ?>
-                    </div>
-                <?php echo form_close(); ?>
+<div class="container contenedor-filtros">
+
+    <div class="row justify-content-center">
+            <h3 class="text-center mt-3">Busqueda y filtros</h3>
+            <?php echo form_open('gestionar', ['method' => 'get']); ?>
+            <div class="d-flex align-items-center">
+            <div>
+                <label for="searchInput" class="form-label mx-4">Buscar por nombre:</label>
+                <?= form_input([
+                    'type' => 'text',
+                    'name' => 'nombre',
+                    'id' => 'searchInput',
+                    'class' => 'form-control search-input mx-4 w-100',
+                    'placeholder' => 'Buscar productos',
+                    'value' => esc($filtros['nombre'] ?? '')
+                ]); ?>
+            </div>    
+            
+                <?php echo form_button([
+                    'type' => 'submit',
+                    'class' => 'btn boton-form mt-2 mx-5',
+                    'content' => '<i class="fas fa-search"></i>'
+                ]); ?>
             </div>
-            <a href="<?= base_url('gestionar') ?>" class="btn boton-form">Limpiar todos los filtros</a>
-        </div>
+            
+            <div class="col-md-auto text-center justify-content-center">
+                <a href="<?= base_url('gestionar') ?>" class="btn boton-form my-4">Limpiar todos los filtros</a>
+            </div>
+            
     </div>
 </div>
 
