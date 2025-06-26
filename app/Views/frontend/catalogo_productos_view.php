@@ -20,7 +20,7 @@
                 <div class="col-12">
                     <h3 class="text-center">Busqueda y filtros</h3>
                     <div class="search-container">
-                        <?php echo form_open('filtrar_productos', ['method' => 'get']); ?>
+                        <?php echo form_open('catalogo', ['method' => 'get']); ?>
                             <div class="mb-3">
                                 <label for="searchInput" class="form-label">Buscar por nombre:</label>
                                 <?= form_input([

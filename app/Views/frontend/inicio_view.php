@@ -16,7 +16,7 @@
                         for ($i = 0; $i < $max; $i++): 
                             $camiseta = $camisetas[$i];
                         ?>
-                            <a href="<?= base_url('filtrar_productos?categoria=' . $camiseta['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
+                            <a href="<?= base_url('catalogo?categoria=' . $camiseta['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
                                 <div class="card mx-2 producto-card">
                                     <img src="<?= base_url('public/assets/upload/' . $camiseta['producto_imagen']) ?>" class="card-img-top" alt="<?= esc($camiseta['producto_nombre']) ?>">
                                     <div class="card-body text-center">
@@ -79,7 +79,7 @@
                         for ($i = 0; $i < $max; $i++): 
                             $botin = $botines[$i];
                         ?>
-                            <a href="<?= base_url('filtrar_productos?categoria=' . $botin['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
+                            <a href="<?= base_url('catalogo?categoria=' . $botin['producto_categoria']) ?>" target="_blank" class="text-decoration-none text-dark">
                                 <div class="card mx-2 producto-card">
                                     <img src="<?= base_url('public/assets/upload/' . $botin['producto_imagen']) ?>" class="card-img-top" alt="<?= esc($botin['producto_nombre']) ?>">
                                     <div class="card-body text-center">
