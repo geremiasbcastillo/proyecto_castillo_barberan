@@ -23,7 +23,7 @@
                             'type' => 'date',
                             'name' => 'fecha_inicio',
                             'id' => 'fecha_inicio',
-                            'class' => 'form-control search-input',
+                            'class' => 'form-control search-input mb-1',
                             'value' => esc($filtros['fecha_inicio'] ?? '')
                         ]); ?>
             </div>
@@ -33,7 +33,7 @@
                             'type' => 'date',
                             'name' => 'fecha_fin',
                             'id' => 'fecha_fin',
-                            'class' => 'form-control search-input',
+                            'class' => 'form-control search-input mb-1',
                             'value' => esc($filtros['fecha_fin'] ?? '')
                         ]); ?>
             </div>
@@ -43,7 +43,11 @@
                             'class' => 'btn boton-form mt-2',
                             'content' => '<i class="fas fa-search"></i>'
                         ]); ?>
-                <?php echo form_close(); ?>
+                    </div>
+                </div>
+            <?php echo form_close(); ?>
+            <div class="col-md-auto text-center justify-content-center">
+                <a href="<?= base_url('ver_ventas') ?>" class="btn boton-form my-4">Limpiar todos los filtros</a>
             </div>
         </div>
         <div class="col-md-auto text-center justify-content-center">
