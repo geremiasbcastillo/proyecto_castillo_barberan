@@ -96,33 +96,25 @@ class Cart_controller extends BaseController
         $fecha_inicio = $this->request->getGet('fecha_inicio');
         $fecha_fin = $this->request->getGet('fecha_fin');
         
-        $data = ['ventas' => $venta
-            ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
-            ->findAll()];
+        $venta->select('ventas.*, usuarios.nombre_usuarios, usuarios.apellido_usuarios')
+            ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id');
 
         if ($nombre) {
-            $data['ventas'] = $venta->like('nombre_usuarios', $nombre)
-                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
-                ->findAll();
+            $venta->like('nombre_usuarios', $nombre);
+        }
+        if ($fecha_inicio) {
+            $venta->where('venta_fecha >=', $fecha_inicio);
+        }
+        if ($fecha_fin) {
+            $venta->where('venta_fecha <=', $fecha_fin);
         }
 
-        if ($fecha_inicio ) {
-            $data['ventas'] = $venta->where('venta_fecha >=', $fecha_inicio)
-                ->where('venta_fecha <=', $fecha_fin)
-                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
-                ->findAll();
-        }
-
-        if($fecha_fin) {
-            $data['ventas'] = $venta->where('venta_fecha <=', $fecha_fin)
-                ->join('usuarios', 'usuarios.id_usuarios = ventas.cliente_id')
-                ->findAll();
-        }
+        $data['ventas'] = $venta->findAll();
 
         $data['detalle_ventas'] = $detalle
             ->join('ventas', 'ventas.id_ventas = detalle_ventas.venta_id')
             ->join('productos', 'productos.id_producto = detalle_ventas.producto_id')
-            ->findAll();
+            ->findAll();   
         
         $data['filtros'] = [
             'nombre' => $nombre,

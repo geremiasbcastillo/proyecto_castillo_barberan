@@ -50,9 +50,6 @@
                 <a href="<?= base_url('ver_ventas') ?>" class="btn boton-form my-4">Limpiar todos los filtros</a>
             </div>
         </div>
-        <div class="col-md-auto text-center justify-content-center">
-            <a href="<?= base_url('ver_ventas') ?>" class="btn boton-form">Limpiar todos los filtros</a>
-        </div>
     </div>
 </div>
 </div>
