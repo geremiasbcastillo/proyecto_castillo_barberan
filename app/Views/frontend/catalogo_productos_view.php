@@ -40,15 +40,35 @@
                                     $filtros['categoria'] ?? '',
                                     ['class' => 'form-select search-select']
                                 ); ?>
+                                <label for="precio_minimo" class="form-label mt-2">Precio mínimo:</label>
+                                <?php echo form_input([
+                                    'type' => 'number',
+                                    'name' => 'precio_minimo',
+                                    'id' => 'precio_minimo',
+                                    'placeholder' => '0...',
+                                    'class' => 'form-control search-input',
+                                    'value' => esc($filtros['precio_minimo'] ?? '')
+                                ]); ?>
+                                <label for="precio_maximo" class="form-label mt-2">Precio máximo:</label>
+                                <?php echo form_input([
+                                    'type' => 'number',
+                                    'name' => 'precio_maximo',
+                                    'id' => 'precio_maximo',
+                                    'placeholder' => '100000...',
+                                    'class' => 'form-control search-input',
+                                    'value' => esc($filtros['precio_maximo'] ?? '')
+                                ]); ?>
                                 <?php echo form_button([
                                     'type' => 'submit',
-                                    'class' => 'btn boton-form ms-2',
+                                    'class' => 'btn boton-form mt-2',
                                     'content' => '<i class="fas fa-search"></i>'
                                 ]); ?>
                             </div>
                         <?php echo form_close(); ?>
                     </div>
+                    <a href="<?= base_url('catalogo') ?>" class="btn boton-form">Limpiar todos los filtros</a>
                 </div>
+
             </div>
 
         </div>
