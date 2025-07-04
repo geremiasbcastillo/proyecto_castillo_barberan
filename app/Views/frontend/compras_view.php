@@ -1,6 +1,7 @@
-<?php helper('form'); ?>
+<main>
+    <?php helper('form'); ?>
 <?php if($compras == null){ ?>
-    <h2 class="text-center alert alert-danger mt-3">No hay compras disponibles</h2>
+    <h2 class="text-center alert alert-danger mt-5">No hay compras disponibles</h2>
 <?php } else { ?>
 <div class="contenedor-filtros">
     <div class="row mb-3 justify-content-center">
@@ -82,3 +83,4 @@
         </div>
     </div>
 <?php } ?>
+</main>
