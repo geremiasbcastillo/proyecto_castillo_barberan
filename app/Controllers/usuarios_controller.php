@@ -203,6 +203,7 @@ class Usuarios_controller extends BaseController
                 'correo' => 'required|valid_email',
                 'telefono' => 'max_length[20]',
                 'dni' => 'max_length[10]|is_numeric|is_natural',
+                'direccion' => 'max_length[50]'
             ],
             [   //Errors
                 'nombre' => [
@@ -224,6 +225,9 @@ class Usuarios_controller extends BaseController
                     'max_length' => 'El DNI no puede exceder los 10 caracteres.',
                     'is_numeric' => 'El DNI debe ser numérico.',
                     'is_natural' => 'El DNI no puede ser un número negativo.'
+                ],
+                'direccion' => [
+                    'max_length' => 'La dirección no puede exceder los 50 caracteres.'
                 ]
             ]
         );
@@ -234,7 +238,8 @@ class Usuarios_controller extends BaseController
                 'apellido_usuarios' => $request->getPost('apellidos'),
                 'correo_usuarios' => $request->getPost('correo'),
                 'telefono_usuarios' => $request->getPost('telefono'),
-                'dni_usuarios' => $request->getPost('dni')
+                'dni_usuarios' => $request->getPost('dni'),
+                'direccion_usuarios' => $request->getPost('direccion')
             ];
             $usuario = new Usuarios_model();
             $usuario->update($id, $data);

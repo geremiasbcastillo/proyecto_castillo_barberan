@@ -41,7 +41,7 @@
                     <?php echo form_input(['name' => 'dni', 'id' => 'dni', 'class' => 'form-control', 'value'=>$usuario['dni_usuarios']]); ?>
                 </div>
                 <div class="form-input">
-                    <label for="address">Dni</label>
+                    <label for="address">Direccion</label>
                     <?php echo form_input(['name' => 'address', 'id' => 'address', 'class' => 'form-control', 'value'=>$usuario['direccion_usuarios']]); ?>
                 </div>
                 <?php echo form_hidden('id', $usuario['id_usuarios']); ?>
