@@ -249,50 +249,5 @@ class Productos_controller extends BaseController
         return view('plantillas/nav_view', $data)
             .view('frontend/catalogo_productos_view').view('plantillas/footer_view');
     }
-
-    /**public function filtrado_productos(){
-        $producto = new Productos_model();
-        $categoriaModel = new Categorias_model();
-
-        // Filtros
-        $nombre = $this->request->getGet('nombre');
-        $precioMinimo = $this->request->getGet('precio_minimo');
-        $precioMaximo = $this->request->getGet('precio_maximo');
-        $categoriaSeleccionada = $this->request->getGet('categoria');
-
-        // Construir la consulta
-        $producto->where('producto_estado', 1)
-                ->where('producto_cantidad >', 0)
-                ->join('categorias', 'categorias.id_categoria = productos.producto_categoria');
-
-        if ($nombre) {
-            $producto->like('producto_nombre', $nombre);
-        }
-        if ($precioMinimo) {
-            $producto->where('producto_precio >=', $precioMinimo);
-        }
-        if ($precioMaximo) {
-            $producto->where('producto_precio <=', $precioMaximo);
-        }
-        if ($categoriaSeleccionada) {
-            $producto->where('producto_categoria', $categoriaSeleccionada);
-        }
-
-        $productos = $producto->findAll();
-
-        $data['filtros'] = [
-            'nombre' => $nombre,
-            'precio_minimo' => $precioMinimo,
-            'precio_maximo' => $precioMaximo,
-            'categoria' => $categoriaSeleccionada
-        ];
-
-        $data['producto'] = $productos;
-        $data['categoria'] = $categoriaModel->findAll();
-        $data['titulo'] = 'Catalogo de Productos';
-
-        return view('plantillas/nav_view', $data)
-            .view('frontend/catalogo_productos_view')
-            .view('plantillas/footer_view');
-    } */
+    
 }

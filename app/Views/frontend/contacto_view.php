@@ -45,7 +45,7 @@
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Ingrese su correo:</label>
-                            <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'email', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com', 'value' => set_value('correo')]);?>
+                            <?php echo form_input(['name'=>'correo', 'id'=>'correo', 'type'=>'text', 'class'=>'form-control', 'placeholder'=>'benjamincastillo@gmail.com', 'value' => set_value('correo')]);?>
                         </div>
                         <div class="mb-2 formulario-label">
                             <label for="correo" class="form-label">Motivo de su consulta:</label>

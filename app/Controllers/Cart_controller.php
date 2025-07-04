@@ -48,7 +48,7 @@ class Cart_controller extends BaseController
         foreach ($carrito as $item) {
             $productos = $producto->where('id_producto', $item['id'])->first();
             if ($productos['producto_cantidad'] < $item['qty']) {
-                return redirect()->route('ver_carrito')->with('mensaje', 'No hay suficiente stock para el producto');
+                return redirect()->route('ver_carrito')->with('mensaje', 'No hay suficiente stock para el producto '. $item['name'] .'.');
             }
         }
         
@@ -56,6 +56,7 @@ class Cart_controller extends BaseController
             'cliente_id' => session('id'),
             'venta_fecha' => date('Y-m-d'),
         );
+
         $venta_id = $venta->insert($data);
         
         $carrito = $cart->contents();
@@ -101,6 +102,8 @@ class Cart_controller extends BaseController
 
         if ($nombre) {
             $venta->like('nombre_usuarios', $nombre);
+            $venta->orLike('apellido_usuarios', $nombre);
+            $venta->orWhere("CONCAT(usuarios.nombre_usuarios, ' ', usuarios.apellido_usuarios) LIKE", "%$nombre%");
         }
         if ($fecha_inicio) {
             $venta->where('venta_fecha >=', $fecha_inicio);
@@ -131,5 +134,24 @@ class Cart_controller extends BaseController
         $cart = \Config\Services::cart();
         $cart->destroy();
         return redirect()->route('ver_carrito')->with('mensaje', 'Carrito vaciado exitosamente!');
+    }
+
+
+    public function actualizar_carrito() {
+        $cart = \Config\Services::cart();
+
+        $rowid = $this->request->getPost('rowid');
+        $qty = $this->request->getPost('qty');
+
+        
+        if ($qty <= 0) {
+            return redirect()->route('ver_carrito')->with('mensaje_carrito', 'Cantidad invalida, ingrese al menos 1 de cada producto.');
+        }
+
+        $cart->update([
+            'rowid' => $rowid,
+            'qty' => $qty
+        ]);
+        return redirect()->route('ver_carrito')->with('mensaje', 'Cantidad actualizada correctamente');
     }
 }

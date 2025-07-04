@@ -694,5 +694,28 @@ h2.text-left {
 
 .contenedor-filtros h3{
   font-size: 2rem;
-  font-weight: 500;f
+  font-weight: 500;
 }
+
+.collapsible {
+  margin-bottom: 10px;
+  margin: 50px auto;
+  max-width: 98%;
+}
+
+.collapsible-header {
+  padding: 10px;
+  margin-left: 60px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.collapsible-content {
+  padding: 10px;
+  display: none; /* Inicialmente oculto */
+}
+
+.collapsible-content.active {
+  display: block; /* Mostrar cuando está activo */
+}
+

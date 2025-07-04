@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <nav class="navbar nav-principal navbar-expand-lg">
+  <nav class="navbar nav-principal navbar-expand-xl">
     <div class="container-fluid">
       <a class="navbar-brand" href="inicio"><?php echo '<img src="assets/img/logo.png" class ="logo";>' ?></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

@@ -194,6 +194,7 @@ class Usuarios_controller extends BaseController
             'correo' => 'required|valid_email',
             'telefono' => 'max_length[20]',
             'dni' => 'max_length[10]|is_numeric|is_natural',
+            'direccion' => 'max_length[50]'
         ],
         [   //Errors
             'nombre' => [
@@ -215,6 +216,9 @@ class Usuarios_controller extends BaseController
                 'max_length' => 'El DNI no puede exceder los 10 caracteres.',
                 'is_numeric' => 'El DNI debe ser numérico.',
                 'is_natural' => 'El DNI no puede ser un número negativo.'
+            ],
+            'direccion' => [
+                'max_length' => 'La dirección no puede exceder los 50 caracteres.'
             ]
         ]);
         if($validation->withRequest($request)->run()){
@@ -255,7 +259,10 @@ class Usuarios_controller extends BaseController
 
     public function listar_consultas(){
         $consultas = new Consultas_model();
-        $data['consultas'] = $consultas->findAll();
+
+        $data['consultas_no_leidas'] = $consultas->where('estado_mensaje', 0)->findAll();
+        $data['consultas_leidas'] = $consultas->where('estado_mensaje', 1)->findAll();
+
         $data['titulo'] = 'Consultas de usuarios';
         
         return view('plantillas/nav_admin_view', $data).view('backend/consultas_view');
@@ -287,7 +294,7 @@ class Usuarios_controller extends BaseController
             $builder = $builder->where('venta_fecha <=', $fecha_fin);
         }
         
-        $compras = $builder->orderBy('venta_fecha', 'DESC')->findAll();
+        $compras = $builder->orderBy('venta_fecha')->findAll();
 
         $idsVentas = array_column($compras, 'id_ventas');
 

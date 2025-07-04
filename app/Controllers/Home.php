@@ -58,24 +58,6 @@ class Home extends BaseController
         return view('plantillas/nav_view', $data).view('frontend/comercializacion_view').view('plantillas/footer_view');
     }
 
-    public function camisetas(): string
-    {
-        $data['titulo'] ="Camisetas";
-        return view('plantillas/nav_view', $data).view('frontend/camisetas_view').view('plantillas/footer_view');
-    }
-
-    public function botines(): string
-    {
-        $data['titulo'] ="Botines";
-        return view('plantillas/nav_view', $data).view('frontend/botines_view').view('plantillas/footer_view');
-    }
-
-    public function entrenamiento(): string
-    {
-        $data['titulo'] ="Entrenamiento";
-        return view('plantillas/nav_view', $data).view('frontend/entrenamiento_view').view('plantillas/footer_view');
-    }
-
     public function inicio_sesion(): string
     {
         $data['titulo'] ="Inicio de Sesion";
